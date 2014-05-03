@@ -1,0 +1,56 @@
+import java.util.Scanner;
+import java.util.TreeMap;
+
+public class MAin {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = Integer.valueOf(sc.nextLine());
+		TreeMap<String, Integer> map = new TreeMap<String, Integer>();
+		String s;
+		String[] m;
+		for (int i = 0; i < n; i++) {
+			s = sc.nextLine();
+			m = s.split("GMT");
+			map.put(m[0], Integer.valueOf(m[1]));
+		}
+		n = Integer.valueOf(sc.nextLine());
+		int tc, tm;
+		String[] date;
+		String dc = "", dt = "";
+
+		for (int i = 0; i < n; i++) {
+			s = sc.nextLine();
+			m = s.split("-");
+			tc = 0 - map.get(m[0] + " ");
+			m = m[1].split(" ");
+			tc += map.get(m[0] + " ");
+
+			date = m[1].split(":");
+			tc += Integer.valueOf(date[0]);
+			tm = Integer.valueOf(date[1]);
+
+			date = m[2].split(":");
+			tc += Integer.valueOf(date[0]);
+			tm += Integer.valueOf(date[1]);
+
+			if (tm > 59) {
+				tc += tm / 60;
+				tm = tm % 60;
+			}
+
+			tc = (tc+24) % 24;
+
+			
+				dc = "";
+			dt = "";
+			if (tc < 10)
+				dc = "0";
+			if (tm < 10)
+				dt = "0";
+			System.out.println(dc + tc + ":" + dt + tm);
+		}
+
+	}
+
+}

@@ -1,0 +1,11 @@
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Main {
+	public static void main() {
+		Scanner sc = new Scanner(System.in);
+		int v=Integer.valueOf(sc.nextLine());
+		Map m = new HashMap<String, int>();
+		for(int i=0; i<v; i++)
+	}
+}

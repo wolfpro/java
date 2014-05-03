@@ -1,0 +1,13 @@
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Main {
+	public static void main() {
+		Scanner sc = new Scanner(System.in);
+		int v=Integer.valueOf(sc.nextLine());
+		String[] nameV= new String[v];
+		int[] idV = new int[v];
+		
+		for(int i=0; i<v; i++)
+	}
+}
