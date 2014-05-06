@@ -15,6 +15,10 @@ public class Graph {
 		
 		
 		textField = new JTextField();
+		//pane.add(textField);
+		
+		
+		
 		JList listLeft= new JList(listModelLeft);
 		JList listRight= new JList(listModelRight);
 		
