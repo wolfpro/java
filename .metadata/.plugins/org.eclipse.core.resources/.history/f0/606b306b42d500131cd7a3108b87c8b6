@@ -51,8 +51,8 @@ public class GeneratorC {
 
 		for (x = 0; x < n; x++)
 			for (y = 0; y < m; y++)
-				if (p(x - n / 2) + p(y - m / 2) <= p(200)) {
-					b[x][y] = 1;
+				if (p(x-n/2) + p(y-m/2) <=p(200)) {					
+					b[x][y] = 1;					
 				}
 
 		writeToFile(b, n, m, fileName);
