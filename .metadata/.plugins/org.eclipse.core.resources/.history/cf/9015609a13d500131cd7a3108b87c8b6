@@ -1,0 +1,23 @@
+import javax.swing.*;
+
+public class Graph {
+
+	private JFrame frame;
+	private JTextField textfield
+	
+	private void createAndShowGUI() throws Exception{
+		
+	}
+	
+	public static void main(String[] args){
+		javax.swing.SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					new MainForm().createAndShowGUI();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+}

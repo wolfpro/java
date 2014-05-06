@@ -1,0 +1,58 @@
+import java.awt.*;
+import javax.swing.*;
+
+public class Graph {
+
+	private JFrame frame;
+	private JTextField textField;
+	
+	public void addComponentsToPane(Container pane){
+		GridLayout gl = new GridLayout();
+		gl.setColumns(2); ;
+		pane.setLayout(gl);
+		
+		
+		textField = new JTextField();
+		//pane.add(textField);
+		
+		DefaultListModel listModel= new DefaultListModel<String>();
+		
+		JList listLeft= new JList(listModel);
+		JList listRight= new JList(listModel);
+		
+		listLeft.add(new String("sdw"));
+		
+		JScrollPane scpaneL = new JScrollPane(listLeft);
+		JScrollPane scpaneR = new JScrollPane(listRight);
+		
+		
+		pane.add(scpaneL);
+		pane.add(scpaneR);
+	}
+	
+	private void createAndShowGUI() throws Exception{
+		frame = new JFrame("ConvApp v0.9");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	
+		addComponentsToPane(frame.getContentPane());
+		
+		frame.setPreferredSize(new Dimension(200, 400));
+		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+		frame.setBounds((screenSize.width-frame.getWidth())/2, (screenSize.height-frame.getWidth())/2, frame.getWidth(), frame.getHeight());
+		frame.setResizable(true);
+		frame.pack();
+		frame.setVisible(true);
+	}
+	
+	public static void main(String[] args){
+		javax.swing.SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					new Graph().createAndShowGUI();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+}
