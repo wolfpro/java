@@ -19,7 +19,7 @@ public class Main {
 
 		int e = Integer.valueOf(sc.nextLine());
 		Vector<Vector<String>> naij = new Vector<Vector<String>>();
-		//Vector<Vector<Integer>> path = new Vector<Vector<Integer>>();
+		Vector<Vector<Integer>> path = new Vector<Vector<Integer>>();
 
 		String[] sm;
 
