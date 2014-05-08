@@ -65,7 +65,7 @@ public class Graph {
 
 	public static void main(String[] args) {
 		
-		FileManager fm = new FileManager();//Работа с файлами;
+		FileManager fm = new FileManager();//Работа с файлами
 		fm.list();
 		
 		lcol = new Vector<String>();
