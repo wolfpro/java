@@ -1,0 +1,15 @@
+import java.awt.BufferCapabilities.FlipContents;
+import java.io.File;
+
+public class FileManager {
+	File fl;
+	String dirname;
+	
+	public FileManager(dirname) {
+		
+		fl = new File("/examples/");
+		if (fl.isDirectory()) {
+			System.out.println("Dir name ");
+		}
+	}
+}

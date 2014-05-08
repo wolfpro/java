@@ -1,13 +1,18 @@
 import java.awt.*;
+import java.util.Vector;
+
 import javax.swing.*;
 
 public class Graph {
 
 	private JFrame frame;
 	private JTextField textField;
-	private DefaultListModel listModelLeft= new DefaultListModel<String>();
-	private DefaultListModel listModelRight= new DefaultListModel<String>();
+	private static DefaultListModel listModelLeft = new DefaultListModel<String>();
+	private static DefaultListModel listModelRight = new DefaultListModel<String>();
 	
+	static Vector<String> lcol;
+	static Vector<String> rcol;
+
 	public void addComponentsToPane(Container pane){
 		GridLayout gl = new GridLayout();
 		gl.setColumns(2); ;
@@ -20,40 +25,53 @@ public class Graph {
 		JScrollPane scpaneL = new JScrollPane(listLeft);
 		JScrollPane scpaneR = new JScrollPane(listRight);
 		
-		for(int i=0; i<300; i++){
-			if(i%2==0)
-				listModelLeft.addElement(i+"img.jpg");
-			else
-				listModelRight.addElement(i+"img.jpg");
-		}
-		
 		pane.add(scpaneL);
 		pane.add(scpaneR);
 	}
-	
-	void addlist(String s, int indificator){
-		if(indificator==0){
+
+	void addlist(String s, int indificator) {
+		if (indificator == 0) {
 			listModelLeft.addElement(s);
-		}else
+		} else
 			listModelRight.addElement(s);
 	}
-	
-	private void createAndShowGUI() throws Exception{
+
+	private void createAndShowGUI() throws Exception {
 		frame = new JFrame("ConvApp v0.9");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	
+
 		addComponentsToPane(frame.getContentPane());
-		
+
 		frame.setPreferredSize(new Dimension(200, 400));
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-		frame.setBounds((screenSize.width-frame.getWidth())/2, (screenSize.height-frame.getWidth())/2, frame.getWidth(), frame.getHeight());
+		frame.setBounds((screenSize.width - frame.getWidth()) / 2,
+				(screenSize.height - frame.getWidth()) / 2, frame.getWidth(),
+				frame.getHeight());
 		frame.setResizable(true);
 		frame.pack();
 		frame.setVisible(true);
 	}
-	
-	public static void main(String[] args){
-		javax.swing.SwingUtilities.invokeLater(new Runnable() {
+
+	 static void add(String s, int mode) {
+		if (mode == 0) {
+			listModelLeft.addElement(s);
+			lcol.add(s);
+		}
+		if (mode == 1) {
+			listModelRight.addElement(s);
+			rcol.add(s);
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		FileManager fm = new FileManager();//Работа с файлами
+		fm.list();
+		
+		lcol = new Vector<String>();
+		rcol = new Vector<String>();
+
+		javax.swing.SwingUtilities.invokeLater(new Runnable() {//Рисование формы;
 			public void run() {
 				try {
 					new Graph().createAndShowGUI();
@@ -62,6 +80,9 @@ public class Graph {
 				}
 			}
 		});
+		
+		for(int i=0; i<100; i++)//Заполнение левого и правого списка;
+			add(String.valueOf(i), i%2);
 	}
-	
+
 }

@@ -1,9 +1,0 @@
-
-
-public class Graph {
-
-	public static void main(String[] args){
-		System.out.println("Hi World!");
-		System.out.println(hex[ (4>>2)&0x0f ]);
-	}
-}

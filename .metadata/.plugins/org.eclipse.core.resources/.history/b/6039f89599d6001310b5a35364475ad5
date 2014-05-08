@@ -1,0 +1,6 @@
+import java.io.File;
+
+
+public class FileManager {
+	File fl = new File("//examples");
+}

@@ -1,0 +1,14 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) throws IOException {
+		char j;
+		int i=0;
+		while ((j = (char) System.in.read()) != '\n')
+			i = i * 10 + j - '0';
+		System.out.println(i);
+
+	}
+
+}

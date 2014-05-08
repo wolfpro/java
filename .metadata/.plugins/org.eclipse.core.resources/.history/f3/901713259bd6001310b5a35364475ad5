@@ -1,0 +1,19 @@
+import java.io.File;
+
+public class FileManager {
+	File fl;
+	String dirname="examples/";
+	
+	FileManager() {		
+		fl = new File(dirname);
+	}
+	void list(){
+		if (fl.isDirectory()) {
+						String s[]=fl.list();
+			for(int i=0; i<s.length; i++){
+				System.out.println(s[i]);
+			}
+		}
+	}
+	
+}

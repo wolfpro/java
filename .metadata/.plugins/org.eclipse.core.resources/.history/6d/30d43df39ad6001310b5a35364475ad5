@@ -1,0 +1,13 @@
+import java.io.File;
+
+public class FileManager {
+	File fl;
+	String dirname="/examples/";
+	
+	FileManager() {		
+		fl = new File(dirname);
+	}
+	void list(){
+		
+	}
+}

@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int month = sc.nextInt();
+		String season;
+
+		switch (month) {
+		case 1:
+		case 12:
+		case 2:
+			season = "Зима(Winter)";
+			break;
+		case 3:
+		case 4:
+			System.out.println("sadsad");
+		case 5:
+			season = "Весна";
+			break;
+		case 6:
+		case 7:
+		case 8:
+			season = "Лето";
+			break;
+		case 9:
+		case 10:
+		case 11:
+			season = "Осени";
+			break;
+		default:
+			season = "new month";
+			break;
+		}
+
+		System.out.println(season);
+
+	}
+}

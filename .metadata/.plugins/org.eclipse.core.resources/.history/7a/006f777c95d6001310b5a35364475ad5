@@ -1,0 +1,12 @@
+import java.awt.Canvas;
+import java.awt.Image;
+
+
+public class Main {
+
+	public static void main(String[] args){
+		Canvas c = new Canvas();
+		Image test = c.createImage(200, 100);
+	}
+	
+}

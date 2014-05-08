@@ -1,0 +1,27 @@
+import java.awt.Image;
+import java.io.File;
+
+public class FileManager {
+	File fl;
+	String dirname = "examples/";
+
+	FileManager() {
+		fl = new File(dirname);
+	}
+
+	void list() {
+		if (fl.isDirectory()) {
+			String s[] = fl.list();
+			for (int i = 0; i < s.length; i++) {
+				System.out.println(s[i]);
+			}
+		}
+	}
+
+	File getimg(int i){
+		String s[]=fl.list();
+		File f = new File(dirname + "/" + s[i]);
+		return f;
+	}
+	
+}
