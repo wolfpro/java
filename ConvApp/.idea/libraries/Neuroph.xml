@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Neuroph">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/neuroph-2.8/neuroph-core-2.8.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/neuroph-2.8/neuroph-imgrec-2.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
