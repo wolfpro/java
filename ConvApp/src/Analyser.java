@@ -1,6 +1,7 @@
 import org.neuroph.core.NeuralNetwork;
 import org.neuroph.core.data.DataSet;
 import org.neuroph.imgrec.ColorMode;
+import org.neuroph.imgrec.image.Dimension;
 import org.neuroph.imgrec.FractionRgbData;
 import org.neuroph.imgrec.ImageRecognitionHelper;
 import org.neuroph.imgrec.ImageRecognitionPlugin;
