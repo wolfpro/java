@@ -1,14 +1,15 @@
 import org.neuroph.core.NeuralNetwork;
 import org.neuroph.core.data.DataSet;
 import org.neuroph.imgrec.ColorMode;
-import org.neuroph.imgrec.image.Dimension;
 import org.neuroph.imgrec.FractionRgbData;
 import org.neuroph.imgrec.ImageRecognitionHelper;
 import org.neuroph.imgrec.ImageRecognitionPlugin;
+import org.neuroph.imgrec.image.Dimension;
 import org.neuroph.util.TransferFunctionType;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -40,7 +41,7 @@ public class Analyser implements Rel {
     }
 
     @Override
-    public void init(String[] imagesPath) {
+    public void init(List<Path> imagesPath) {
         // Получение информации об изображениях
         Dimension dimension = new Dimension(0, 0);
         List<String> imageLabels = new ArrayList<String>();
