@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.nio.file.Path;
 import java.util.List;
 
@@ -20,4 +21,7 @@ public interface Rel {
 
     // Получить имя картинки на экране
     public String getName();
+
+    // Получить размеры окна скриншота
+    public Dimension getSize();
 }
