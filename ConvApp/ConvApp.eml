@@ -3,6 +3,6 @@
 	<exclude-output/>
 	<contentEntry url="file://$MODULE_DIR$"/>
 	<levels>
-		<level name="Neuroph" value="project"/>
+		<level name="JavaCV" value="project"/>
 	</levels>
 </component>
