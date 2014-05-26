@@ -1,0 +1,110 @@
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.image.*;
+import java.util.Vector;
+
+import javax.swing.*;
+
+class myFrame extends JFrame {
+	GridLayout gl;
+
+	private Robot robot;
+
+	// private String items[]= {"1", "2"};
+	private JList lst = new JList();
+
+	int W = 100, H = 100;
+
+	Vector<Dimension> dd = new Vector<Dimension>();
+	static JPanel panel = new JPanel();
+
+	static Container pane;
+
+	// now;
+	static DefaultListModel listModel = new DefaultListModel();
+	static JList list;
+
+	public myFrame() {
+		setTitle("Irobot v0.9");
+
+		list = new JList(listModel);
+		panel.setLayout(new BorderLayout(5, 5));
+		panel.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
+		list.setSelectedIndex(0);
+		list.setFocusable(false);
+		panel.add(new JScrollPane(list), BorderLayout.CENTER);
+		JPanel btnPanel = new JPanel();
+		btnPanel.setLayout(new GridLayout(1, 2, 5, 0));
+		panel.add(btnPanel, BorderLayout.NORTH);
+		// pane = getContentPane();
+
+		GraphicsEnvironment env = GraphicsEnvironment
+				.getLocalGraphicsEnvironment();
+		GraphicsDevice screen = env.getDefaultScreenDevice();
+		try {
+			robot = new Robot(screen);
+		} catch (AWTException ex) {
+		}
+
+		JButton bt1 = new JButton("Screen");
+		final JButton bt2 = new JButton("add");
+		bt1.setFocusable(false);
+		// pane.add(bt1);
+
+		final Dimension screenSize = Toolkit.getDefaultToolkit()
+				.getScreenSize();
+
+		bt1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				BufferedImage image = robot.createScreenCapture(new Rectangle(
+						0, 0, screenSize.width, screenSize.height));
+				ImageFrame frame = new ImageFrame(image);
+				frame.show();
+
+				btnPanel.add(bt2);
+				pack();
+
+				bt2.addActionListener(new ActionListener() {
+					public void actionPerformed(ActionEvent e) {
+						scpane.add(new JButton("aasd"));
+						// pane.add(new JButton("aasd"));
+						// pane.add(scpane);
+
+						// pack();
+					}
+				});
+
+			}
+		});
+		btnPanel.add(bt1);
+		// pane.add(panel);
+		pack();
+	}
+
+}
+
+class ImageFrame extends JFrame {
+	public ImageFrame(Image image) {
+		setTitle("ScanApp-ScreenMod");
+		Container pane = getContentPane();
+		JLabel label = new JLabel(new ImageIcon(image));
+		pane.add(label);
+		pack();
+	}
+}
+
+public class MyRobot {
+	public static void main(String[] args) {
+
+		myFrame frame = new myFrame();
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.show();
+
+		/*
+		 * javax.swing.SwingUtilities.invokeLater(new Runnable() { public void
+		 * run() { try { form = new Form(); form.CreateAndShowGUI();
+		 * 
+		 * } catch (Exception e) { e.printStackTrace(); } } });
+		 */}
+}
