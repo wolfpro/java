@@ -1,0 +1,13 @@
+
+public class Main {
+	
+	private class ThreeForm(){
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+
+public class Main {
+	
+	private class ThreeForm{
+		
+	}
+	
+	private class SetForm{
+		
+
+	}
+	
+	private class Playform{
+		
+	}
+	
+	private class HelpForm{
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

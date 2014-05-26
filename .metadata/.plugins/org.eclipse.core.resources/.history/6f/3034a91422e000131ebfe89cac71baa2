@@ -1,0 +1,18 @@
+
+public class Main {	
+	
+	public static void main(String[] args) {
+		ThreeForm tf;
+		javax.swing.SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					 tf = new ThreeForm();new ThreeForm().CreateAndShowGUI();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+		
+	}
+
+}
