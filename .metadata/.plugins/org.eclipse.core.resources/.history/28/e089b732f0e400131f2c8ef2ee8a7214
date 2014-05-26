@@ -164,7 +164,6 @@ class ImageFrame extends JFrame {
 				String x = String.valueOf(e.getX());
 				String y = String.valueOf(e.getY());
 				element = x + " " + y;
-				
 				System.out.println("click!");
 			}
 
