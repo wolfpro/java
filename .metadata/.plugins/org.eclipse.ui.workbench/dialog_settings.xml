@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-<<<<<<< HEAD
-=======
 	<section name="FileSystemImportWizard">
 	</section>
->>>>>>> tmp
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="794" key="dialogWidth"/>
 		<item value="494" key="dialogHeight"/>
@@ -18,18 +15,10 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
-<<<<<<< HEAD
-		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.jdt.ui.java"/>
-		</list>
-	</section>
-=======
 		<item value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 		</list>
 	</section>
 	<section name="ImportExportAction">
 	</section>
->>>>>>> tmp
 </section>

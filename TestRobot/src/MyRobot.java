@@ -4,6 +4,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.image.*;
+import java.io.*;
 
 import javax.swing.*;
 
@@ -34,6 +35,19 @@ class myFrame extends JFrame {
 		return s;
 	}
 
+	public void save(DefaultListModel<String> listModel) throws Exception {
+		OutputStream f = new FileOutputStream("data");
+		String[] s = new String[listModel.size()];
+		PrintWriter pr = new PrintWriter(f);
+		for (int i = 0; i < listModel.size(); i++) {
+			s[i] = listModel.elementAt(i) + " " + String.valueOf(W) + " "
+					+ String.valueOf(H);
+			pr.println(s[i]);
+		}
+		pr.close();
+		f.close();
+	}
+
 	public myFrame() {
 		setTitle("Irobot v0.9");
 
@@ -55,11 +69,14 @@ class myFrame extends JFrame {
 			robot = new Robot(screen);
 		} catch (AWTException ex) {
 		}
-
-		Dimension bts = new Dimension(30, 10);
+		
+		setSize(200, 200);
+		Dimension bts = new Dimension(30, 20);
 		JButton bt1 = new JButton("Screen");
 		final JButton bt2 = new JButton("+");
 		final JButton bt3 = new JButton("-");
+		final JButton ok = new JButton("OK");
+
 		bt1.setSize(bts);
 		bt2.setSize(bts);
 		bt3.setSize(bts);
@@ -90,12 +107,28 @@ class myFrame extends JFrame {
 						frame.repic(str(listModel));
 						frame.on = true;
 						frame.repaint();
-
+						panel.add(ok, BorderLayout.SOUTH);
+						pack();
+						ok.addActionListener(new ActionListener() {
+							@Override
+							public void actionPerformed(ActionEvent arg0) {
+								try {
+									save(listModel);
+								} catch (Exception e) {
+									// TODO Auto-generated catch block
+									e.printStackTrace();
+								}
+							}
+						});
 					}
 				});
 				bt3.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent arg0) {
 						listModel.remove(list.getSelectedIndex());
+						setVisible(false);
+						frame.setVisible(false);
+						//return;
+						System.exit(0);
 					}
 				});
 
@@ -104,12 +137,11 @@ class myFrame extends JFrame {
 		btnPanel.add(bt1);
 
 		getContentPane().add(panel);
-		setPreferredSize(new Dimension(200, 120));
+		setPreferredSize(new Dimension(200, 220));
 		pack();
 		setLocationRelativeTo(null);
 		setVisible(true);
 	}
-
 }
 
 class ImageFrame extends JFrame {
@@ -164,7 +196,7 @@ class ImageFrame extends JFrame {
 				String x = String.valueOf(e.getX());
 				String y = String.valueOf(e.getY());
 				element = x + " " + y;
-				
+
 				System.out.println("click!");
 			}
 
@@ -183,7 +215,6 @@ class ImageFrame extends JFrame {
 				// TODO Auto-generated method stub
 			}
 
-			
 			@Override
 			public void mouseReleased(MouseEvent arg0) {
 				// TODO Auto-generated method stub

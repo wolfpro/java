@@ -1,6 +1,9 @@
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
+
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 import java.awt.event.MouseAdapter;
@@ -191,7 +194,7 @@ public class SnipIt {
             gbc.gridy++;
             add(button, gbc);
 
-            button.addActionListener(e -> {
+            button.addActionListener(new ActionListener(){{
                 getWindowAncestor(SelectionPane.this).dispose();
                 ready = true;
             });
