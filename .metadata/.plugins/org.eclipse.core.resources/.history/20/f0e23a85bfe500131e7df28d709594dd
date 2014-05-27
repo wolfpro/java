@@ -35,21 +35,18 @@ public class FileManager {
 		File f = new File(dirname + "/" + s[i]);
 		return f;
 	}
-
-	Vector<Dimension> getCor() throws NumberFormatException, IOException {
-		Vector<Dimension> ans = new Vector<Dimension>();
+	
+	 Vector<Dimension> getCor() throws NumberFormatException, IOException{
+		Vector<Dimension> ans= new Vector<Dimension>();
 		File f = new File("data");
 		BufferedReader reader = new BufferedReader(new FileReader(f));
 		String s;
 		String[] st;
-		while ((s = reader.readLine()) != null) {
-			if (!s.equals("you not clicked")) {
-				st = s.split(" ");
-				ans.add(new Dimension(Integer.valueOf(st[0]), Integer
-						.valueOf(st[1])));
-				System.out.println(st[0] + " " + st[1]);
+		while((s=reader.readLine())!=null){
+			if(!s.equals("you not clicked")){
+				st=s.split(" ");
+			ans.add(new Dimension(Integer.valueOf(st[0]), Integer.valueOf(st[1])));
 			}
-
 		}
 		return ans;
 	}
