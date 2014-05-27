@@ -51,9 +51,11 @@ class myFrame extends JFrame {
 		System.out.println("save data");
 	}
 
-	public myFrame() {
+	public myFrame(int w, int h) {
 		setTitle("Irobot v0.9");
-
+		W = w;
+		H = h;
+		
 		list = new JList<String>(listModel);
 		panel.setLayout(new BorderLayout(5, 5));
 		panel.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
@@ -131,7 +133,7 @@ class myFrame extends JFrame {
 					public void actionPerformed(ActionEvent arg0) {
 						listModel.remove(list.getSelectedIndex());
 						// return;
-						//System.exit(0);
+						// System.exit(0);
 					}
 				});
 
@@ -227,8 +229,8 @@ class ImageFrame extends JFrame {
 }
 
 public class MyRobot {
-	public MyRobot() {
-		myFrame frame = new myFrame();
+	public MyRobot(int w, int h) {
+		myFrame frame = new myFrame(w, h);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.show();
 	}

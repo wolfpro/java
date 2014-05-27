@@ -10,7 +10,7 @@ public class ThreeForm {
 	private boolean visSF=false;//SetForm;
 	private boolean visHF=false;//HelpForm;
 	private boolean visPF=false;//PlayForm;
-	
+	//private
 
 	private class Handler implements ActionListener{
 		int mod=-1;
@@ -23,6 +23,7 @@ public class ThreeForm {
 			if(mod == 0){
 				MyRobot mr  = new MyRobot();
 			}			
+			
 		}
 		public void actionPerformed(ActionEvent e){
 			String mess= "hi "+String.valueOf(mod);//textField.getText();
@@ -36,7 +37,7 @@ public class ThreeForm {
 		gl.setColumns(3);
 		pane.setLayout(gl);
 
-		JButton but[]=new JButton[3];
+		JButton but[]=new JButton[3];//Three buttons;
 		for(int i=0; i<3; ++i){
 			String[] nc={"set", "play", "help"};
 			but[i]=new JButton(nc[i]);
