@@ -59,7 +59,6 @@ public class FileManager {
 		return ans;
 	}
 	
-	
 	 public List<Path> getImages() throws IOException {
 		 Path path = new File("examples/").toPath();
 	        List<Path> images = new ArrayList<Path>();
