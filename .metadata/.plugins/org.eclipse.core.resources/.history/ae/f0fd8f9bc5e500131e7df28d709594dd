@@ -44,7 +44,7 @@ public class Analyser implements Rel {
 		labels = new String[list.size()];
 		// Получение информации об изображениях
 		int i = 0;
-		for (Path imgPath : list) {
+		for (String imgPath : list) {
 			String filename = imgPath.toString();
 			templates[i] = cvLoadImage(filename);
 			int f = filename.lastIndexOf('/');
