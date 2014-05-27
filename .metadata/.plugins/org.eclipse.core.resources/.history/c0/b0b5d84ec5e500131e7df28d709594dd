@@ -39,13 +39,13 @@ public class Analyser implements Rel {
 	}
 
 	@Override
-	public void init(List<Path> list) throws IOException {
+	public void init(Vector<String> list) throws IOException {
 		templates = new IplImage[list.size()];
 		labels = new String[list.size()];
 		// Получение информации об изображениях
 		int i = 0;
 		for (String imgPath : list) {
-			String filename = imgPath.toString();
+			String filename = imgPath;
 			templates[i] = cvLoadImage(filename);
 			int f = filename.lastIndexOf('/');
 			if (f == -1) {

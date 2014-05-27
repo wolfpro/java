@@ -4,11 +4,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.file.DirectoryStream;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Vector;
 
 public class FileManager {
@@ -59,8 +54,7 @@ public class FileManager {
 		return ans;
 	}
 	
-	 public List<Path> getImages() throws IOException {
-		 Path path = new File("examples/").toPath();
+	 public static List<Path> getImages(Path path) throws IOException {
 	        List<Path> images = new ArrayList<Path>();
 	        DirectoryStream<Path> ds = Files.newDirectoryStream(path);
 	        for (Path child : ds) {

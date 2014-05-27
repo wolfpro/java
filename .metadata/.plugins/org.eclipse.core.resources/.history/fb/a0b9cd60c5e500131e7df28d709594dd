@@ -1,7 +1,6 @@
 package handler;
 import java.awt.Dimension;
 import java.io.IOException;
-import java.util.List;
 import java.util.Vector;
 
 /**
@@ -12,7 +11,7 @@ public interface Rel {
     // Массив путей к картинкам(путь к папке не могу брать из-за
     // того, что у OpenCv нет функций для анализа папок, есть
     // только загрузка из файла)
-    public void init(List<Path> imagesPath) throws IOException;
+    public void init(Vector<String> imagesPath) throws IOException;
 
     // Указываются координаты левого верхнего угла скриншота,
     // ширина и высота выделения

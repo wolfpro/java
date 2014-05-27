@@ -89,7 +89,7 @@ public class ThreeForm {
 	public void CreateAndShowGUI() throws Exception {
 		a = new Analyser();
 		fl = new FileManager();
-		a.init(fl.getImages());
+		a.init(fl.getImages()=);
 		Dimension d = a.getSize();
 		W = d.width + 20;
 		H = d.height + 20;
