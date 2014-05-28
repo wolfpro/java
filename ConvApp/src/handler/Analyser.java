@@ -1,10 +1,9 @@
 package handler;
 
 import java.awt.*;
-import java.io.IOException;
+import java.awt.image.BufferedImage;
 import java.nio.file.Path;
 import java.util.List;
-import java.util.Vector;
 
 import static org.bytedeco.javacpp.opencv_core.*;
 import static org.bytedeco.javacpp.opencv_highgui.cvLoadImage;
@@ -27,9 +26,9 @@ public class Analyser implements Rel {
 	private String[] labels;
 	private int iw, ih, tw, th;
 
-	public Analyser() throws java.awt.AWTException {
-		lastFoundName = null;
-		iw = 0;
+    public Analyser() throws Exception {
+        lastFoundName = null;
+        iw = 0;
 		ih = 0;
 		tw = 0;
 		th = 0;
@@ -38,39 +37,48 @@ public class Analyser implements Rel {
 				.getLocalGraphicsEnvironment().getDefaultScreenDevice());
 	}
 
+    public static BufferedImage convertBufferedImage(BufferedImage src, int bufImgType) {
+        BufferedImage img = new BufferedImage(src.getWidth(), src.getHeight(), bufImgType);
+        Graphics2D g2d = img.createGraphics();
+        g2d.drawImage(src, 0, 0, null);
+        g2d.dispose();
+        return img;
+    }
+
 	@Override
-	public void init(List<Path> list) throws IOException {
-		templates = new IplImage[list.size()];
-		labels = new String[list.size()];
-		// Получение информации об изображениях
-		int i = 0;
-		for (Path imgPath : list) {
-			String filename = imgPath.toString();
-			templates[i] = cvLoadImage(filename);
-			int f = filename.lastIndexOf('/');
-			if (f == -1) {
-				f = filename.lastIndexOf('\\');
-			}
-			f++;
-			int l = filename.lastIndexOf('.');
-			labels[i] = filename.substring(f, l);
-			if (tw == 0) {
-				tw = templates[i].width();
-				th = templates[i].height();
-			}
-			i++;
-		}
+    public void init(List<Path> list) {
+        templates = new IplImage[list.size()];
+        labels = new String[list.size()];
+        // Получение информации об изображениях
+        int i = 0;
+        for (Path imgPath : list) {
+            String filename = imgPath.toString();
+            templates[i] = cvLoadImage(filename);
+            int f = filename.lastIndexOf('/');
+            if (f == -1) {
+                f = filename.lastIndexOf('\\');
+            }
+            f++;
+            int l = filename.lastIndexOf('.');
+            labels[i] = filename.substring(f, l);
+            if (tw == 0) {
+                tw = templates[i].width();
+                th = templates[i].height();
+            }
+            i++;
+        }
 
 	}
 
-	@Override
-	public void screen(int x, int y, int width, int height) {
-		lastScreenshot = null;
-		lastScreenshot = IplImage.createFrom(screenshotRobot
-				.createScreenCapture(new Rectangle(x, y, width, height)));
-		iw = lastScreenshot.width();
-		ih = lastScreenshot.height();
-	}
+    @Override
+    public void screen(int x, int y, int width, int height) {
+        lastScreenshot = null;
+        BufferedImage src = screenshotRobot.createScreenCapture(new Rectangle(x, y, width, height));
+        //lastScreenshot = IplImage.createFrom();
+        lastScreenshot = IplImage.createFrom(convertBufferedImage(src, BufferedImage.TYPE_3BYTE_BGR));
+        iw = lastScreenshot.width();
+        ih = lastScreenshot.height();
+    }
 
 	public void checkImage(String filename) {
 		lastScreenshot = null;
