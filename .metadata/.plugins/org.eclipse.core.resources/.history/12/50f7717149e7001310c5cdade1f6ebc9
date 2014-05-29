@@ -1,8 +1,0 @@
-package wolfpro;
-
-public class HelpForm {
-	public void main(String[] args){
-		
-	}
-	
-}

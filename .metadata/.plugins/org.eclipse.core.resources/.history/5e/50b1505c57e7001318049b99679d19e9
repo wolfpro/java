@@ -1,5 +1,6 @@
 import handler.Analyser;
-import wolfpro.*;
+import wolfpro.Graph;
+import wolfpro.MyRobot;
 
 import javax.swing.*;
 import java.awt.*;
@@ -121,8 +122,8 @@ public class ThreeForm {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
-			/*JOptionPane.showMessageDialog(frame, mess, "что то",
-					JOptionPane.INFORMATION_MESSAGE);*/
+			JOptionPane.showMessageDialog(frame, mess, "что то",
+					JOptionPane.INFORMATION_MESSAGE);
 		}
 	}
 
