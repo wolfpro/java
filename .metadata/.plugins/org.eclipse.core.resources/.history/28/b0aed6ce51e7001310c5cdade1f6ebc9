@@ -28,7 +28,7 @@ public class HelpForm {
 		//GridLayout gl = new GridLayout();
 		//gl.setColumns(1);
 		
-		
+		pane.add(jl);
 		// JTextField ta = new JTextField("adssad");
 		File f = new File("help");
 		BufferedReader reader = new BufferedReader(new FileReader(f));
@@ -43,7 +43,7 @@ public class HelpForm {
 		jl.setLayoutOrientation(JList.VERTICAL);
 		pane.add(new Label("вавsad"));
 		pane.add(new Label("s"));
-		pane.add(jl);
+
 		reader.close();
 	}
 
