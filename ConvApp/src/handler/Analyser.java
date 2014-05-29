@@ -19,23 +19,23 @@ import static org.bytedeco.javacpp.opencv_imgproc.cvMatchTemplate;
 
 public class Analyser implements Rel {
 
-	private Robot screenshotRobot;
-	private String lastFoundName;
-	private IplImage lastScreenshot;
-	private IplImage[] templates;
-	private String[] labels;
-	private int iw, ih, tw, th;
+    private Robot screenshotRobot;
+    private String lastFoundName;
+    private IplImage lastScreenshot;
+    private IplImage[] templates;
+    private String[] labels;
+    private int iw, ih, tw, th;
 
     public Analyser() throws Exception {
         lastFoundName = null;
         iw = 0;
-		ih = 0;
-		tw = 0;
-		th = 0;
-		// Инициализация объекта для взятия скриншотов экрана
-		screenshotRobot = new Robot(GraphicsEnvironment
-				.getLocalGraphicsEnvironment().getDefaultScreenDevice());
-	}
+        ih = 0;
+        tw = 0;
+        th = 0;
+        // Инициализация объекта для взятия скриншотов экрана
+        screenshotRobot = new Robot(GraphicsEnvironment
+                .getLocalGraphicsEnvironment().getDefaultScreenDevice());
+    }
 
     public static BufferedImage convertBufferedImage(BufferedImage src, int bufImgType) {
         BufferedImage img = new BufferedImage(src.getWidth(), src.getHeight(), bufImgType);
@@ -45,7 +45,7 @@ public class Analyser implements Rel {
         return img;
     }
 
-	@Override
+    @Override
     public void init(List<Path> list) {
         templates = new IplImage[list.size()];
         labels = new String[list.size()];
@@ -68,7 +68,7 @@ public class Analyser implements Rel {
             i++;
         }
 
-	}
+    }
 
     @Override
     public void screen(int x, int y, int width, int height) {
@@ -80,46 +80,46 @@ public class Analyser implements Rel {
         ih = lastScreenshot.height();
     }
 
-	public void checkImage(String filename) {
-		lastScreenshot = null;
-		lastScreenshot = cvLoadImage(filename);
-		iw = lastScreenshot.width();
-		ih = lastScreenshot.height();
-	}
+    public void checkImage(String filename) {
+        lastScreenshot = null;
+        lastScreenshot = cvLoadImage(filename);
+        iw = lastScreenshot.width();
+        ih = lastScreenshot.height();
+    }
 
-	@Override
-	public void make() {
-		int minIndex = -1;
-		double minValue = 0;
-		for (int i = 0; i < templates.length; i++) {
-			IplImage result = cvCreateImage(cvSize(iw - tw + 1, ih - th + 1),
-					IPL_DEPTH_32F, 1);
-			cvMatchTemplate(lastScreenshot, templates[i], result, CV_TM_SQDIFF);
+    @Override
+    public void make() {
+        int minIndex = -1;
+        double minValue = 0;
+        for (int i = 0; i < templates.length; i++) {
+            IplImage result = cvCreateImage(cvSize(iw - tw + 1, ih - th + 1),
+                    IPL_DEPTH_32F, 1);
+            cvMatchTemplate(lastScreenshot, templates[i], result, CV_TM_SQDIFF);
 
-			double[] minval = new double[2];
-			double[] maxval = new double[2];
-			int[] minlock = new int[2];
-			int[] maxlock = new int[2];
-			cvMinMaxLoc(result, minval, maxval, minlock, maxlock, null);
+            double[] minval = new double[2];
+            double[] maxval = new double[2];
+            int[] minlock = new int[2];
+            int[] maxlock = new int[2];
+            cvMinMaxLoc(result, minval, maxval, minlock, maxlock, null);
 
-			if (i == 0) {
-				minValue = minval[0];
-				minIndex = 0;
-			} else if (minval[0] < minValue) {
-				minValue = minval[0];
-				minIndex = i;
-			}
-		}
-		lastFoundName = labels[minIndex];
-	}
+            if (i == 0) {
+                minValue = minval[0];
+                minIndex = 0;
+            } else if (minval[0] < minValue) {
+                minValue = minval[0];
+                minIndex = i;
+            }
+        }
+        lastFoundName = labels[minIndex];
+    }
 
-	@Override
-	public String getName() {
-		return lastFoundName;
-	}
+    @Override
+    public String getName() {
+        return lastFoundName;
+    }
 
-	@Override
-	public Dimension getSize() {
-		return new Dimension(tw, th);
-	}
+    @Override
+    public Dimension getSize() {
+        return new Dimension(tw, th);
+    }
 }

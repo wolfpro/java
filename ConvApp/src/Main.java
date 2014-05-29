@@ -4,17 +4,17 @@ public class Main {
     public static void main(String[] args) throws Exception {
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-				try {
-					 tf = new ThreeForm();
-					 tf.CreateAndShowGUI();
-					 
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-				
-			}
-		});
-		
-	}
+                try {
+                    tf = new ThreeForm();
+                    tf.CreateAndShowGUI();
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+            }
+        });
+
+    }
 
 }

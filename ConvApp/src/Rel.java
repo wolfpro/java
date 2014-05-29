@@ -1,4 +1,4 @@
-import java.awt.Dimension;
+import java.awt.*;
 import java.io.IOException;
 import java.util.Vector;
 

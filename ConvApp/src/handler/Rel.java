@@ -1,9 +1,9 @@
 package handler;
-import java.awt.Dimension;
+
+import java.awt.*;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.List;
-import java.util.Vector;
 
 /**
  * Created by Андрей on 06.05.2014.
