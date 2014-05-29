@@ -32,7 +32,7 @@ public class HelpForm {
 			pane.add(new Label(s));
 			System.out.println(s);
 		}
-		
+		pane.add(ta);
 		pane.add(new Label("вавsad"));
 		
 		reader.close();

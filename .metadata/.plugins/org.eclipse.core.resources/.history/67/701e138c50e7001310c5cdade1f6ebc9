@@ -111,8 +111,8 @@ public class ThreeForm {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
-			/*JOptionPane.showMessageDialog(frame, mess, "что то",
-					JOptionPane.INFORMATION_MESSAGE);*/
+			JOptionPane.showMessageDialog(frame, mess, "что то",
+					JOptionPane.INFORMATION_MESSAGE);
 		}
 	}
 

@@ -23,16 +23,16 @@ public class HelpForm {
 		//gl.setColumns(1);
 		//pane.setLayout(gl);
 
-		//JTextField ta = new JTextField("adssad");
+		JTextField ta = new JTextField("asdasd");
 		File f = new File("help");
 		BufferedReader reader = new BufferedReader(new FileReader(f));
 		
 		String s;
 		while ((s = reader.readLine()) != null) {
-			pane.add(new Label(s));
+			//ta.ad  
 			System.out.println(s);
 		}
-		
+		pane.add(ta);
 		pane.add(new Label("вавsad"));
 		
 		reader.close();

@@ -29,10 +29,10 @@ public class HelpForm {
 		
 		String s;
 		while ((s = reader.readLine()) != null) {
-			pane.add(new Label(s));
+			pane.add(s)
 			System.out.println(s);
 		}
-		
+		pane.add(ta);
 		pane.add(new Label("вавsad"));
 		
 		reader.close();
