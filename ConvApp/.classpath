@@ -6,6 +6,6 @@
 	<classpathentry exported="true" kind="lib" path="/home/wolfpro/Downloads/openCV/javacv-bin/javacv.jar"/>
 	<classpathentry exported="true" kind="lib" path="/home/wolfpro/Downloads/openCV/javacv-bin/javacpp.jar"/>
 	<classpathentry exported="true" kind="lib" path="/home/wolfpro/Downloads/openCV/javacv-bin/opencv-linux-x86.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javacpp"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/javacpp"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
