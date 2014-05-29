@@ -101,10 +101,6 @@ public class ThreeForm {
 				init();
 				work();
 			}
-			if(mod ==2){
-				HelpForm hp = new HelpForm();
-				hp.CreateAndShowGUI();
-			}
 		}
 
 		public void actionPerformed(ActionEvent e) {

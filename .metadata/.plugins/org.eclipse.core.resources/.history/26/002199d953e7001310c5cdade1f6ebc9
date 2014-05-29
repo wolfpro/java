@@ -60,9 +60,9 @@ public class HelpForm {
 		frame.pack();
 		frame.setVisible(true);
 	}
-/*
+
 	public static void main(String[] args) throws Exception {
 		CreateAndShowGUI();
-	}*/
+	}
 
 }
