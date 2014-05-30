@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Vector;
 
 public class FileManager {
-    final String dirname = "examples";
+    final String dirname = "ConvApp/examples";
     char c = '/';// windows mod!!! linux;
     File fl;
     Vector<String> rl;
