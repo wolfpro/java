@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Vector;
 
 public class FileManager {
-    final String dirname = "ConvApp/examples";
+    final String dirname = "examples";
     char c = '/';// windows mod!!! linux;
     File fl;
     Vector<String> rl;
@@ -40,8 +40,8 @@ public class FileManager {
         return f;
     }
 
-    Vector<Dimension> getCor() throws Exception {
-        Vector<Dimension> ans = new Vector<Dimension>();
+    Vector<Rectangle> getCor() throws Exception {
+        Vector<Rectangle> ans = new Vector<Rectangle>();
         File f = new File("data");
         BufferedReader reader = new BufferedReader(new FileReader(f));
         String s;
@@ -49,9 +49,10 @@ public class FileManager {
         while ((s = reader.readLine()) != null) {
             if (!s.equals("you not clicked")) {
                 st = s.split(" ");
-                ans.add(new Dimension(Integer.valueOf(st[0]), Integer
-                        .valueOf(st[1])));
-                System.out.println(st[0] + " " + st[1]);
+                Rectangle area = new Rectangle(Integer.valueOf(st[0]), Integer.valueOf(st[1]),
+                        Integer.valueOf(st[2]), Integer.valueOf(st[3]));
+                ans.add(area);
+                System.out.println(area.toString());
             }
 
         }

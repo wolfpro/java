@@ -18,7 +18,7 @@ public class HelpForm {
         //GridLayout gl = new GridLayout();
         //gl.setColumns(1);
         // JTextField ta = new JTextField("adssad");
-        File f = new File("ConvApp/help");
+        File f = new File("help");
         BufferedReader reader = new BufferedReader(new FileReader(f));
 
         Vector<String> st = new Vector<String>();

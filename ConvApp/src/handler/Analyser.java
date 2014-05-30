@@ -72,9 +72,9 @@ public class Analyser implements Rel {
     }
 
     @Override
-    public void screen(int x, int y, int width, int height) {
+    public void screen(Rectangle area) {
         lastScreenshot = null;
-        BufferedImage src = screenshotRobot.createScreenCapture(new Rectangle(x, y, width, height));
+        BufferedImage src = screenshotRobot.createScreenCapture(area);
         //lastScreenshot = IplImage.createFrom();
         lastScreenshot = IplImage.createFrom(convertBufferedImage(src, BufferedImage.TYPE_3BYTE_BGR));
         iw = lastScreenshot.width();
