@@ -42,14 +42,16 @@ public class ThreeForm {
 	}
 
 	public void fun() {
-		int pos;
         for (Rectangle area : imgCor) {
             a.screen(area);
             a.make();
-            pos = (area.height < Toolkit.getDefaultToolkit().getScreenSize().height / 2) ? 1 : 0;
-            graph.add(a.getName(), pos);
-		}
-	}
+            String name = a.getName();
+            if (name != null) {
+                int pos = (area.height < Toolkit.getDefaultToolkit().getScreenSize().height / 2) ? 1 : 0;
+                graph.add(name, pos);
+            }
+        }
+    }
 
 	public void addComponentsToPane(Container pane) {
 		GridLayout gl = new GridLayout();

@@ -63,7 +63,7 @@ public class MainThread extends Thread {
             int[] minlock = new int[2];
             int[] maxlock = new int[2];
             cvMinMaxLoc(result, minval, maxval, minlock, maxlock, null);
-            if (minval[0] < 500) {
+            if (minval[0] == 0) {
                 theSame = true;
             } else {
                 lastScreenState[i] = newScreen;

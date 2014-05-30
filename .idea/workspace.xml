@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33535c72-2e86-4177-a8b3-c57898931f99" name="Default" comment="Доавлена синяя рамка вокруг временно-выделенной области на экране и неработающий порог на распознавание картинки">
+    <list default="true" id="33535c72-2e86-4177-a8b3-c57898931f99" name="Default" comment="Немного улучшений">
       <change type="DELETED" beforePath="C:\Разработки\java-m\ConvApp\examples\black step.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Разработки\java-m\ConvApp\examples\blue bear.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Разработки\java-m\ConvApp\examples\green bear.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Разработки\java-m\ConvApp\examples\pink bear.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Разработки\java-m\ConvApp\examples\purple bear.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Разработки\java-m\ConvApp\examples\white step.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Разработки\java-m\ConvApp\src\Rel.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConvApp/src/handler/Analyser.java" afterPath="$PROJECT_DIR$/ConvApp/src/handler/Analyser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConvApp/src/FileManager.java" afterPath="$PROJECT_DIR$/ConvApp/src/FileManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConvApp/src/wolfpro/HelpForm.java" afterPath="$PROJECT_DIR$/ConvApp/src/wolfpro/HelpForm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConvApp/src/MainThread.java" afterPath="$PROJECT_DIR$/ConvApp/src/MainThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConvApp/src/handler/Rel.java" afterPath="$PROJECT_DIR$/ConvApp/src/handler/Rel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConvApp/src/ThreeForm.java" afterPath="$PROJECT_DIR$/ConvApp/src/ThreeForm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data" afterPath="$PROJECT_DIR$/data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -86,8 +85,8 @@
       <file leaf-file-name="Analyser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConvApp/src/handler/Analyser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="2125">
-              <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="103" selection-end-column="72" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="845" max-vertical-offset="2125">
+              <caret line="72" column="21" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,9 +105,11 @@
       <file leaf-file-name="MainThread.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConvApp/src/MainThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="1479">
-              <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="871" max-vertical-offset="1479">
+              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,14 +117,13 @@
       <file leaf-file-name="ThreeForm.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConvApp/src/ThreeForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="2159">
-              <caret line="48" column="92" selection-start-line="48" selection-start-column="92" selection-end-line="48" selection-end-column="92" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="2193">
+              <caret line="51" column="21" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="false" />
                 <element signature="e#650#651#0" expanded="true" />
                 <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#2512#2513#0" expanded="true" />
-                <element signature="e#2541#2542#0" expanded="true" />
+                <element signature="e#2591#2592#0" expanded="true" />
+                <element signature="e#2620#2621#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,8 +132,8 @@
       <file leaf-file-name="FileManager.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ConvApp/src/FileManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.043927647" vertical-offset="68" max-vertical-offset="1190">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.13178295" vertical-offset="0" max-vertical-offset="1190">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
               <folding>
                 <element signature="e#1141#1152#0" expanded="true" />
               </folding>
@@ -154,7 +154,7 @@
       <file leaf-file-name="HelpForm.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConvApp/src/wolfpro/HelpForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="969">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
               <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding />
             </state>
@@ -164,8 +164,8 @@
       <file leaf-file-name="Graph.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConvApp/src/wolfpro/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1547">
-              <caret line="50" column="40" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
+              <caret line="55" column="60" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -195,13 +195,13 @@
         <option value="$PROJECT_DIR$/ConvApp/src/wolfpro/Graph.java" />
         <option value="$PROJECT_DIR$/ConvApp/src/handler/MainThread.java" />
         <option value="$PROJECT_DIR$/ConvApp/src/wolfpro/MyRobot.java" />
-        <option value="$PROJECT_DIR$/ConvApp/src/handler/Analyser.java" />
         <option value="$PROJECT_DIR$/ConvApp/src/Rel.java" />
         <option value="$PROJECT_DIR$/ConvApp/src/handler/Rel.java" />
+        <option value="$PROJECT_DIR$/ConvApp/src/handler/Analyser.java" />
         <option value="$PROJECT_DIR$/ConvApp/src/ThreeForm.java" />
         <option value="$PROJECT_DIR$/ConvApp/src/MainThread.java" />
-        <option value="$PROJECT_DIR$/ConvApp/src/FileManager.java" />
         <option value="$PROJECT_DIR$/ConvApp/src/wolfpro/HelpForm.java" />
+        <option value="$PROJECT_DIR$/ConvApp/src/FileManager.java" />
       </list>
     </option>
   </component>
@@ -548,7 +548,11 @@
       <created>1401453775106</created>
       <updated>1401453775106</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Добавлена автоматизация, реагируюзая на изменения с задержкой в 100 мс. Немножко изменён старый код">
+      <created>1401459270586</created>
+      <updated>1401459270586</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -677,11 +681,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="2142">
           <caret line="39" column="27" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="e#650#651#0" expanded="true" />
             <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#2512#2513#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -690,7 +693,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="595">
           <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -739,11 +744,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2125">
           <caret line="42" column="5" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="e#650#651#0" expanded="true" />
             <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#2512#2513#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -785,11 +789,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2057">
           <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="e#650#651#0" expanded="true" />
             <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#2512#2513#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -823,11 +826,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="2057">
           <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="e#650#651#0" expanded="true" />
             <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#2512#2513#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -861,11 +863,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="2057">
           <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="e#650#651#0" expanded="true" />
             <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#2512#2513#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -899,11 +900,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="2057">
           <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="e#650#651#0" expanded="true" />
             <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#2512#2513#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -953,11 +953,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1547" max-vertical-offset="2023">
           <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="e#650#651#0" expanded="true" />
             <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#2512#2513#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -983,11 +982,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1870">
           <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="e#650#651#0" expanded="true" />
             <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#2512#2513#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1042,22 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConvApp/src/wolfpro/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1547">
-          <caret line="50" column="40" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConvApp/src/handler/Analyser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1226" max-vertical-offset="2125">
-          <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="103" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ConvApp/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
@@ -1074,31 +1056,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConvApp/src/MainThread.java">
+    <entry file="file://$PROJECT_DIR$/ConvApp/src/wolfpro/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="1479">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
+          <caret line="55" column="60" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ConvApp/src/ThreeForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="2159">
-          <caret line="48" column="92" selection-start-line="48" selection-start-column="92" selection-end-line="48" selection-end-column="92" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="2193">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="e#650#651#0" expanded="true" />
             <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#2512#2513#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConvApp/src/MainThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="871" max-vertical-offset="1479">
+          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConvApp/src/handler/Analyser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="845" max-vertical-offset="2125">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ConvApp/src/wolfpro/HelpForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="969">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
           <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding />
         </state>
@@ -1106,8 +1105,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ConvApp/src/FileManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.043927647" vertical-offset="68" max-vertical-offset="1190">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.13178295" vertical-offset="0" max-vertical-offset="1190">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding>
             <element signature="e#1141#1152#0" expanded="true" />
           </folding>
