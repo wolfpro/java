@@ -37,7 +37,7 @@ public class Graph {
 			scpaneL.getVerticalScrollBar().setValue(listModelLeft.size());
 		} else {
 			listModelRight.addElement(s);
-			scpaneR.getVerticalScrollBar().setValue(listModelRight.size());
+			scpaner.getVerticalScrollBar().setValue(listModelRight.size());
 		}
 	}
 

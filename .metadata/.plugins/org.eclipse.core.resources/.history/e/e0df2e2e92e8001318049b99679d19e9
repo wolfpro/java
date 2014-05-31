@@ -12,7 +12,7 @@ public class Graph {
 	private static DefaultListModel listModelRight = new DefaultListModel<String>();
 	private JFrame frame;
 	private JTextField textField;
-	private JScrollPane scpaneL, scpaneR;
+	private JScrollPane scpaneL, scpanelR;
 
 	public void addComponentsToPane(Container pane) {
 		GridLayout gl = new GridLayout();
@@ -34,11 +34,9 @@ public class Graph {
 	void addlist(String s, int indificator) {
 		if (indificator == 0) {
 			listModelLeft.addElement(s);
-			scpaneL.getVerticalScrollBar().setValue(listModelLeft.size());
-		} else {
+
+		} else
 			listModelRight.addElement(s);
-			scpaneR.getVerticalScrollBar().setValue(listModelRight.size());
-		}
 	}
 
 	private void createAndShowGUI() throws Exception {
