@@ -73,7 +73,7 @@ class myFrame extends JFrame {
                 image = robot.createScreenCapture(new Rectangle(0, 0,
                         screenSize.width, screenSize.height));
 
-                frame = new ImageFrame(image, listModel);
+                frame = new ImageFrame(image, listModel, W, H);
                 frame.show();
                 btnPanel.removeAll();
                 btnPanel.add(bt2);
@@ -87,6 +87,7 @@ class myFrame extends JFrame {
                         list.ensureIndexIsVisible(listModel.size() - 1);
                         frame.repic(str(listModel));
                         frame.on = true;
+                        frame.clearSelection();
                         frame.repaint();
                         panel.add(ok, BorderLayout.SOUTH);
                         pack();
@@ -116,7 +117,6 @@ class myFrame extends JFrame {
             }
         });
         btnPanel.add(bt1);
-
         getContentPane().add(panel);
         setPreferredSize(new Dimension(200, 220));
         pack();
@@ -161,8 +161,14 @@ class ImageFrame extends JFrame {
     boolean on = false;
     String[] pic;
 
-    public ImageFrame(BufferedImage image, DefaultListModel listModel) {
+    // Параметры текушей выделенной зоны
+    private int _x, _y, _width, _height;
+    private boolean isSelection = false;
+
+    public ImageFrame(BufferedImage image, DefaultListModel listModel, int areaWidth, int areaHeight) {
         img = image;
+        _width = areaWidth;
+        _height = areaHeight;
         this.image = new ImageIcon(image);
         // gr = image.getGraphics();
         setTitle("ScanApp-ScreenMod");
@@ -175,11 +181,14 @@ class ImageFrame extends JFrame {
 
             @Override
             public void mouseClicked(MouseEvent e) {
-                String x = String.valueOf(e.getX());
-                String y = String.valueOf(e.getY());
+                _x = e.getX();
+                _y = e.getY();
+                isSelection = true;
+                String x = String.valueOf(_x);
+                String y = String.valueOf(_y);
                 element = x + " " + y;
-
-                System.out.println("click!");
+                repaint();
+                //System.out.println("click!");
             }
 
             @Override
@@ -204,11 +213,15 @@ class ImageFrame extends JFrame {
         });
     }
 
+    public void clearSelection() {
+        this.isSelection = false;
+    }
+
     public void paint(Graphics gr) {
-        gr.setColor(new Color(255, 0, 0));
         gr.drawImage(img, 0, 0, null);
         // System.out.println("go drow");
         String s[];
+        gr.setColor(Color.RED);
         if (on) {
             for (int i = 0; i < pic.length; i++) {
                 s = pic[i].split(" ");
@@ -222,6 +235,11 @@ class ImageFrame extends JFrame {
                 }
             }
         }
+        gr.setColor(Color.BLUE);
+        if (isSelection) {
+            gr.drawRect(_x, _y, _width, _height);
+        }
+
     }
 
     void repic(String[] pic) {

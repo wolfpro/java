@@ -1,5 +1,7 @@
 import handler.Analyser;
-import wolfpro.*;
+import wolfpro.Graph;
+import wolfpro.HelpForm;
+import wolfpro.MyRobot;
 
 import javax.swing.*;
 import java.awt.*;
@@ -19,11 +21,11 @@ public class ThreeForm {
 	private FileManager fl;
 	private Analyser a;
 	private int W, H;
-	private Vector<Dimension> imgCor;
-	private Graph graph;
+    private Vector<Rectangle> imgCor;
+    private Graph graph;
 
-	public ThreeForm() {
-		mainThread = new MainThread(this);
+    public ThreeForm() throws Exception {
+        mainThread = new MainThread(this);
 	}
 
 	private void init() throws Exception {
@@ -40,18 +42,16 @@ public class ThreeForm {
 	}
 
 	public void fun() {
-		int pos;
-		for (int i = 0; i < imgCor.size(); ++i) {
-			a.screen(imgCor.get(i).width, imgCor.get(i).height, W, H);
-			a.make();
-			if (imgCor.get(i).height < Toolkit.getDefaultToolkit()
-					.getScreenSize().height / 2)
-				pos = 1;
-			else
-				pos = 0;
-			graph.add(a.getName(), pos);
-		}
-	}
+        for (Rectangle area : imgCor) {
+            a.screen(area);
+            a.make();
+            String name = a.getName();
+            if (name != null) {
+                int pos = (area.height < Toolkit.getDefaultToolkit().getScreenSize().height / 2) ? 1 : 0;
+                graph.add(name, pos);
+            }
+        }
+    }
 
 	public void addComponentsToPane(Container pane) {
 		GridLayout gl = new GridLayout();
@@ -91,6 +91,11 @@ public class ThreeForm {
 		frame.setVisible(true);
 
 	}
+
+    // Применяется в MainThread для доступа к координатам для скриншотов
+    public Vector<Rectangle> getScreenAreas() {
+        return imgCor;
+    }
 
 	private class Handler implements ActionListener {
 		int mod = -1;

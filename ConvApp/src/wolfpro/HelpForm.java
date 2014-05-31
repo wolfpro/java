@@ -1,4 +1,5 @@
 package wolfpro;
+
 import javax.swing.*;
 import java.awt.*;
 import java.io.BufferedReader;
@@ -16,8 +17,6 @@ public class HelpForm {
         // pane.setLayout(gl);
         //GridLayout gl = new GridLayout();
         //gl.setColumns(1);
-
-
         // JTextField ta = new JTextField("adssad");
         File f = new File("help");
         BufferedReader reader = new BufferedReader(new FileReader(f));
@@ -26,7 +25,7 @@ public class HelpForm {
         String s;
         while ((s = reader.readLine()) != null) {
             st.add(s);
-           // System.out.println(s);
+            // System.out.println(s);
         }
         JList<String> jl = new JList<String>(st);
         jl.setLayoutOrientation(JList.VERTICAL);
@@ -42,8 +41,10 @@ public class HelpForm {
         addComponentsToPane(frame.getContentPane());
         frame.setPreferredSize(new Dimension(400, 500));
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-        frame.setBounds((screenSize.width - frame.getWidth()),
-                (screenSize.height - frame.getHeight()), frame.getWidth(),
+        int _x = screenSize.width - frame.getWidth();
+        int _y = screenSize.height - frame.getHeight();
+        frame.setBounds(_x,
+                _y, frame.getWidth(),
                 frame.getHeight());
         frame.setResizable(true);
         frame.pack();

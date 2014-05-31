@@ -17,7 +17,7 @@ public interface Rel {
 
     // Указываются координаты левого верхнего угла скриншота,
     // ширина и высота выделения
-    public void screen(int x, int y, int width, int height);
+    void screen(Rectangle area);
 
     // Выполнение обработки
     public void make();

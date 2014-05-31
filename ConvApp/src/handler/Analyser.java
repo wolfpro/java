@@ -19,6 +19,7 @@ import static org.bytedeco.javacpp.opencv_imgproc.cvMatchTemplate;
 
 public class Analyser implements Rel {
 
+    private final double recognThreshold = 100000d;
     private Robot screenshotRobot;
     private String lastFoundName;
     private IplImage lastScreenshot;
@@ -71,9 +72,9 @@ public class Analyser implements Rel {
     }
 
     @Override
-    public void screen(int x, int y, int width, int height) {
+    public void screen(Rectangle area) {
         lastScreenshot = null;
-        BufferedImage src = screenshotRobot.createScreenCapture(new Rectangle(x, y, width, height));
+        BufferedImage src = screenshotRobot.createScreenCapture(area);
         //lastScreenshot = IplImage.createFrom();
         lastScreenshot = IplImage.createFrom(convertBufferedImage(src, BufferedImage.TYPE_3BYTE_BGR));
         iw = lastScreenshot.width();
@@ -91,9 +92,9 @@ public class Analyser implements Rel {
     public void make() {
         int minIndex = -1;
         double minValue = 0;
+//        StringBuilder output = new StringBuilder("Имя\t|\tMin Loc\t|\tMax Loc\t|\tMin Val\t|\tMax Val\n");
         for (int i = 0; i < templates.length; i++) {
-            IplImage result = cvCreateImage(cvSize(iw - tw + 1, ih - th + 1),
-                    IPL_DEPTH_32F, 1);
+            IplImage result = cvCreateImage(cvSize(iw - tw + 1, ih - th + 1), IPL_DEPTH_32F, 1);
             cvMatchTemplate(lastScreenshot, templates[i], result, CV_TM_SQDIFF);
 
             double[] minval = new double[2];
@@ -101,7 +102,8 @@ public class Analyser implements Rel {
             int[] minlock = new int[2];
             int[] maxlock = new int[2];
             cvMinMaxLoc(result, minval, maxval, minlock, maxlock, null);
-
+//            output = output.append(labels[i] + "\t|\t").append(minlock[0] + " " + minlock[1] + "\t|\t")
+//                    .append(maxlock[0] + " " + maxlock[1] + "\t|\t").append(minval[0] + "\t|\t").append(maxval[0] + "\n");
             if (i == 0) {
                 minValue = minval[0];
                 minIndex = 0;
@@ -111,6 +113,11 @@ public class Analyser implements Rel {
             }
         }
         lastFoundName = labels[minIndex];
+        if (minValue > recognThreshold) {
+            lastFoundName = null;
+        }
+//        System.out.println(lastFoundName.toUpperCase());
+//        System.out.println(output.toString());
     }
 
     @Override
