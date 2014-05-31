@@ -34,9 +34,10 @@ public class Graph {
 	void addlist(String s, int indificator) {
 		if (indificator == 0) {
 			listModelLeft.addElement(s);
-
+			scpaneL.getVerticalScrollBar().setValue(listModelLeft.size());
 		} else {
 			listModelRight.addElement(s);
+			scpaneR.getVerticalScrollBar().setValue(listModelRight.size());
 		}
 	}
 
@@ -59,12 +60,10 @@ public class Graph {
 	public void add(String s, int mode) {
 		if (mode == 0) {
 			listModelLeft.addElement(s);
-			scpaneL.getVerticalScrollBar().setValue(listModelLeft.size());
 			lcol.add(s);
 		}
 		if (mode == 1) {
 			listModelRight.addElement(s);
-			scpaneR.getVerticalScrollBar().setValue(listModelRight.size());
 			rcol.add(s);
 		}
 	}

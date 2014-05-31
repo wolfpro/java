@@ -34,7 +34,7 @@ public class Graph {
 	void addlist(String s, int indificator) {
 		if (indificator == 0) {
 			listModelLeft.addElement(s);
-
+			
 		} else {
 			listModelRight.addElement(s);
 		}

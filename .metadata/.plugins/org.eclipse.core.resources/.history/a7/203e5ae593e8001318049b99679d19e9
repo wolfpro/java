@@ -19,7 +19,7 @@ import static org.bytedeco.javacpp.opencv_imgproc.cvMatchTemplate;
 
 public class Analyser implements Rel {
 
-    private final double recognThreshold = 10000000d;
+    private final double recognThreshold = 100000d;
     private Robot screenshotRobot;
     private String lastFoundName;
     private IplImage lastScreenshot;
