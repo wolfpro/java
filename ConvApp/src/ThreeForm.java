@@ -42,13 +42,25 @@ public class ThreeForm {
 	}
 
 	public void fun() {
+        boolean somethingGoesWrong = false;
+        String[] names = new String[imgCor.size()];
+        int[] pos = new int[imgCor.size()];
+        int i = 0;
         for (Rectangle area : imgCor) {
             a.screen(area);
             a.make();
             String name = a.getName();
-            if (name != null) {
-                int pos = (area.height < Toolkit.getDefaultToolkit().getScreenSize().height / 2) ? 1 : 0;
-                graph.add(name, pos);
+            pos[i] = (area.y < Toolkit.getDefaultToolkit().getScreenSize().height / 2) ? 0 : 1;
+            names[i] = name;
+            if (name == null) {
+                somethingGoesWrong = true;
+            }
+        }
+        if (somethingGoesWrong) {
+            mainThread.somethingWrong();
+        } else {
+            for (int j = 0; j < names.length; j++) {
+                graph.add(names[j], pos[j]);
             }
         }
     }

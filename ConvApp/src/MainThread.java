@@ -17,6 +17,8 @@ public class MainThread extends Thread {
     private IplImage[] lastScreenState;
     private Robot screenshotRobot;
     private Vector<Rectangle> screenAreas;
+    private boolean isSomethingWrong = false;
+    private double minReaction = 1d;
 
     public MainThread(ThreeForm threeForm) throws Exception {
         threeFormLink = threeForm;
@@ -41,8 +43,9 @@ public class MainThread extends Thread {
 
         // Работа в цикле
         while (isRunning) {
-            if (!isTheSame()) {
+            if (!isTheSame() || isSomethingWrong) {
                 threeFormLink.fun();
+                isSomethingWrong = false;
             }
             try {
                 sleep(delay);
@@ -63,7 +66,7 @@ public class MainThread extends Thread {
             int[] minlock = new int[2];
             int[] maxlock = new int[2];
             cvMinMaxLoc(result, minval, maxval, minlock, maxlock, null);
-            if (minval[0] == 0) {
+            if (minval[0] <= minReaction) {
                 theSame = true;
             } else {
                 lastScreenState[i] = newScreen;
@@ -78,6 +81,10 @@ public class MainThread extends Thread {
         g2d.drawImage(src, 0, 0, null);
         g2d.dispose();
         return IplImage.createFrom(img);
+    }
+
+    public void somethingWrong() {
+        isSomethingWrong = true;
     }
 
 }
