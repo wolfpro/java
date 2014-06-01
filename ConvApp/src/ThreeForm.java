@@ -57,22 +57,22 @@ public class ThreeForm {
 			if (name == null) {
 				somethingGoesWrong = true;
 			}
-		}
+            i++;
+        }
 		if (somethingGoesWrong) {
 			mainThread.somethingWrong();
 		} else {
 			for (int j = 0; j < names.length; j++) {
 				graph.add(names[j], pos[j]);
-				if (!ls)
-					ls = (pos[j] < 1);
-				if (!rs)
-					rs = pos[j] > 0;
-			}
-			if (ls)
-				graph.add("", 0);
-			if (rs)
-				graph.add("", 1);
-		}
+                if (pos[j] > 0) {
+                    rs = true;
+                } else {
+                    ls = true;
+                }
+            }
+            if (ls) graph.add(" ", 0);
+            if (rs) graph.add(" ", 1);
+        }
 	}
 
 	public void addComponentsToPane(Container pane) {
