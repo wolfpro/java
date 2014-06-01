@@ -59,12 +59,12 @@ public class Graph {
 	public void add(String s, int mode) {
 		if (mode == 0) {
 			listModelLeft.addElement(s);
-			//scpaneL.getVerticalScrollBar().setValue(listModelLeft.size());
+			scpaneL.getVerticalScrollBar().setValue(listModelLeft.size());
 			lcol.add(s);
 		}
 		if (mode == 1) {
 			listModelRight.addElement(s);
-			//scpaneR.getVerticalScrollBar().setValue(listModelRight.size());
+			scpaneR.getVerticalScrollBar().setValue(listModelRight.size());
 			rcol.add(s);
 		}
 	}

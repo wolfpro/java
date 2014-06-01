@@ -21,11 +21,11 @@ public class ThreeForm {
 	private FileManager fl;
 	private Analyser a;
 	private int W, H;
-	private Vector<Rectangle> imgCor;
-	private Graph graph;
+    private Vector<Rectangle> imgCor;
+    private Graph graph;
 
-	public ThreeForm() throws Exception {
-		mainThread = new MainThread(this);
+    public ThreeForm() throws Exception {
+        mainThread = new MainThread(this);
 	}
 
 	private void init() throws Exception {
@@ -43,37 +43,32 @@ public class ThreeForm {
 
 	public void fun() {
 		boolean ls = false, rs = false;
-		boolean somethingGoesWrong = false;
-		String[] names = new String[imgCor.size()];
-		int[] pos = new int[imgCor.size()];
-		int i = 0;
-		for (Rectangle area : imgCor) {
-			a.screen(area);
-			a.make();
-			String name = a.getName();
-			pos[i] = (area.y < Toolkit.getDefaultToolkit().getScreenSize().height / 2) ? 0
-					: 1;
-			names[i] = name;
-			if (name == null) {
-				somethingGoesWrong = true;
-			}
-		}
-		if (somethingGoesWrong) {
-			mainThread.somethingWrong();
-		} else {
-			for (int j = 0; j < names.length; j++) {
-				graph.add(names[j], pos[j]);
-				if (!ls)
-					ls = (pos[j] < 1);
-				if (!rs)
-					rs = pos[j] > 0;
-			}
-			if (ls)
-				graph.add("", 0);
-			if (rs)
-				graph.add("", 1);
-		}
-	}
+        boolean somethingGoesWrong = false;
+        String[] names = new String[imgCor.size()];
+        int[] pos = new int[imgCor.size()];
+        int i = 0;
+        for (Rectangle area : imgCor) {
+            a.screen(area);
+            a.make();
+            String name = a.getName();
+            pos[i] = (area.y < Toolkit.getDefaultToolkit().getScreenSize().height / 2) ? 0 : 1;
+            names[i] = name;
+            if (name == null) {
+                somethingGoesWrong = true;
+            }
+        }
+        if (somethingGoesWrong) {
+            mainThread.somethingWrong();
+        } else {
+            for (int j = 0; j < names.length; j++) {
+                graph.add(names[j], pos[j]);
+                if(!ls)
+                	ls = (pos[j]<1);
+                if(!rs)
+                	rs = pos[j]>0;
+            }
+        }
+    }
 
 	public void addComponentsToPane(Container pane) {
 		GridLayout gl = new GridLayout();
@@ -114,10 +109,10 @@ public class ThreeForm {
 
 	}
 
-	// Применяется в MainThread для доступа к координатам для скриншотов
-	public Vector<Rectangle> getScreenAreas() {
-		return imgCor;
-	}
+    // Применяется в MainThread для доступа к координатам для скриншотов
+    public Vector<Rectangle> getScreenAreas() {
+        return imgCor;
+    }
 
 	private class Handler implements ActionListener {
 		int mod = -1;
@@ -148,10 +143,8 @@ public class ThreeForm {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
-			/*
-			 * JOptionPane.showMessageDialog(frame, mess, "что то",
-			 * JOptionPane.INFORMATION_MESSAGE);
-			 */
+			/*JOptionPane.showMessageDialog(frame, mess, "что то",
+					JOptionPane.INFORMATION_MESSAGE);*/
 		}
 	}
 
