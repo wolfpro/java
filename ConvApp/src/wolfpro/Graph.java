@@ -17,10 +17,8 @@ public class Graph {
 	public void addComponentsToPane(Container pane) {
 		GridLayout gl = new GridLayout();
 		gl.setColumns(2);
-		;
-		pane.setLayout(gl);
-
-		textField = new JTextField();
+        pane.setLayout(gl);
+        textField = new JTextField();
 		JList listLeft = new JList(listModelLeft);
 		JList listRight = new JList(listModelRight);
 
@@ -60,12 +58,13 @@ public class Graph {
 		if (mode == 0) {
 			listModelLeft.addElement(s);
 			//scpaneL.getVerticalScrollBar().setValue(listModelLeft.size());
-			lcol.add(s);
+            //(scpaneL.getVerticalScrollBar()).setValue(listModelLeft.getSize());
+            lcol.add(s);
 		}
 		if (mode == 1) {
 			listModelRight.addElement(s);
-			//scpaneR.getVerticalScrollBar().setValue(listModelRight.size());
-			rcol.add(s);
+            //(scpaneR.getVerticalScrollBar()).setValue(listModelRight.size());
+            rcol.add(s);
 		}
 	}
 

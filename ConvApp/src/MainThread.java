@@ -12,13 +12,13 @@ import static org.bytedeco.javacpp.opencv_imgproc.cvMatchTemplate;
 public class MainThread extends Thread {
 
     public int delay = 100;
+    public double minReaction = 1d;
     private ThreeForm threeFormLink;
     private boolean isRunning;
     private IplImage[] lastScreenState;
     private Robot screenshotRobot;
     private Vector<Rectangle> screenAreas;
     private boolean isSomethingWrong = false;
-    private double minReaction = 1d;
 
     public MainThread(ThreeForm threeForm) throws Exception {
         threeFormLink = threeForm;

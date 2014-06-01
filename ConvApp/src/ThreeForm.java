@@ -7,6 +7,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileInputStream;
+import java.util.Scanner;
 import java.util.Vector;
 
 public class ThreeForm {
@@ -97,6 +99,18 @@ public class ThreeForm {
 		Dimension d = a.getSize();
 		W = d.width + 20;
 		H = d.height + 20;
+
+        //
+        Scanner scan = new Scanner(new FileInputStream("preferences.txt"));
+        scan.nextLine();
+        String s1 = scan.nextLine();
+        scan.nextLine();
+        String s2 = scan.nextLine();
+        scan.nextLine();
+        String s3 = scan.nextLine();
+        a.recognThreshold = Double.valueOf(s1);
+        mainThread.delay = Integer.valueOf(s2);
+        mainThread.minReaction = Double.valueOf(s3);
 
 		frame = new JFrame("ScanApp v0.9");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
