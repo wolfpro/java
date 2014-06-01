@@ -3,7 +3,6 @@
 	<exclude-output/>
 	<contentEntry url="file://$MODULE_DIR$"/>
 	<levels>
-		<level name="JavaCV" value="project"/>
 		<level name="javacpp" value="project"/>
 	</levels>
 </component>
