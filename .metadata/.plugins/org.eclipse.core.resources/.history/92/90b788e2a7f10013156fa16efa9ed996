@@ -8,7 +8,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.awt.image.ImageObserver;
 import java.sql.SQLException;
 
 import javax.swing.JFrame;
@@ -19,8 +18,8 @@ class Form {
 	private JFrame frame;
 	private JTextField textField;
 	Manager man;
-	// private String us;
-	// private String ans;
+	//private String us;
+	//private String ans;
 	private String[] rans;
 
 	void addComponentsToPane(Container pane) throws SQLException {
@@ -50,7 +49,7 @@ class Form {
 		// System.out.println(frame.getHeight());
 		// frame.setBounds(1000, 1000, 1000, 1000);
 		frame.setLocation(new Point(sS.width - fs.width, sS.height / 2
-				- ImageObserver.HEIGHT));
+				- frame.HEIGHT));
 		frame.setResizable(true);
 		frame.pack();
 		frame.setVisible(true);
@@ -97,8 +96,7 @@ class Form {
 
 	private class Handler implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
-			if (!(getText().charAt(0) == 'O' && getText().charAt(1) == 'K' || getText()
-					.charAt(0) == 'N' && getText().charAt(1) == 'O')) {
+			if (!(getText().charAt(0)=='O'&&getText().charAt(1)=='K' || getText().charAt(0)=='N'&&getText().charAt(1)=='O')) {
 				if (eq(getText(), rans)) {
 					System.out.println(getText() + ":ok");
 					try {
@@ -115,7 +113,7 @@ class Form {
 				} else {
 					System.out.println(getText() + ":no");
 					try {
-						ch("NO" + " " + rans[0]);
+						ch("NO"+" "+rans[0]);
 						textField.setBackground(new Color(255, 0, 0));
 					} catch (SQLException e1) {
 						e1.printStackTrace();

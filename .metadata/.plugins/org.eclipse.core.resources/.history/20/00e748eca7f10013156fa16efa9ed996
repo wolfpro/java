@@ -25,6 +25,7 @@ class Form {
 
 	void addComponentsToPane(Container pane) throws SQLException {
 		// JTable t= new JTable();
+		
 		rans = man.getString();
 		textField = new JTextField("Ready???");
 		/*
