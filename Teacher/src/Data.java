@@ -1,21 +1,19 @@
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.sql.*;
-import java.util.Random;
-import java.util.Scanner;
+
 
 public class Data {
 	private static Connection bd;
 	private static Statement st;
 	private static ResultSet rs;
-
-	private static boolean tsRus(char c) {// True symbol;
+	
+	public int lenght=1;
+	
+	/*private static boolean tsRus(char c) {// True symbol;
 		if ((c >= 'А' && c <= 'я')) {
 			return true;
 		}
 		return false;
-	}
+	}*/
 
 	public void intit(String... s) throws ClassNotFoundException, SQLException {
 		if (s.length == 0) {
@@ -32,6 +30,8 @@ public class Data {
 			System.out.println("don't connect on database " + s);
 			e.printStackTrace();
 		}
+		rs = st.executeQuery("Select count(*) From data");
+		lenght = Integer.valueOf(rs.getString(1));
 	}
 
 	public String[] getJob(int id) throws SQLException {

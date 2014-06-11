@@ -1,0 +1,15 @@
+import java.sql.SQLException;
+import java.util.Random;
+
+
+public class Manager {
+	private Random r;
+	Manager() throws ClassNotFoundException, SQLException{
+		Data data = new Data();
+		data.intit();		
+	}
+
+	String [] getString(){
+	
+	}
+}

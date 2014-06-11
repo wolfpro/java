@@ -1,0 +1,142 @@
+import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.Point;
+import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.sql.SQLException;
+
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+class Form {
+	private Dimension fs = new Dimension(200, 5);
+	private JFrame frame;
+	private JTextField textField;
+	Manager man;
+	private String us;
+	private String ans;
+	private String[] rans;
+
+	void addComponentsToPane(Container pane) throws SQLException {
+		// JTable t= new JTable();
+		rans = man.getString();
+		textField = new JTextField("");
+		/*
+		 * System.out.println(rans[2]); rans=rans[2].split(" ");
+		 */
+
+		textField.setSize(fs);
+		// t.add(textField);
+		pane.add(textField);
+		pane.setSize(fs);
+		textField.addMouseListener(clickListener);
+		textField.addActionListener(new Handler());
+
+	}
+
+	void CreateAndShowGUI() throws SQLException {
+		frame = new JFrame("Teacher v1.0");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		addComponentsToPane(frame.getContentPane());
+		frame.setPreferredSize(fs);
+
+		Dimension sS = Toolkit.getDefaultToolkit().getScreenSize();
+		// System.out.println(frame.getHeight());
+		// frame.setBounds(1000, 1000, 1000, 1000);
+		frame.setLocation(new Point(sS.width - fs.width, sS.height / 2
+				- frame.HEIGHT));
+		frame.setResizable(true);
+		frame.pack();
+		frame.setVisible(true);
+		frame.setSize(fs);
+	}
+
+	int min(int a, int b) {
+		// /if(a>b)
+		return a < b ? a : b;
+	}
+
+	boolean eq(String s, String[] as) {
+		for (String st : as) {
+			if (st.equals(s))
+				return true;
+			boolean c = true;
+			for (int j = 0; j < min(st.length(), s.length()) && c; j++) {
+				if (s.charAt(j) + 'A' - 'a' != st.charAt(j))
+					c = false;
+			}
+			if (c)
+				return true;
+		}
+		return false;
+	}
+
+	private void ch() throws SQLException {
+		rans = man.getString();
+		textField.setText(rans[1]);
+		System.out.println(rans[2]);
+		rans = rans[2].split(" ");
+	}
+
+	private class Handler implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			if (eq(getText(), rans)) {
+				textField.setText("OK");
+				try {
+					textField.wait();
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				System.out.println(getText() + ":ok");
+			} else {
+				setText("NO");
+				System.out.println(getText() + ":no");
+			}
+			
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException ex) {
+
+			}
+			try {
+				ch();
+			} catch (SQLException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+		}
+
+	}
+
+	void setText(String s) {
+		textField.setText(s);
+	}
+
+	String getText() {
+		return textField.getText();
+	}
+
+	MouseListener clickListener = new MouseAdapter() {
+		public void mouseClicked(MouseEvent me) {
+			((JTextField) me.getSource()).selectAll();
+		}
+	};
+
+}
+
+public class Image {
+
+	public static void main(String[] args) throws ClassNotFoundException,
+			SQLException {
+		Form f = new Form();
+		f.man = new Manager();
+		f.CreateAndShowGUI();
+		// sleep(20);
+	}
+
+}
