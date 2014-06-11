@@ -1,0 +1,62 @@
+import java.awt.*;
+import java.awt.event.*;
+import java.sql.SQLException;
+
+import javax.swing.*;
+
+class Form{
+	private Dimension fs = new Dimension(200, 5);
+	private JFrame frame;
+	private JTextField textField;	
+	void addComponentsToPane(Container pane){
+		//JTable t= new JTable();
+		
+		textField= new JTextField("asdasdsad");
+		textField.setSize(fs);
+		//t.add(textField);
+		pane.add(textField);
+		pane.setSize(fs);
+		textField.addMouseListener(clickListener);
+		
+	}	
+	void CreateAndShowGUI(){
+		frame = new JFrame("Teacher v1.0");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		addComponentsToPane(frame.getContentPane());
+		frame.setPreferredSize(fs);
+		
+		Dimension sS = Toolkit.getDefaultToolkit().getScreenSize();
+		//System.out.println(frame.getHeight());
+		//frame.setBounds(1000, 1000, 1000, 1000);
+		frame.setLocation(new Point(sS.width-fs.width, sS.height/2-frame.HEIGHT));
+		frame.setResizable(true);
+		frame.pack();
+		frame.setVisible(true);
+		frame.setSize(fs);
+	}	
+	private class Handler implements ActionListener{
+		public void actionPerformed(ActionEvent e){
+			textField=new JTextField("click");
+		}
+	}
+	MouseListener clickListener = new MouseAdapter() {
+        public void mouseClicked(MouseEvent me) {
+            ((JTextField)me.getSource()).selectAll();
+        }
+    };
+    private void jTextField2KeyPressed(java.awt.event.KeyEvent evt) {                                       
+        if(evt.getKeyCode()==10){
+           System.out.println("enter");//
+        }
+    } 
+}
+
+public class Image {
+	
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Manager man =  new Manager();
+		Form f = new Form();
+		f.CreateAndShowGUI();
+	}
+
+}

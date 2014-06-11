@@ -1,0 +1,24 @@
+import java.sql.SQLException;
+
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+public class Image {
+
+	private class Form{
+		private JFrame frame;
+		private JTextField textField;
+		
+		
+		void CreateAndShowGUI(){
+			frame = new JFrame("Teacher v1.0");
+			
+		}
+		
+	}
+	
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Manager man =  new Manager();
+	}
+
+}

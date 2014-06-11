@@ -1,0 +1,60 @@
+import java.io.File;
+import java.sql.*;
+import java.util.Scanner;
+
+public class Data {
+	private Connection bd;
+	private Statement st;
+	private ResultSet rs;
+
+	public void intit(String... s) throws ClassNotFoundException, SQLException {
+		if (s.length == 0) {
+			s = new String[1];
+			s[0] = "dict.sqlite";
+		}
+		Class.forName("org.sqlite.JDBC");
+
+		try {
+			bd = DriverManager.getConnection("jdbc:sqlite:"+s[0]);
+			System.out.println("connection: OK;");
+			st = bd.createStatement();
+		} catch (SQLException e) {
+			System.out.println("don't connect on database " + s);
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public String [] getJob(int id) throws SQLException{
+		rs = st.executeQuery("select * from data where id = "+id);
+		String[] s = new String[3];
+		s[0]=rs.getString(1);
+		s[1]=rs.getString(2);
+		s[2]=rs.getString(3);	
+		
+		return s;
+	}  
+	
+	public void addJob(String que, String ans) throws SQLException{
+		rs = st.executeQuery("Select count(*) From data");
+		String id = rs.getString(1);
+		st.execute("insert into data values ("+id+", "+que+", "+ans+")");
+	}
+	
+	public static void main(String[] args) {
+		Data d = new Data();
+		try {
+			d.intit();
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		Scanner sc = new Scanner("asd");
+		for(int i=0; sc.hasNextLine(); ++i){
+			sc.nextLine()
+			System.out.println(i);
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+
+public class Manager {
+	private static Connection bd;
+	private static Statement st;
+	private static ResultSet rs;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

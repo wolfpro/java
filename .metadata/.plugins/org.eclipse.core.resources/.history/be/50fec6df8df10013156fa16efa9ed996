@@ -1,0 +1,10 @@
+import java.sql.SQLException;
+
+
+public class Image {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Manager man =  new Manager();
+	}
+
+}

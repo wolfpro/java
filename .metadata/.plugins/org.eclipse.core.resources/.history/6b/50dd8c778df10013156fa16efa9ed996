@@ -1,0 +1,17 @@
+import java.sql.SQLException;
+
+
+public class Manager {
+
+	Manager() throws ClassNotFoundException, SQLException{
+		Data data = new Data();
+		data.intit();try {
+			d.intit();
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}		
+	}
+
+}

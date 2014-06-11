@@ -1,0 +1,84 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+	public static boolean ts(char c) {// True symbol;
+		if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')
+				|| (c >= 'А' && c <= 'я')) {
+			return true;
+		}
+		return false;
+	}
+
+	public static boolean tsRus(char c) {// True symbol;
+		if ((c >= 'А' && c <= 'я')) {
+			return true;
+		}
+		return false;
+	}
+
+	public static String check(String st) {
+		StringBuilder s = new StringBuilder(), sd = new StringBuilder();
+		char as, bs;
+		as = st.charAt(0);
+
+		int size = st.length();
+		boolean ad = true;
+		s.append(as);
+		for (int i = 1; i < size; i++) {
+			bs = st.charAt(i);
+			if (bs == '-')
+				ad = false;
+			if (bs == ';' || bs == '.')
+				ad = true;
+			if (bs != '	')
+				if (ad)
+					s.append(bs);
+			as = bs;
+		}
+		size = s.length();
+		ad = true;
+		for (int i = 0; i < size; ++i) {
+			bs = s.charAt(i);
+			if (bs == ';'||bs==',') {
+				ad = false;
+				sd.append(" ");
+			}
+			if (ad == false)
+				if (tsRus(bs))
+					sd.append(bs);
+			if (ad)
+				sd.append(bs);
+		}
+		s = sd;
+		sd= new StringBuilder();
+		size = s.length();
+		as=s.charAt(0);
+		for(int i=1; i<size; i++){
+			bs=s.charAt(i);
+			if(!(as==' '&&bs==' ')||!(as=='.'&&bs=='.'))
+				sd.append(bs);				
+		}
+		s=sd;
+		return s.toString();
+	}
+
+	public static void main(String[] args) throws FileNotFoundException {
+
+		File fl = new File("MyDictionary.txt");
+		InputStream f;
+		f = new FileInputStream(fl);
+		Scanner sc = new Scanner(f);
+		String s;
+		try {
+			while ((s = sc.nextLine()) != null) {
+				s = check(s);
+				System.out.println(s + '.');
+
+			}
+		} catch (NoSuchElementException e) {
+			System.out.println();
+		}
+	}
+}

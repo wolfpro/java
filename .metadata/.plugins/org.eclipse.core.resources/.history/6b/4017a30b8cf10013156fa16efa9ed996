@@ -1,0 +1,127 @@
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.sql.*;
+import java.util.Random;
+import java.util.Scanner;
+
+public class Data {
+	private static Connection bd;
+	private static Statement st;
+	private static ResultSet rs;
+
+	private static boolean tsRus(char c) {// True symbol;
+		if ((c >= 'А' && c <= 'я')) {
+			return true;
+		}
+		return false;
+	}
+
+	public void intit(String... s) throws ClassNotFoundException, SQLException {
+		if (s.length == 0) {
+			s = new String[1];
+			s[0] = "dict.sqlite";
+		}
+		Class.forName("org.sqlite.JDBC");
+
+		try {
+			bd = DriverManager.getConnection("jdbc:sqlite:" + s[0]);
+			System.out.println("connection: OK;");
+			st = bd.createStatement();
+		} catch (SQLException e) {
+			System.out.println("don't connect on database " + s);
+			e.printStackTrace();
+		}
+
+	}
+
+	public String[] getJob(int id) throws SQLException {
+		rs = st.executeQuery("select * from data where id = " + id);
+		String[] s = new String[3];
+		s[0] = rs.getString(1);
+		s[1] = rs.getString(2);
+		s[2] = rs.getString(3);
+
+		return s;
+	}
+
+	public static void addJob(String que, String ans) throws SQLException {
+		rs = st.executeQuery("Select count(*) From data");
+		String id = rs.getString(1);
+		String str = "insert into data values (" + id + ", \"" + que + "\", \""
+				+ ans + "\")";
+		System.out.println(str);
+		st.execute(str);
+	}
+
+	public static void main(String[] args) throws FileNotFoundException,
+			SQLException {
+		Data d = new Data();
+		try {
+			d.intit();
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+		Random r = new Random();
+		String an, bn;
+		for(int i=0, a, b; i<50; i++){
+			a=r.nextInt()%100;
+			b=r.nextInt()%100;
+			//System.out.println(a+"+"+b+"="+(a+b));
+			an=String.valueOf(a);
+			bn=String.valueOf(b);
+			if(b>0)
+				an=an+"х"+bn;
+			else
+				an=an+bn;
+			bn=String.valueOf(a*b);
+			System.out.println("OK:"+an+"="+bn);
+			//addJob(an, bn);
+		}
+		
+		/*Scanner sc = new Scanner(new FileInputStream(new File("asd")));
+		String s;
+		StringBuilder que = new StringBuilder(), ans = new StringBuilder();
+		boolean wmod = true;
+		for (int i = 0; sc.hasNextLine(); ++i) {
+			s = sc.nextLine();
+			for (int j = 0; j < s.length(); j++) {
+				if (tsRus(s.charAt(j)))
+					wmod = false;
+				char c = s.charAt(j);
+				if (wmod) {
+					if (c == '[')
+						c = '(';
+					if (c == ']')
+						c = ')';
+					if (c != '\"')
+						que.append(c);
+				}
+				if (!wmod) {
+					if (c == '[')
+						c = '(';
+					if (c == ']')
+						c = ')';
+					if (c != '\"')
+						ans.append(c);
+				}
+			}
+			String q = que.toString(), a = ans.toString();
+			
+			//String[] as = a.split(" ");
+		//	for (int t = 0; t < as.length; t++) {
+				//if (as[t].length() > 0)
+					addJob(q, a);
+			//}
+
+			wmod = true;
+			System.out.println(que.toString() + "----- " + ans.toString());
+			que = new StringBuilder();
+			ans = new StringBuilder();
+		}*/
+	}
+
+}

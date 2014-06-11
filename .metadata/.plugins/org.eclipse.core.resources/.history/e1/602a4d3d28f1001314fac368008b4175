@@ -1,0 +1,39 @@
+import java.sql.*;
+
+public class Data {
+	private Connection bd;
+	private Statement st;
+	private ResultSet rs;
+
+	public void intit(String ... s) throws ClassNotFoundException, SQLException{
+		if(s.length==0){
+			s=new String[1];
+			s[0]="dict.sqlite";
+		}Class.forName("org.sqlite.JDBC");
+		
+		try {
+			bd=DriverManager.getConnection("jdbc:sqlite:"+s);
+			st=bd.createStatement();			
+		} catch (SQLException e) {
+			System.out.println("don't connect on database "+s);
+			e.printStackTrace();
+		}
+		
+		rs=st.executeQuery("select * from Goods");
+		while(rs.next()){
+			System.out.println(rs.getString(1)+" "+rs.getString(2)+" "+rs.getString(3));
+		}
+	}
+
+	public static void main(String[] args) {
+		Data d = new Data();
+		try {
+			d.intit();
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

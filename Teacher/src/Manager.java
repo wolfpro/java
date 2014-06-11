@@ -1,0 +1,11 @@
+import java.sql.SQLException;
+
+
+public class Manager {
+
+	Manager() throws ClassNotFoundException, SQLException{
+		Data data = new Data();
+		data.intit();		
+	}
+
+}

@@ -1,0 +1,46 @@
+import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.Point;
+import java.awt.Toolkit;
+import java.sql.SQLException;
+
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+class Form{
+	private Dimension fs = new Dimension(1, 1);
+	private JFrame frame;
+	private JTextField textField;	
+	void addComponentsToPane(Container pane){
+		textField= new JTextField("");
+		textField.setSize(fs);
+		pane.add(textField);
+		pane.setSize(fs);
+		
+	}	
+	void CreateAndShowGUI(){
+		frame = new JFrame("Teacher v1.0");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		addComponentsToPane(frame.getContentPane());
+		frame.setPreferredSize(fs);
+		
+		Dimension sS = Toolkit.getDefaultToolkit().getScreenSize();
+		//System.out.println(frame.getHeight());
+		//frame.setBounds(1000, 1000, 1000, 1000);
+		frame.setLocation(new Point(sS));
+		frame.setResizable(true);
+		frame.pack();
+		frame.setVisible(true);
+		frame.setSize(fs);
+	}	
+}
+
+public class Image {
+	
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Manager man =  new Manager();
+		Form f = new Form();
+		f.CreateAndShowGUI();
+	}
+
+}

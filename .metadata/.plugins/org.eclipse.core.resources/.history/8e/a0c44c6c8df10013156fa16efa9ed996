@@ -1,0 +1,9 @@
+
+public class Manager {
+
+	Manager(){
+		Data data = new Data();
+		data.intit();
+	}
+
+}

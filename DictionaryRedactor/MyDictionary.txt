@@ -1,0 +1,811 @@
+WORLD [wWld] 	мир, свет - he's traveled all over the world он объехал весь свет; мировой - a world record мировой рекорд.
+STAR [stR] 	звезда - the sky is full of stars tonight небо сегодня всё усеяно звёздами; she's a film star она кинозвезда; звездный - a star map звездная карта.
+SUN [sAn] 	солнце - the earth goes round the sun Земля вращается вокруг Солнца; солнечный - sun glasses солнцезащитные очки.
+EARTH [WT] 	земля - the cosmonaut circled the Earth several times космонавт сделал несколько витков вокруг Земли; we've already turned the earth over in our vegetable garden мы уже вскопали землю в огороде; земляной - an earth road грунтовая дорога.
+MOON [mHn] 	луна - the moon is shining very brightly tonight луна сегодня особенно ярко светит; лунный - moonlight лунный свет.
+AIR [Fq] 	воздух - the mountain air will do you good горный воздух будет вам полезен; воздушный; an air conditioner кондиционер; проветривать - air the room, please проветрите, пожалуйста, комнату.
+WIND [wInd] 	ветер - a bitter wind was blowing дул пронизывающий ветер.
+WATER [wLtq] 	вода - the water is too cold for swimming today сегодня вода слишком холодная чтобы купаться; водяной - a water pistol водяной пистолет
+ICE [aIs] 	лед - put some ice in the glasses положите льду в стаканы; ледяной, ледовый - ice cream мороженое; ice hockey хоккей.
+STEAM [stJm] 	пар - hey, give us some more steam! поддайте-ка пару! паровой; steam heat - паровое отопление.
+SKY [skaI] 	небо – the sky is clear today небо сегодня безоблачное; the skyline линия горизонта
+CLOUD [klaud] 	облако, туча - the plane is flying above clouds самолёт летит над облаками.
+RAIN [reIn] 	дождь - shut the umbrella; the rain has stopped закройте зонтик, дождь прошёл; дождевой - a rain hat шляпа от дождя; идти (о дожде) - they say it's going to rain tonight говорят, что вечером будет дождь.
+SNOW [snou] 	снег - everything is covered with snow все покрыто снегом; снежный - a snowman снеговик; it's snowing снег идёт.
+GROUND [graund] 	земля, почва - the ground is very rocky эта почва очень каменистая; земляной - I want а room on the ground floor я хочу комнату в нижнем этаже.
+SAND [sxnd] 	песок - mix more sand into the cement примешайте ещё песку в цемент; песочный, песчаный - a sand storm песчаная буря.
+DIRT [dWt] 	грязь - how can you live in such dirt? как вы можете жить в такой грязи! a dirt floor земляной пол.
+MOUNTAIN ['mauntIn] 	гора - the hotel is located deep in the mountains гостиница расположена глубоко в горах; горный - mountain air горный воздух.
+HILL [hIl] 	холм - the hill looks low from here отсюда этот холм кажется невысоким.
+HOLE [houl] 	дыра, дырка, яма - there's a hole in that glove в этой перчатке дырка; these holes must be filled with earth эти ямы нужно забросать землёй.
+ROCK[rOk] 	камень, скала - don't fall over the rock не споткнитесь об этот камень; каменный - rock salt каменная соль
+STONE [stoun] 	камень - I cut my foot on a stone я поранил себе ногу о камень; каменный - the kitchen has a stone floor в кухне каменный пол.
+OCEAN ['ouSqn] 	океан - I've already crossed the ocean twice я уже два раза переезжал через океан.
+SEA [sJ] 	море - the sea is calm after the storm после бури море спокойно; морской - sea water морская вода.
+LAKE [leIk] 	озеро - this lake is very deep это озеро очень глубокое.
+RIVER ['rIvq] 	река - tall trees grow near the river у реки растут высокие деревья; речной - a riverboat речное судно;
+WAVE [weIv] 	волна - the waves are very high today сегодня очень сильные волны; махать, размахивать - we waved our hands to attract his attention мы махали руками, чтобы привлечь его внимание.
+LAND [lxnd] 	земля, суша - he owns a small piece of land in the country ему принадлежит миленький участок земли в деревне; land reform земельная реформа; высаживаться (с корабля), садиться (на самолете) - the ship should land within the next hour пароход пристынет к берегу не позже, чем через час; the pilot landed the plane at night лётчик приземлился ночью.
+ISLAND [aI'lqnd] 	остров - there were more animals than humans on the island животных на этом острове было больше, чем людей; островной - an island state островное государство.
+FIRE [faIq] 	огонь - dry yourself by the fire обсушитесь у огня; пожар; the theater was destroyed by fire театр был уничтожен пожаром; a fireman пожарный; вести огонь, стрелять - don't fire! не стреляйте!
+SMOKE [smouk] 	дым - where's that smoke coming from? откуда этот дым? дымовой - a smoke signal дымовой сигнал; курить - do you smoke? вы курите?
+OIL [OIl] 	масло - this is fried with oil это зажарено на масле; нефть; they are drilling for oil они производят разведку нефти бурением; масляный - oil filter масляный фильтр
+SOAP [soup] 	мыло - what do you want, kitchen soap or toilet soap? вам простого мыла или туалетного? мыльный - a soap bubble мыльный пузырь.
+GLASS [glRs] 	стекло - I need a diamond to cut this glass мне нужен алмаз, чтобы разрезать это стекло; стеклянный - a glass vase стеклянная ваза; стакан - put some ice in the glasses. положите немного льда в стаканы; очки - he can't see without his glasses он ничего не видит без очков.
+CLOTH [klOT] 	ткань, материя - this cloth won't stand much washing; эта материя не выдержит частой стирки; please change the table cloth перемените, пожалуйста, скатерть; одежда (clothes); what clothes shall I take with me? Какую одежду мне взять с собой?
+WOOD [wud] 	дерево - those figures were carved out of wood эти статуи вырезаны из дерева; лес - there are bears in these woods в этих лесах водятся медведи.
+METAL ['metl] 	металл - our chemist will analyze the composition of this metal наш химик исследует состав этого металла; металлический - I'd rather have a metal bed я предпочел бы металлическую кровать.
+STEEL [stJl] 	сталь - he must have nerves of steel у него должно быть железные нервы; стальной - a pair of steel scissors стальные ножницы.
+IRON ['aIqn] 	железо - is it made of iron? это сделано из железа? an iron gate железная калитка; утюг - she heated the iron она нагрела утюг; гладить - I ironed all your shirts я вам выгладила все рубашки.
+SILVER ['sIlvq] 	серебро - this box is made of silver; серебряный - а silver coin серебряная монета;
+GOLD [gould] 	золото - he went out in search of gold он отправился на поиски золота; золотой - they presented him with a gold watch они подарили ему золотые часы.
+BODY ['bOdI] 	тело - I have pains all over my body у меня боли во всём теле; кузов, корпус, основная часть - the hotel stands beside a body of water эта гостиница стоит у воды.
+BACK [bxk] 	спина - roll over on your back повернитесь на спину; задняя часть - we stood at the back of the hall мы стояли в конце зала; задний - backyard задний двор.
+NECK [nek] 	шея - she fell on his neck она бросилась ему на шею; шейный
+HEAD [hed] 	голова - the fan is over my head вентилятор у меня над головой; he is the head of the company in name only он только номинально глава этой фирмы; you're at the head of the list вы первый в списке; головной - the head car головной вагон; направлять - the pilot headed the plane into the wind пилот направил самолёт против ветра.
+HAIR [hFq] 	волос, волосы - she has blue eyes and fair hair у неё голубые глаза и светлые волосы; hair-do прическа.
+FACE [feIs] 	лицо - your face is all dirty у вас всё лицо испачкано; face soap туалетное мыло.
+NOSE [nouz] 	нос - my nose is blocked у меня заложен нос.
+EAR [Iq] 	ухо - I whispered in his ear that I am leaving я ему шепнул на ухо, что я ухожу; ушной - earring серьга.
+EYE [aI] 	глаз - I have something in my eye мне что-то попало в глаз; глазной - eye drops глазные капли.
+TEAR [tIq] 	слеза - as expected, she immediately burst into tears она, понятное дело, сейчас же в слёзы.
+MOUTH [mauT] 	рот - I have a bitter taste in my mouth у меня во рту горько.
+LIP [lIp] 	губа - she pressed her lips together and didn't say a thing она сжала губы и ничего не сказала.
+TOOTH [tHT] 	зуб - the dentist has to drill this tooth зубной врач должен сверлить этот зуб.
+ARM [Rm] 	рука - may I take your arm? можно взять вас под руку? (arms) оружие - do you have any arms in the house? у вас в доме есть оружие? вооружать(ся) - the partisans were well armed партизаны были хорошо вооружены
+HAND [hxnd] 	рука - take the other bag in your left hand возьмите другой чемодан в левую руку; ручной - a hand pump ручной насос.
+FINGER ['fINgq] 	палец - she has small hands but long fingers у неё маленькие руки, но длинные пыльцы.
+LEG [leg] 	нога - she had a bad fall last winter and broke her leg прошлой зимой они неудачно упала и сломала ногу; the leg of the chair is broken у этого стола сломана ножка.
+FOOT [fut]
+FEET [fJt] 	нога (ниже колена) - he stepped on my foot он наступил мне ни ногу; ножной - a foot switch ножной/педальный выключатель.
+KNEE [nJ] 	колено - I hit my knee against the door я ударился коленом о дверь.
+SKIN [skIn] 	кожа - she has very white skin у неё очень белая кожа; кожный - skin disease кожная болезнь.
+BRAIN [breIn] 	мозг, мозги - he has no brains у него не хватает мозгов; мозговой, умственный - a brain worker работник умственного труда.
+HEART [hRt] 	сердце - she has a soft heart у неё мягкое сердце; сердечный - heart disease сердечное заболевание.
+BLOOD [blAd] 	кровь - he was covered with blood он был весь в крови; кровяной - blood pressure кровяное давление
+JOY [GOI] 	радость - the little girl was dancing with joy девочка плясала от радости.
+SHAME [SeIm] 	стыд, позор - he hid his face in shame он спрятал лицо от стыда; it was a shame I had to miss that lecture ужасно досадно, что мне пришлось пропустить эту лекцию.
+PAIN [peIn] 	боль - he has a pain in the chest у него болит грудь; painkiller болеутоляющее.
+ANGER ['xNgq] 	гнев - he was burning with anger он весь кипел от гнева; сердить - she's slow to anger её трудно рассердить. 
+PERSON ['pWrsqn] 	человек, лицо, персона, особа - hе is an extremely gentle person он необычайно мягкий человек.
+CHARACTER ['kxrqktqr] 	характер - he has a strong character у него сильный характер; действующее лицо, герой, персонаж - a good character положительный герой.
+BABY ['beIbI] 	ребенок - whose baby is this? чей это ребёнок?
+GUY [gaI] 	парень - he's a nice guy он хороший парень.
+BOY [bOI] 	мальчик - that boy has character у мальчишки есть характер.
+MAN [mxn]
+MEN [men] 	человек, мужчина - he is a man of action он человек действия; armed men were standing at the entrance у входа стояли вооружённые люди.
+GIRL [gWl] 	девочка - this little girl is not more than twelve этой девочке не больше двенадцати лет; девушка - she's a pretty girl она хорошенькая девушка.
+WOMAN ['wumqn]
+WOMEN ['wImen] 	женщина - give your seat to that woman and child уступите место женщине с ребёнком! (как прилагательное) a woman hater женоненавистник; there are three women for every man in this factory на этой фабрике на одного мужчину приходится три женщины.
+FAMILY ['fxmqlI] 	семья - he has a very large family у него очень большая семья; семейный - I enjoy looking at old family pictures я люблю рассматривать старые семейные фотографии.
+HUSBAND ['hAzbqnd] 	муж - she left her husband она бросила своего мужа.
+WIFE [waIf]
+WIVES [waIvz] 	жена - my wife is a good cook моя жена хорошо готовит.
+PARENTS ['pFqrqnt] 	родители - I live away from my parents я живу отдельно от родителей.
+CHILD [CaIld]
+CHILDREN [CIldrqn] 	ребенок - the child was playing with wooden blocks ребёнок играл деревянными кубиками; she needs a lot of money to feed and clothe her six children ей нажно много денег, чтобы прокормить и одеть своих шестерых детей.
+FATHER [fRDq] 	отец - his father has always been his ideal отец всегда был для него идеалом.
+DAD [dxd]	папа - my dad phoned me yesterday from Moscow вчера отец звонил мне из Москвы.
+MOTHER ['mADq] 	мать - she sat beside her mother она сидела рядом с матерью; материнский, родной - the mother country родина.
+MOM [mOm] 	мама - I'd like to have you meet my mom я хотел бы, чтоб вы познакомились с моей мамой.
+AUNT [Rnt] 	тетя - I have two aunts on my mother's side с материнской стороны у меня две тётки.
+UNCLE ['ANkl] 	дядя - is his uncle Italian too? его дядя тоже итальянец?
+SON [sAn] 	сын - I'd be proud of a son like that я гордился бы таким сыном
+DAUGHTER ['dLtq] 	дочь - he fell in love with the captain's daughter он влюбился в дочь капитана.
+BROTHER [brADq] 	брат - I see my brother every day я вижусь с моим братом ежедневно.
+SISTER ['sIstq] 	сестра - his sister is a charming woman его сестра — очаровательная женщина.
+PEOPLE [pJpl] 	люди, народ - who are those people you were talking to? кто эти люди, с которыми вы разговаривали?
+CROWD [kraud] 	толпа - there was a large crowd at the concert; обступать, толпиться - a lot of people crowded the square на площади толпилось много народу.
+COMPANY ['kOmpqnJ] 	компания, общество - I spent a lot of time in his company я провёл много времени в его обществе; компания, фирма - what company do you represent? какую фирму вы представляете?
+FRIEND [frend] 	друг - we are your friends мы ваши друзья.
+ENEMY ['enImI] 	враг - the enemy occupied the town неприятель занял город; вражеский - an enemy agent вражеский агент. 
+HAT [hxt] 	шляпа - is that your hat hanging on the hook? это ваша шляпа висит на крюке? шляпный - a hat shop, шляпный магазин
+UMBRELLA [Am'brelq] 	зонт, зонтик whose umbrella is this? чей это зонтик?
+SHIRT [SWt] 	рубашка; сорочка - these shirts need to be washed эти рубашки нужно выстирать.
+POCKET ['pOkIt] 	карман - put it in your pocket положите это в карман; класть в карман - pocket money деньги на карманные расходы.
+SKIRT [skWt] 	юбка - it's not comfortable to work in a skirt в юбке работать неудобно.
+BOOT [bHt] 	ботинок, сапог - your boots shine like a mirror ваши сапоги блестит как зеркало; пинать ногой - I failed all my exams and they booted me out of school я провалился на всех экзаменах, и меня выкинули из школы.
+SHOE [SH] 	туфля, ботинок - what size are these shoes? какого размера эти башмаки? обувной - a shoe store обувной магазин. 
+HOME [houm] 	дом - my friend drove me home in his new car мой приятель отвёз меня домой на своей новой машине; домашний - home life семейная жизнь.
+HOUSE [haus] 	дом (как строение) - the house was in poor condition дом был в плохом состоянии; домашний - house arrest домашний арест.
+YARD [jRd] 	двор - take the mattress out into the yard, please вытащите, пожалуйста, матрац на двор; ярд (мера длины) - in America cloth is usually sold by the yard в Америке материя обычно продаётся на ярды.
+TOWER [‘tauq] 	башня - you can see the tower from a distance эта башня видна издалека.
+WELL [wel] 	колодец - the well is dry этот колодец высох.
+BELL [bel] 	колокол, колокольчик; звонок - ring the bell again позвоните ещё раз.
+LOCK [lOk] 	замок - this lock is broken этот замок испорчен; запирать(ся) - be sure to lock the door when you leave нe забудьте запереть дверь на ключ, когда уйдёте.
+KEY [kJ] 	ключ - I've lost the key to my room я потерял ключ от моей комнаты; клавиша.
+KITCHEN [kICIn] 	кухня - the kitchen has a stone floor в кухне каменный пол; кухонный - kitchen table, кухонный стол
+ROOM [rHm] 	комната - I don't like this room мне не нравится эта комната; комнатный; место, пространство.
+STAIR [stFq] 	ступенька, лестница - take the stairs to your right идите по лестнице направо;
+RAIL [reIl] 	перила, поручни, рельс
+WINDOW ['wIndou] 	окно - the pigeon flew in the window голубь влетел в окно; оконный - window glass оконное стекло
+DOOR [dL] 	дверь - close the door закройте дверь; дверной
+FLOOR [flL] 	пол - the floor of my room is dirty в моей комнате грязный пол.
+WALL [wLl] 	стена - take the picture down from the wall снимите картину со стены; wail newspaper стенная газета.
+CEILING ['sJlIN] 	потолок - it's not a large room, but it has a high ceiling эта комната небольшая, но с высоким потолком.
+ROOF [rHf] 	крыша -- the roof is going to fall in one of these days в один прекрасный день эта крыша провалится.
+CORNER [kLnq] 	угол - the ladder is standing in the corner лестница стоит в углу; the cafe is just around the corner кафе тут зауглом; угловой - in the corner room в угловой комнате.
+BED [bed] 	кровать, постель - how many beds are there in each room? сколько кроватей в каждой комнате? постельный - bed lamp ночник
+TABLE [teIbl] 	стол - please stop drumming on the table пожалуйста, перестаньте барабанить по столу; столовый - table lamp настольная лампа
+DESK [desk] 	письменный стол - why don't you put this desk by the window? почему бы вам не поставить письменный стол у окна?
+CHAIR [CFq] 	стул - this is a more comfortable chair этот стул удобнее.
+SEAT [sJt] 	место, сиденье; сажать, усаживать, садиться
+SHELF [Self] 	полка - the books are on the shelf книги стоят на полке; уступ, выступ
+BATH [bRT] 	ванна - I'd like to take a bath now я хотел бы сейчас взять ванну.
+TOWEL ['tauql] 	полотенце - could I have some towels? можно мне получить несколько полотенец?
+KETTLE [ketl] 	чайник, котелок - I boil water in this big tea kettle я кипячу воду в этом большом чайнике.
+CUP [kAp] 	чашка, кубок - please give me another cup of coffee дайте мне, пожалуйста, еще чашку кофе.
+DISH [dIS] 	тарелка - he dropped the dish он уронил тарелку; блюдо - what is your favorite dish? какое ваше любимое блюдо?
+PLATE [dIS] 	тарелка - . I dropped the plate accidentally я нечаянно уронил тарелку.
+CLOCK [klOk] 	часы - Is this clock right? эти часы идут правильно?
+WATCH [wOC] 	часы - he wears a watch on a gold chain он носит часы на золотой цспочке.
+LAMP [lxmp] 	лампа, фонарь, светильник - set the lamp on the table поставьте лампу на стол.
+TELEPHONE ['telq"foun] 	телефон - can I use your telephone, please? можно мне воспользоваться вашим телефоном? телефонный - I just heard the telephone ring я только что слышал телефонный звонок; звонить (по телефону) - did anyone telephone me? мне кто-нибудь звонил?
+PHONE [foun] 	телефон - the phone's ringing телефон звонит; звонить (по телефону) -I phoned you twice last night, but your line was busy я вам звонил вчера вечером два раза, но было занято.
+RADIO ['reIdJou] 	радио - I have checked the clock by the radio я проверил часы по радио; радиоприёмник - my radio needs a new battery мне нужна новая батарейка для радиоприемника.
+TELEVISION ['telqvI"Zqn] 	телевидение, телевизор - I saw him on television я видел его по телевизору телевизионный a television interview телевизионное интервью; 
+STATE [steIt] 	государство, штат - my home state borders on Canada мой родной штат – на границе Канады.
+COUNTRY ['kAntrI] 	страна - I want to learn all about the country я хочу как следует ознакомиться с этой страной; деревня - we spent three days in the country мы провели трое суток в деревне; деревенский - country music музыка кантри.
+CAPITAL ['kxpItl, 'kxpqtl] 	столица - have you ever visited the capital? вы когда-нибудь были в столице? заглавная буква - do you spell that word with a capital? это слово пишется с большой буквы? капитал, деньги - how much capital is invested in this business сколько денег вложено в это предприятие?
+TOWN [taun] 	город - at first we didn't like the town сначала город нам не понравился; городской - town planning городское планирование
+CITY ['sItI] 	город - How far is the nearest city? Как далеко отсюда до ближайшего города? городской - the city jail городская тюрьма.
+VILLAGE ['vIlIG] 	деревня, село - he lives five kilometers from the village он живёт в пяти километрах от деревни; the village idiot деревенский дурачок.
+ROAD [roud] 	дорога -- this road leads to town эта дорога ведёт к городу; дорожный - a road sign дорожный знак.
+WAY [weI] 	путь, дорога - can you find your way home all right? вы, наверное, сможете сами найти дорогу домой?
+STREET [strJt] 	улица - what is the next street after this? какая следующая улица?
+BRIDGE [brIdG] 	мост - there is a lovely view from the bridge с моста открывается чудесный вид; a bridge crane мостовой кран. 
+CAR [kR] 	машина, автомобиль - would you like to ride in my car? Хотите поехать в моей машине? автомобильный - a car dealer торговец машинами;
+TAXI ['txksJ] 	такси - call me a taxi, please позовите, пожалуйста, такси; a taxi driver таксист.
+BUS [bAs] 	автобус - the bus went by without stopping автобус прошёл мимо, не останавливаясь; where is the nearest bus stop? где ближайшая остановка автобуса?
+BOAT [bout] 	лодка, корабль, пароход - this boat is sailing too slowly эта лодка плывёт слишком медленно.
+TRAIN [treIn] 	поезд - he wants to go by train он хочет ехать поездом.
+SHIP [SIp] 	корабль, судно - when does the ship leave? когда пароход отплывает?
+TICKET ['tIkIt] 	билет - I'll buy the tickets tomorrow я куплю билеты завтра.
+MAP [mxp] 	карта (географическая) - I want a map of this region мне нужна карта этой области.
+STEP [mxp] 	шаг - move back one step! отступите-ка на шаг назад! шагагть - don't step in the flower bed нe наступите на цветочную грядку. 
+MACHINE [mq'SJn] 	машина, станок (не используется в значении "автомашина") - could you explain how this machine works? вы можете объяснить, как действует эта машина?
+JOB [GOb]	работа - do you want a job? вы ищите работу?.
+FUN [fAn] 	забава, потеха - I said it just for fun я сказал это просто в шутку.
+BOTTLE [bOtl] 	бутылка - give me two more bottles, please дайте мне, пожалуйста, ещё две бутылки.
+BOX [bOks] 	коробка, ящик - do you have an empty box? есть у вас пустая коробка?
+CAN [kxn] 	банка, жестянка - do you have a can of condensed milk? есть у вас банка сгущенного молоко? консервировать - do you have any canned vegetables? есть у вас какие-нибудь овощи в консервах?
+BAG [bxg] 	сумка, пакет - take the fruit out of the bag выньте фрукты из мешка.
+BASKET [‘bRskIt] 	корзина - put the cat in its basket положите котёнка в его корзинку.
+CHAIN [CeIn] 	цепь, цепочка - he wears a watch on a gold chain он носит часы на золотой цепочке; they drove along the mountain chain они ехали вдоль горной цепи.
+STRING [strIN] 	верёвка - I'm looking for a piece of string мне нужна верёвка. 
+SHOP [SOp] 	магазин, лавка - I'm looking for a tobacco shop я ищу табачный магазин; pretty dresses are displayed in the shop window в этом магазине выставлены красивые платья.
+MONEY ['mAnI] 	деньги - do you accept American money? вы принимаете американские деньги?
+PRICE [praIs] 	цена - these prices will be cut next month эти цены будут снижены в следующем месяце.
+BANK [bxNk] 	банк - he has quite a lot of money in the bank у него довольно много денег в банке; банковский - I would like to open a bank account я хотел бы открыть счёт в банке.
+OFFICE ['LfIs, 'OfIs] 	кабинет, контора, офис - where is the office of the chief of police? где кабинет начальника милиции? пост, должность - he held office for a long time он занимал этот пост долгое время.
+DOLLAR ['dOlar] 	доллар - can you lend me a dollar? вы можете мне одолжить доллар?
+CENT [sent] 	цент - I haven't a cent у меня нет ни гроша.
+LAW [lL] 	закон - is that law still in force? этот закон всё ещё в силе?.
+RULE [rHl] 	правило - as a rule I don't drink как правило, я не пью; править, управлять - he's ruled by his emotions он — во власти своих чувств.
+POLICE [pq'lJs] 	полиция - the police are trying to catch the criminal полиция старается поймать преступника.
+KING [kIN] 	король - I had a jack, a king, and three queens in my hand у меня были на руках валет, король и три дамы.
+QUEEN [kwJn] 	королева - this magazine has a picture of the queen в этом журнале есть фотография королевы.
+JAIL [GeIl] 	тюрьма - five prisoners broke out of jail last week на прошлой неделе из тюрьмы соежали пять арестантов; тюремный there were three prisoners involved in the jail break трое арестантов сбежали из тюрьмы.
+PRISON [prIzn] 	тюрьма - he was put in jail его посадили; тюремный - a prison cell тюремная камера. 
+PEACE [pJs] 	мир - are they willing to make peace? они согласны заключить мир? a peace conference мирные переговоры
+WAR [wL] 	война - they were talking about the war они говорили о войне
+CONFLICT 	конфликт ['kOn"flIkt] - a conflict came up between the workers and the management между рабочими и администрацией возник конфликт; конфликтовать [kqn'flIkt] - this activity conflicts with my main work это занятие несовместимо с моей основной работой.
+KNIFE [naIf] 	нож - this knife is too blunt этот нож очень тупой..
+GUN [gAn] 	пистолет, ружье, пушка - be careful with that gun; you might kill somebody будьте осторожны с револьвером, вы ещё убьёте кого-нибудь.
+SOLDIER ['soulGq] 	солдат - the soldier raised the flag солдат поднял флаг.
+MARCH [mRrC] 	марш - the band played a march оркестр играть марш; маршировать - did you see the soldiers march by? вы видели, как тут промаршировали солдаты? 
+VOICE [vOIs] 	голос - her voice is very sweet у неё очень приятный голос; voice command речевая команда
+SPEECH [spJC] 	речь - limit your speech to three minutes ограничьте вашу речь тремя минутами; речевой - speech style манера речи.
+ACCENT ['xk"sent] 	акцент - he speaks English with a Russian accent он говорит по-английски с русским акцентом; ударение - where is the accent in this word? где в этом слове ударение? делать ударение ['xk"sent, xk'sent] - accent the first syllable of this word в этом слове ударение сделайте на первом слоге.
+LANGUAGE ['lxNgIG] 	язык - I don't know what language he speaks я не знаю языка, на котором он говорит; языковой - language courses языковые курсы.
+QUESTION [kwesCn] 	вопрос - I can't answer that question я не могу ответить на этот вопрос.
+ANSWER ['Rnsq] 	ответ - I'm waiting for an answer я жду ответа; отвечать - they answered the questions in chorus они хором отвечали на вопросы.
+PAPER ['peIpq] 	бумага - have you got some good writing paper? есть у вас хорошая бумага? газета - where is the morning paper? где утренняя газета? бумажный - a paper bag бумажный мешок; - paper money бумажные деньги.
+CARD [kRd] 	карта, карточка - show your membership card покажите вашу членскую карточку; I hardly ever play cards я почти никогда не играю в карты; did you get the card I mailed you? вы получили мою открытку? карточный - a card table стол для игры в карты.
+PEN [pen] 	ручка - please give me my pen back пожалуйста, верните мне мою ручку.
+PENCIL [pensl] 	карандаш - can you get me another pencil? вы можете достать мне другой карандаш?
+ALPHABET
+['xlfq"bet, 'xlfqbIt] 	алфавит - have you learned all the letters in the alphabet? вы выучили все буквы алфавита?
+LETTER [letq] 	буква - have you learned all the letters in the alphabet? вы выучили все буквы алфавита? письмо - he dictated a letter to his secretary он продиктовал своей секретарше письмо.
+WORD [wWd] 	слово - where is the accent in this word? где в этом слове ударение?
+TEXT [tekst] 	текст - I'll bring you the full text of his speech tomorrow я вам завтра принесу текст его речи.
+PAGE [peIG] 	страница - the book was open at page five книга была раскрыта на пятой странице.
+BOOK [buk] 	книга - please return these books by Saturday пожалуйста, верните эти книги не позже субботы; книжный; a book dealer книготорговец; заказывать, бронировать (билеты и т.п.) - have you booked a ticket on the boat yet? вы уже заказали билет на пароход?
+MAGAZINE ['mxgq"zJn] 	журнал - where can I buy a magazine? где можно купить какой-нибудь журнал? журнальный - he is doing a magazine article on local customs он пишет статьи для журнала о местных обычаях.
+AUTHOR ['LTqr] 	автор - a book by a French author книга французского автора.
+STORY ['stLrI] 	история - you don't actually believe that story? неужели вы на самом деле верите в эту историю?
+JOKE [Gouk] 	шутка - his joke cleared the air его шутка разрядила атмосферу; шутить - you're joking! вы шутите!
+HUMOUR ['hjHmqr] 	юмор - he has a good sense of humor у него большое чувство юмора; I don't see any humor in the situation я не вижу в этом положении ничего смешного; настроение - you're in a good humor today вы сегодня в хорошем настроении.
+MAIL [meIl] 	почта - Will you go after the mail? вы пойдете за почтой? посылать по почте - did you get the card I mailed you? вы получили мою открытку?
+ADDRESS
+[q'dres, 'xd"res] 	адрес - is this the correct address? это правильный йдрес? обращаться к, адресовать - the words were addressed to her слова были адресованы ей.
+ENVELOPE ['envq"loup] 	конверт - put it into a big envelope положите это в большой конверт.
+STAMP [stxmp] 	марка - do you have a stamp, an envelope and some paper? есть у вас марка, конверт и бумага? печать, штамп; ставить штамп - please stamp this: ‘Glass.’ пожалуйста, поставьте на этом печать «стекло»; топать - she stamped her foot angrily она сердито топнула ногой;
+NAME [neIm] 	имя - fill in your name and address here впишите сюда вашу фамилию и адрес.
+SIGN [saIn] 	знак - that sign says we're ten kilometers from town эта надпись указывает, что мы в десяти километрах от города; подписывать, расписываться - if you can't sign your name, make a cross instead если вы неграмотны, поставьте вместо вашей фамилии крест.
+CLASS [klRs, klxs] 	класс - he received the highest grades in the class он получил лучшие отметки в классе; he traveled first class он ехал первым классом.
+SCHOOL [skHl] 	школа - the schools are supported by a government grant школы получают субсидии от государства.
+LESSON [lesn] 	урок - he was taking dancing lessons он брал уроки танцев. 
+ART [Rrt] 	искусство - a work of art произведение искусства; (как прилагательное) we'll go to the Tretyakovsky Art Gallery tomorrow завтра мы пойдём в Третьяковскую галерею.
+CULTURE ['kAlCqr] 	культура - physical culture физическая культура.
+CINEMA ['sInqmq] 	кино, кинотеатр - there are two cinemas in the town в городе есть два кинотеатра.
+THEATER ['TJqtqr] 	театр - I have decided to go to the theater я решил пойти в театр.
+BALL [bLl] 	бал - the costumes at the ball were original if nothing else костюмы на балу были, во всяком случае, оригинальны. бальный.
+CAMERA ['kxmqrq, 'kxmra] 	фотоаппарат, киноаппарат - I like the design of this camera мне нравится конструкция этого фотоаппарата
+PHOTOGRAPH ['foutq"grxf] 	фотография, фото, снимок - this book is illustrated with photographs эта книга иллюстрирована фотографиями; фотографировать, снимать - he photographed these buildings for the exhibit он сфотографировал эти здания для выставки.
+PICTURE ['pIkCq] 	картина, картинка - did you like this picture? вам понравилась эта картина?
+DRUM [drAm] 	барабан - can you hear the drums? вы слышите барабаны? барабанить - please stop drumming on the table пожалуйста, перестаньте барабанить по столу.
+GUITAR [bLl] 	гитара - can you play the guitar? вы умеете играть на гитаре? 
+GOD [gOd] 	бог - God helps those who help themselves на Бога надейся, а сам не плошай.
+ANGEL [spLrt] 	ангел - she sings like an angel она божественно поет.
+CHURCH [CWC] 	церковь - this is the most beautiful church I've ever seen; это самая красивая церковь, какую я когда-либо видел; церковный - church bells церковные колокола.
+PARADISE ['pxrq"daIs] 	рай - it's paradise here! тут просто рай!
+HELL [hel] 	ад - the road to hell is paved with good intentions дорога в ад вымощена благими намерениями. 
+TOY [tOI] 	игрушка - buy some toys купите игрушек; игрушечный - a toy pistol игрушечный пистолет.
+DOLL [dOl] 	кукла - he gave her a doll он дал ей куклу.
+BALL [bLl] 	мяч, шар - the ball hit the fence мяч попал в забор.
+GAME [geIm] 	игра - they were beaten in the game они эту игру проиграли
+SPORT [spLt] 	спорт - what's your favorite sport? какой ваш любимый спорт?
+CHAMPION ['CxmpJqn] 	чемпион - he's the chess champion of the USSR он чемпион СССР по шахматам.
+TENNIS ['tenIs] 	теннис - do you like tennis? вы любите теннис?
+HOCKEY ['hOkI] 	хоккей, хоккейный - the hockey team is in training for the big game хоккейная команда тренируется к важному матчу. 
+TIME [taIm] 	время - what time is it by your clock? сколько времени на ваших часах? раз I take a walk at least three times a week я делаю прогулки по крайней мере, три раза в неделю.
+AGE [eIG] 	возраст - what is your age and profession? каков ваш возраст и кто вы по профессии? возрастной; an age group возрастная группа; стареть; he has aged a great deal lately он сильно постарел в последнее время; век, эпоха - we are living in the age of invention мы живем в эпоху изобретений; this church was built in the Middle Ages эта церковь была построена в средние века.
+SPRING [sprIN] 	весна - spring is in the air в воздухе уже чувствуется весна; весенний - this is good spring weather today сегодня хорошая весенняя погода.
+SUMMER ['sAmq] 	лето - where do you plan to spend the summer? где вы предполагаете провести лето? летний - summer vacation летние каникулы.
+AUTUMN ['Ltqm] 	осень - we've had a rainy autumn this year в этом году дождливая осень; осенний - an autumn day осенний день.
+WINTER ['wIntq] зима 	зима - we have an early winter this year в этом года у нас ранняя зима; зимний - winter games зимние игры
+PAST [pRst] 	прошлое - in the past it's been very difficult to get tickets раньше было очень трудно доставать билеты; прошлый - we've been expecting rain for the past week мы ждали дождя всю прошлую неделю.
+PRESENT 	настоящее - I'm occupied at present я сейчас занят; настоящий - I don't agree with their present policy я не согласен с их теперешней политикой.
+FUTURE ['fjH-Cqr] 	будущее - try to do better in the future постарайтесь впредь делать лучше; будущий - introduce me to your future wife познакомьте меня с вашей будущей женой.
+MOMENT ['moumqnt] 	момент, миг, минута - I can't answer your question at the moment в данный момент я не могу ответить на ваш вопрос.
+DATE [deIt] 	дата, число - what is the date of your birth? когда вы родились? датировать - the letter was dated April tenth письмо датировано десятым апреля; свидание - I have my first date with her tonight сегодня вечером у меня с ней первое свидание; встречаться (с девушкой, парнем) - he is dating Mary он встречается с Мэри.
+SECOND ['sekqnd] 	секунда - he ran a hundred meters in twelve seconds он пробежал сто метров в двенадцать секунд.
+MINUTE ['mInIt] 	минута - it will take you about ten minutes это займет у вас около десяти минут.
+HOUR [auq] 	час - it will take only three hours на это уйдет не больше трех часов.
+DAY [deI] 	день - the library is open every day библиотека открыта ежедневно; дневной - a day train дневной поезд.
+WEEK [wJk] 	неделя - I can finish this in a week я это могу закончить в неделю; weekend уикенд.
+MONTH [mAnT] месяц 	- I was here two months ago я был здесь два месяца назад.
+YEAR [jIq] 	год - I lived in the East of the United States for ten years я жил десять лет в восточной части Соединённых Штатов.
+CENTURY ['senCqrJ] 	век, столетие - this room has a collection of Nineteenth Century paintings в этом зале собраны картины девятнадцатого века.
+MORNING ['mLnIN] 	утро - this morning I was too busy to read the newspaper сегодня утром я был так занят, что мне некогда было прочисть газету; утренний - a morning newspaper утренняя газета.
+NOON [nHn] 	полдень - I'll be there exactly at noon я буду там ровно в полдень.
+EVENING ['IvnIN] 	вечер - will I see you this evening? мы с вами увидимся сегодня вечером? вечерний - an evening newspaper вечерняя газета.
+NIGHT [naIt] 	ночь - the wind blew hard all last night всю ночь дул сильный ветер; ночной - a night club ночной клуб.
+YESTERDAY ['jestq"deI, 'jestqdI]  вчера - The car did not break down until yesterday до вчерашнего дня машина не была испорчена; (как наречие) my dad phoned me yesterday from Moscow вчера отец звонил мне из Москвы.
+TODAY [tq'deI] 	сегодня - today's paper gives further details of the accident сегодняшняя газета дает дальнейшие подробности происшествия; (как наречие) are you leaving today? вы сегодня уезжаете?
+TOMORROW [tq’mOrou] 	завтра - tomorrow will be fair and cool завтра будет ясная и прохладная погода; (как наречие) I'll buy the tickets tomorrow я куплю билеты завтра.
+TONIGHT [tq'naIt] 	вечер этого дня - here is tonight's weather forecast вот прогноз погоды на вечер; сегодня вечером I have my first date with her tonight сегодня вечером у меня с ней первое свидание.
+SUNDAY ['sAndI] 	воскресенье - there's verv little activity around here Sundays по воскресеньям тут очень тихо.
+MONDAY ['mAndI] 	понедельник - the fair opens next Monday ярмарка открывается в будущий понедельник.
+TUESDAY ['tjHzdI] 	вторник - wait until next Tuesday подождите до будущего вторника.
+WEDNESDAY ['wenzdI] 	среда - Christmas falls on a Wednesday this year в этом году Рождество падает на среду.
+THURSDAY ['TWzdI] 	четверг - the club will meet next Thursday собрание в клубе состоится в будущий четверг.
+FRIDAY ['fraIdI] 	пятница - we have weekly meetings on Fridays по пятницам у нас собрания.
+SATURDAY ['sxtqdI] 	суббота- please return these books by Saturday пожалуйста, верните эти книги не позже субботы.
+DECEMBER [dI'sembqr] 	декабрь, декабрьский -. I'll be there on the sixth of Decemter я буду там шестого декабря.
+JANUARY ['GxnjHerJ] 	январь, янаварский - in answer to your letter of January first в ответ на ваше письмо от первого января.
+FEBRUARY ['febrHerJ] 	февраль. февральский - do you have the February issue of this magazine? нет ли у вас февральского номера этого журнала?
+MARCH [mRrC] 	март мартовский - I plan to stay here through March я собираюсь оставаться здесь весь март.
+APRIL ['eIprql] 	апрель, апрельский - the letter was dated April tenth письмо датировано десятым апреля.
+MAY [meI] 	май, майский - I was born in May я родился в мае.
+JUNE [GHn] 	июнь, июньский - I'll be there on the fifth of June я буду там пятого июня.
+JULY [Gu'laI] 	июль, июльский - in July the heat was intense в июле была сильная жара
+AUGUST ['Lgqst] 	август, августовский - classes won't start until August занятия в школах начнутся только в августе.
+SEPTEMBER [sep'tembqr] 	сентябрь, сентябрьский - she'll arrive on September second она приезжает второго сентября
+OCTOBER [Ok'tou-bqr] 	октябрь, октябрьский - today is the anniversary of the October revolution сегодня годовщина октябрьской революции.
+NOVEMBER [nou'vembqr] 	ноябрь, ноябрьский - she was born in November она родилась в ноябре.
+NORTH [nLT] 	север - the needle is pointing toward the north стрелка указывает на север; северный - there's a strong north wind today сегодня сильный северный ветер; на север - our ship held its course north наш пароход держал курс на север.
+SOUTH [sauT] 	юг - I'm from the North, but my friend is from the South я с севера, а мой товарищ с юга; южный - there's a south wind blowing дует южный ветер; на юг - the birds are flying south птицы летят на юг.
+WEST [west] 	запад -- the road leads to the West дорога ведёт на запад; западный - there's a strong west wind blowing up today сегодня дует сильный западный ветер; на запад - go west and you will hit the river идите на запад и вы уткнётесь в реку.
+EAST [Jst] 	восток -- have you ever been in the Far East? вы были когда-нибудь на Дальнем Востоке? восточный - the store is on the east side; этот магазин в восточной части города; на восток - they were going farther and farther east они двигались всё дольше на восток.
+METER /METRE ['mJtqr] 	метр - how many meters are there in a mile? сколька метров в миле?
+CENTIMETER ['sentq"mJtqr] 	сантиметр - the American foot equals 30.5 centimeters американский фут равен тридцати и пяти десятым сантиметра.
+MILE [maIl] 	миля - this place is ten miles from the railroad это место находится в десяти милях от железной дороги.
+PART [pRt] 	часть - my brother lives in a distant part of town мой брат живёт в отдалённой чисти города.
+PIECE [pJs] 	кусок, кусочек - please break off a piece of chocolate for me пожалуйста, отломайте мне кусочек шоколада.
+FRONT [frAnt] 	сад, передняя часть - the west front of the house западный фасад дома; фронт - he served for three months at the front он был три месяца на фронте; передний - someone's at the front door кто-то стоит у парадных дверей.
+CENTER ['sentqr] 	центр, середина - aim for the center of the target цельтесь в середину мишени.
+SIDE [saId] 	сторона - there is a ditch on each side of the road пo обеим сторонам дороги идут канавы.
+END [end] 	конец - is this the end of the street? тут конец улицы? кончаться - everything ended happily всё кончилось благополучно.
+SPACE [speIs] 	пространство, место - is there any space for my luggage? есть здесь место для моего багажа?
+PLACE [pleIs] 	место - this is an ideal place for swimming это идеальное место для плавания; помещать - where are the horns placed in the orchestra? где сидят трубы в оркестре? 
+SOUND [sound] 	звук - the sound of the shot echoed through the hills звук выстрела эхом разнёсся по холмим.
+NOISE [nOIz] 	шум - this noise is driving me crazy этот шум меня с ума сводит
+LIGHT [laIt] 	свет - I was wakened by a beam of light shining through my window меня разбудил луч света, проникший через окно; фонарь, лампа, освещение; зажигать - are there electric lights in this house? в этом доме есть электрическое освещение?
+SHADOW ['Sxdou] 	тень - this tree casts a long shadow in the afternoon в полдень это дерево отбрасывает длинную тень; следить - what makes you think he was shadowing you? почему вы думаете, что он за вами следит?
+MIGHT [maIt] 	мощь, сила - push the door with all your might толкните дверь изо всей силы.
+POWER [‘pauq] 	мощь, сила - I’ll do everything in my power я сделаю всё, что в моих силах.
+FORCE [fLs] 	сила - we had to take him by force мы должны были взять его силой; заставлять - we were forced to change our tactics мы были вынуждены изменить тактику.
+SPEED [spJd] 	скорость - he broke all records for speed он побил все рекорды скорости; (как прилагательное) speed control регулирование скорости
+TEMPERATURE ['tempqrqCqr] 	температура - the temperature is very low today температура сегодня очень низкая.
+POINT [pOInt] 	точка - draw a line between these two points проведите линию между этими двумя точками; his point of view is nearly the same as mine наши точки зрения почти совпадают; указывать - the needle is pointing toward the north стрелка указывает на север.
+LINE [laIn] 	линия, черта - draw a line between these two points проведите линию между этими двумя точками; the operator says that the line is busy телефонистка говорит, что там занято; строка - this line should be blacked out эту строчку надо вычеркнуть.
+SQUARE 	квадрат - не drew a large square он начертил большой квадрат; площадь, сквер - a lot of people crowded the square на площади толпилось много народу.
+CIRCLE [sWkl] 	круг - draw a circle начертите круг; кружиться, описывать круги - the plane circled around the field several times самолёт описал над аэродромом несколько кругов.
+CROSS [krOs] 	крест - do you see the church with the big cross? вы видите церковь с большим крестом? пересекать, скрещивать - it takes two hours to cross the channel чтобы пересечь пролив требуется два часа; поперечный, перекрестный - crossfire перекрестный огонь. 
+PLAN [plxn] 	план, проект - we may have to change our plans возможно, что нам придется изменить наши планы; планировать, собираться - do you plan to enter a university? вы собираетесь поступить в университет?
+PROGRAM
+['prou"grxm, 'prougrqm] 	программа, передача - what's the next number on the program? какой следующий номер программы?
+IDEA [aI'dJq] 	идея, мысль - it was a bad idea to wait so long это была плохая мысль ждать так долго;
+CHANCE [Cxns] 	случай, возможность - he never misses a chance to go to Moscow он никогда не упускает случая поехать в Москву; рисковать - let's chance it and start out today давайте рискнем и поедем сегодня.
+LUCK [lAk] 	счастье, удача - we wished him luck in his new job мы пожелали ему удачи в его новой работе.
+DANGER ['deInGq] 	опасность - he's out of danger now теперь он вне опасности.
+TROUBLE [trAbl] 	беда, неприятность - I'm in trouble and I need your advice я в беде и мне нужен ваш совет; беспокоить - I don't want to trouble you я не хочу вас беспокоить.
+MISTAKE [mIs'teIk] 	ошибка - never again will I make that mistake никогда больше я не сделаю этой ошибки.
+HARM [hRm] 	вред - his unfavorable report did our work a good deal of harm его отрицательный отзыв очень повредил нашей работе; вредить - that medicine will only harm you это лекарство принесёт вам только вред.
+SECRET ['sJkrIt] 	секрет, тайна - his secret has become generally known его секрет стал всем известен; секретный, тайный - а secret agent тайный агент,
+SURPRISE [sqr'praIz] 	удивление, сюрприз - I later learned, to my surprise, that he was right я потом узнал, к моему удивлению, что он был прав; а surprise visit неожиданный визит; удивлять - theу will be surprised to see you here они будут удивлены, увидев вас здесь.
+KIND [kaInd] 	тип, вид - that kind of story appeals to me мне нравятся такие рассказы.
+FACT [fxkt] 	факт - is this a fact or is it just your opinion? это факт или это только ваше предположение?
+EXAMPLE [Ig'zRmpl] 	пример - could you give me an example? вы можете мне дать пример?
+SORT [sLrt] 	сорт, род, вид, порода, тип - what sort of a person is she? какой oна человек? сортировать, разбирать - I'm going to sort the mail now я сейчас буду разбирать почту.
+PROCESS ['prO"ses] 	процесс - this is only the first step in the process это только начало процесса; обрабатывать - they process wool at that factory на этой фабрике обрабатывают шерсть..
+PROGRESS [sLrt] 	прогресс, успехи ['prO"gres] - they have made great progress under his direction они сделали большие успехи под его руководством; прогрессировать, делать успехи [prq'gres] - We've progressed a lot since those days мы с того времени сильно продвинулись вперёд.
+THING [TIN] 	вещь - do I have to declare these things at the customs? должен я предъявить эти вещи на таможне?
+PRESENT 	подарок [‘preznt] подарок - we have put the Christmas presents under the tree мы положили рождественские подарки под ёлку; дарить [prI’zent] - we present this to you in consideration of your services позвольте преподнести вам это в благодарность за ваши услуги.
+GIFT [gIft] 	подарок - a book is always a good gift книга – всегда хороший подарок.
+START [stRt] 	начало - in this business a good start means everything в этом деле всё зависит от удачного начала; начинать - we must start early so as to be on time мы должны отправиться рано, чтобы успеть вовремя..
+STOP [stOp] 	остановка - where is the nearest bus stop? где ближайшая остановка автобуса? останавливать(ся) - stop copying him бросьте подражать ему.
+FINISH [‘fInIS] 	финиш, завершение - were you there to see the finish of the horserace? Вы видели финиш скачек? заканчивать - have you finished already? вы уже закончили?
+LOT [lOt] 	большое количество (чего-либо) - she certainly has a lot of friends у неё действительно много друзей.
+BIT [bIt] 	кусочек - we learned the story bit by bit мы узнавали об этом постепенно.
+MIND [maInd] 	ум - it was the farthest thing from my mind это мне и в голову не приходило; возражать - do you mind eating in the kitchen? вы ничего не имеете против того, чтобы есть на кухне?
+SOUL [maInd] 	душа - not a single soul knows about it ни одни душа об этом не знает.
+SHAPE [SeIp] 	форма - she always wears hats of the most peculiar shape она всегда носит шляпы какой-то странной формы; состояние - the country roads are in bad shape просёлочные дороги в очень плохом состоянии.
+SIZE [saIz] 	размер - oranges are graded by size and quality апельсины сортируют по величине и по качеству.
+COLOR [‘kAlq] 	цвет - that color combination isn't becoming to her ей не идёт это сочетание цветов.
+NUMBER ['nAmbq] 	число, номер - what's the number of your house? какой номер вашего дома? нумеровать he numbered the pages carefully он внимательно пронумеровал страницы.
+VIEW [vjH] 	вид - the trees blot out the view from here деревья загораживают нам вид отсюда.
+BEAUTY ['bjHtI]	красота - her beauty is beyond words её красота просто неописуема; a beauty contest конкурс красоты; красавица - she's a real beauty она настоящая красавица. 
+WHITE [waIt] 	белый - a white shirt белая рубашка; her dress is white у нее белое платье
+YELLOW ['jelou] 	желтый - a yellow flower желтый цветок; these flowers are yellow эти цветы желтого цвета;
+RED [red] 	красный - a red pencil красный карандаш; this car is red эта машина красного цвета.
+BROWN [braun] 	коричневый - a brown skirt коричневая юбка; the table is brown этот стол коричневого цвета.
+GREEN [grJn] 	зеленый - give me the green book дайте мне эту зелёную книгу the grass is green трава зеленая.
+BLUE [blH] 	синий, голубой - blue eyes голубые глаза; the sky is all blue небо совершенно голубое.
+GREY [greI] 	серый - a grey hat серая шляпа; the sky was grey all morning небо было серое всё утро.
+BLACK [blxk] 	черный - a black dog черная собака; his shoes are black; у него черные туфли.
+BRIGHT [braIt] 	яркий, светлый - bright sunshine яркий солнечный свет; the street lighting is very bright here уличное освещение здесь очень яркое.
+FAIR [fFq] 	светлый, ясный - she has fair hair у неё светлые волосы; she is fair она блондинка; прекрасный - the fair sex прекрасный пол; fair weather ясная погода; честный, справедливый - fair prices разумные цены; they were always fair to me они всегда относились ко мне справедливо.
+DARK [dRk] 	темный - a dark dress тёмное платье; it is dark here здесь темно.
+LITTLE [lItl] 	маленький - a little boy маленький мальчик; isn't that too little? а не маловато будет?
+SMALL [smLl] 	маленький - a small town маленький городок; these shoes are small for me эти туфли мне малы.
+BIG [bIg] 	большой - a big house большой дом; this bag is not big enough этот мешок недостаточно велик.
+LARGE [lRG] 	большой; крупный - a large room просторная комната; this box is not large enough эта коробка недостаточно велика.
+GREAT [greIt] 	огромный, великолепный - a great man великий человеком; the distance is too great to walk это слишком большое расстояние, чтобы идти пешком.
+GRAND [grxnd] 	великий, великолепный - it was grand weather for tennis это была великолепная погода для игры в теннис.
+SHORT [SLt] 	короткий - a short distance короткая дистанция; this coat is too short это пальто слишком короткое.
+TALL [tLl] 	высокий - a tall man высокий человек; my brother is very tall мой брат очень высокий.
+LONG [lON] 	длинный - long legs длинные ноги; a long life долгая жизнь; the story is too long этот рассказ слишком длинный.
+THIN [TIn] 	тонкий - a thin line тонкая линия; the paper is too thin эта бумага слишком тонкая.
+THICK [TIk] 	толстый - a thick book толстая книга; that syrup is not thick enough сироп не достаточно густой.
+FAT [fxt] 	толстый, жирный - a fat face жирная физиономия; he is too fat он слишком толстый.
+LOW [lou] 	низкий - low ceiling низкий потолок; the temperature is very low today температура сегодня очень низкая.
+HIGH [haI] 	высокий - high mountains высокие горы; a tree 20 metres high дерево высотой в двадцать метров.
+DEEP [dJp] 	глубокий - deep sleep глубокий сон; this lake is very deep это озеро очень глубокое.
+SHALLOW ['Sxlou] 	мелкий, неглубокий, поверхностный - shallow water мель; the river is shallow here здесь река мелкая.
+DIRECT ['nLmql] 	прямой - the result is the direct opposite of what we expected результат получился прямо противоположный тому, что мы ожидали; his answers are always direct он всегда даёт прямые ответы; направлять - ask the policeman who is directing traffic спросите полицейского, который регулирует движение.
+RIGHT [raIt] 	правый - the right hand правая рука; правильный; the right answer правильный ответ; you are right вы правы.
+LEFT [left] 	левый - take the bag in your left hand возьмите чемодан в левую руку.
+CLOSE [klous] 	близкий - a close distance близкое расстояние; the hotel is close to the station эта гостиница находится близко от вокзала.
+FAR [fR] 	далекий - in the far corner в дальнем углу; London is far away Лондон далеко.
+DISTANT ['nLmql] 	отдаленный - my brother lives in a distant part of town мой брат живёт в отдалённой чисти города;
+BAD [bxd]WORSE, WORST 	плохой, дурной - bad food плохая пища; the food is bad here кормят тут очень неважно; his affairs went from bad to worse его дела шли всё хуже и хуже; the worst part of the trip is past худшая часть поездки уже позади.
+GOOD [gud]BETTER, BEST 	хороший - it's a good book это хорошая книга; I am not good at that я в этом не силён; I want a better room я хотел бы комнату получше; she keeps her best dishes in that cabinet она держит свою лучшую посуду в атом шкафу.
+FINE [faIn] 	хороший, прекрасный - it's a fine day today сегодня хорошая погода; I am fine я в порядке.
+PERFECT [‘pWfIkt] 	совершенный - he speaks perfect Russian он прекрасно говорит по-русски.
+ABSOLUTE ['nLmql] 	полный, совершенный, абсолютный - that's the absolute truth это абсолютная правда.
+SOFT [sOft] 	мягкий - a soft cheese мягкий сыр; the cement walk is still soft цементная дорожка ещё не затвердела.
+HARD [hRd] 	твердый - a hard seat жёсткое сиденье; the ground is too hard земля здесь слишком твердая.
+FIRM [fWm] 	твердый - we must take a firm stand on this matter в этом вопросе мы должны занять твёрдую позицию.
+LIGHT [laIt] 	легкий - light clothing легкая одежда; she's very light on her feet у неё очень лёгкая походка.
+HEAVY [hevI] 	тяжелый - a heavy stone тяжелый камень; the box is too heavy to lift ящик слишком тяжелый – не поднимешь.
+EMPTY ['emptI] 	пустой - an empty box пустая коробка; the hall is still empty зал еще пустой.
+FULL [ful] 	полный - a full glass полный стакан; that book is full of mistakes в этой книге полно ошибок.
+FLAT [flxt] 	плоский, ровный - that house with the flat roof тот дом с плоской крышей; this field is very flat это очень ровное поле;.
+EVEN [‘Jvqn] 	ровный - the train traveled at an even speed поезд шёл с равномерной скоростью.
+ROUGH ['rAf] 	неровный, грубый - the bark of this tree is very rough кopа этого дерева очень шероховата.
+BITTER ['bItq] 	горький - a bitter lemon горький лимон; this coffee is too bitter этот кофе слишком горький.
+SWEET [swJt] 	сладкий - sweet wine сладкое вино; the tea is too sweet чай слишком сладкий.
+COLD [kould] 	холодный - cold water холодная вода; it is cold холодно.
+HOT [hOt] 	жаркий - hot day жаркий день; the sun is hot today сегодня солнце печёт.
+COOL [kHl] 	прохладный - a cool breeze прохладный ветерок; the water in this river is cool вода в этой реке холодная.
+WARM [wLm] 	тёплый - warm milk тёплое молоко; your coat isn't warm enough у вас недостаточно теплое пальто.
+DRY [draI] 	сухой - dry weather сухая погода; the streets are dry now на улице уже сухо.
+WET [wet] 	мокрый - wet clothes мокрая одежда; my shirt is all wet моя рубашка совсем мокрая.
+SIMPLE [sImpl] 	простой - I have a simple plan for getting him to agree у меня есть простой спбсоб заставить его согласиться,
+DIFFICULT ['dIfIkqlt] 	сложный, трудный - a difficult period of American history тяжёлая эпоха в истории Америки; it is difficult это сложно.
+SLOW [slou] 	медленный - it's а very slow process это очень медленный процесс; his progress is slow его работа продвигается медленно.
+FAST [fRst] 	быстрый - a fast train скорый поезд; your watch is too fast ваши часы спешат.
+QUICK [kwIk] 	быстрый, скорый - I had a quick look at the paper я быстро просмотрел газету.
+EARLY [WlI] 	ранний - he's an early bird он рано встает; it's too early to leave выходить еще рано.
+LATE [leIt] 	поздний - late hour поздний час; the train was late поезд опаздывал.
+first [fWst] 	первый - the first step первый шаг.
+second ['sekqnd] 	второй - the second page вторая страница.
+third [TWd] 	третий - the third example третий пример.
+LAST [lRst] 	последний - I spent my last ruble for lunch я истратил последний рубль на завтрак.
+CHEAP [CJp] 	дешевый - a cheap room дешёвая комната; this car is cheap это дешевая машина.
+DEAR [dIq] 	дорогой - my dear friend мой дорогой друг; she is very dear to me она мне очень дорога.
+REAL [rIql] 	настоящий - she's a real beauty она настоящая красавица.
+CORRECT ['nLmql] 	правильный - is this the correct address? это правильный адрес? you're absolutely correct вы совершенно правы; поправлять - please correct my mistakes when I talk Russian пожалуйста, поправляйте мой ошибки, когда я говорю по-русски.
+TRUE [trH] 	правдивый, соответствующий истине - I've read somewhere that it's not true я где-то читал, что это неправда.
+WRONG [rON] 	неправильный; неверный - they gave me the wrong information они дали мне неправильные сведения; you're wrong вы неправы.
+ABSURD ['nLmql] 	нелепый, абсурдный - what an absurd idea! ч то за дикая идея! абсурд - his argument borders on the absurd его доводы граничат с абсурдом.
+STRANGE [streInG] 	странный - a strange thing happened to me со мной случилась странная вещь; it's very strange это очень странно.
+NORMAL ['nLmql] 	нормальный, обыкновенный, обычный - it's normal weather for the time of year такая погода обычна для этого времени года; he is perfectly normal он совершенно нормален.
+AUDIO ['nLmql] 	звуковой, аудио- - audio files звуковые файлы; (как существительное) he played the audio for the first time он в первый раз прослушал запись.
+VIDEO ['nLmql] 	телевизионный, видео- - video shows телевизионные шоу; (как существительное) a web video видео, размещенное в Сети.
+SILLY ['sIlI] 	глупый - what a silly girl! какая глупая девочка! it is silly это глупо.
+CLEVER ['klevq] 	умный, смышленый - a clever book умная книга; it was clever of you это было умно с вашей стороны.
+ACCURATE ['nLmql] 	аккуратный - they're famous for their accurate work они славятся своей аккуратной работой.
+KIND [kaInd] 	добрый, любезный, сердечный - a kind heart доброе сердце; he was very kind to me он был очень добр ко мне;
+MEAN [mJn] 	злой, подлый - it was mean of him это было подло с его стороны.
+SAD [sxd] 	печальный, грустный - sad songs грустные песни; I am sad мне грустно.
+GAY ['hxpI] 	веселый - there was a gay party going on last night in the apartment next door вчера вечером в соседней квартире была весёлая вечеринка..
+ILL [Il] 	больной - he was very ill last week он очень болел на прошлой неделе.
+SICK [sIk] 	больной - he's a very sick man он тяжело больной человек; he was sick last week он болел на прошлой неделе.
+MAD [mxd] 	сумасшедший - a mad dog бешеная собака; she was mad about him она была от него без ума. 
+POOR [puq] 	бедный - a poor man бедняк; the pay here is poor здесь мало платят.
+RICH [rIC] 	богатый - rich clients богатые клиенты; he is very rich он очень богат.
+RUDE [rHd] 	грубый - I’ll teach him not to be rude to visitors! я ему покажу, как грубить посетителям!
+NICE [naIs] 	милый, приятный - what a nice girl! какая славная девочка! it would be nice to have some tea было бы неплохо выпить чайку.
+YOUNG [jAN] 	молодой - a young lady девушка; I was young then я тогда был молод.
+NEW [njH] 	новый - new ideas новые идеи; I am new at this kind of work в этой работе я новичок.
+OLD [ould] 	старый - an old man старик; I am too old for that я для этого слишком стар.
+WEAK [wJk] 	слабый - a weak guy хилый парень; he is weak in maths он слаб в математике.
+STRONG [strON] 	сильный - he has strong hands у него сильные руки; he is very strong он очень силен. 
+QUIET ['kwaIqt] 	тихий, спокойный - quiet life спокойная жизнь; can't you be quiet? нельзя ли потише?
+LOUD [laud] 	громкий - a loud voice громкий голос; she's very loud она очень шумлива. 
+FREE [frJ] 	свободный - this is a free country это свободная страна; now I'm free as a bird теперь я свободен как птица.
+BUSY ['bIzI] 	занятый - he's a very busy man он очень занятой человек; this morning I was too busy сегодня утром я был слишком занят.
+SORRY ['sOrI] 	be sorry жалеть, сожалеть - I'm sorry to be late извините, что я опоздал; I'm not sorry I did it я не жалею, что сделал это; I'm sorry!/sorry! извините!
+GLAD [glxd] 	be glad рад - I'll be glad to go я буду очень рад пойти; I'm glad to meet you очень рад с вами познакомиться;
+AFRAID [q'freId] 	be afraid бояться - don't be afraid! не бойтесь! I'm afraid of wolves я боюсь волков.
+ABLE [eIbl] 	be able мочь, быть способным что-либо сделать - he is not able to understand it он не может этого понять; will you be able to translate it? вы сумеете это перевести?
+READY['redI] 	be ready быть готовым - dinner is ready обед готов; be ready to leave at any moment будьте готовы уехать в любой момент.
+SURE [Suq] 	be sure быть уверенным - I'm sure he can do the job я уверен, что он может 
+LIE [laI]LAY [leI]LAIN [leIn] 	лежать - the doctor ordered me to lie flat on my back доктор велел мне лежать на спине; I was lying on the couch half asleep я лежал на кушетке в полусне; he lay on the sofa and read the paper он лежал на диване и читал газету; have you lain there all day? вы пролежали там весь день?
+SIT [sIt]SAT [sxt] 	садиться, сидеть - I don't like to sit too close to the screen я не люблю сидеть слишком близко от экрана; they were sitting when we came in они уже сидели, когда мы вошли; she sat next to me at the theater она сидела в театре рядом со мной.
+STAND [stxnd]STOOD [stud] 	стоять - I had to stand in line to get cigarettes мне пришлось стоять в очереди, чтобы получить сигареты; he was standing at the bar when I walked into the club когда я вошёл в клуб, он стоял у стойки; a group of students stood in the street нa улице стояла группа студентов; the old clock has stood on the shelf for years старые часы уже много лет стоят тут на полке; ларек, стенд, киоск - we'll meet at the newspaper stand мы встретимся у газетного киоска.
+COME [kAm]CAME [keIm]COME [kAm] 	приходить, приезжать - will you be able to come? вы сможете придти? winter is coming and he has no warm overcoat дело к зиме идёт, а у него нет тёплого пальто; she came late at night она пришла поздно ночью; I've come after my passport я пришёл за моим паспортом.
+APPEAR [q'pIq]APPEARED 	появляться - his book will appear in two volumes его книга выйдет в двух томах; the paper appears every day эта газета выходит каждый день; the first star appeared in the sky на небе показалась первая звёздочка; wrinkles have appeared under her eyes.у неё появились морщинки под глазами.
+ARRIVE [q'raIv]ARRIVED 	прибывать - let me know the moment he arrives дайте мне знать, как только он приедет; he[b]'s arriving[/b] next Monday он приезжает в будущий понедельник; they arrived a bit later than the others они пришли немножко позже, чем другие; at last the train has arrived наконец пришел поезд.
+GET [get]GOT [got]GOTTEN [gOtn] 	попадать, добираться (куда-либо) - they were afraid we wouldn't get there они боялись, что мы туда не попадём; a storm came on before we got home гроза разразилась раньше, чем мы успели дойти до дому.
+PASS [pRs, pxs] PASSED 	проходить - I pass the bank every day on the way to work по дороге на работу я каждый день прохожу мимо банка; he passed by me он прошёл мимо меня.
+GO [gou]WENT [went] GONE [gOn, gLn] 	идти, уходить - I was about to go when he came я собирался уходить, когда он пришел; we're going to the depot to meet the train мы идём на вокзал встречать поезд; I went for a walk, while he continued working я пошёл гулять, а он продолжил работать; has he gone home? он пошёл домой?
+LEAVE [lJv]  покидать.
+LEFT[left]  покидать, уезжать - the train is about to leave поезд сейчас тронется; he left a while ago он недавно ушел.
+STAY [steI] оставаться - I'll go out of courtesy, but I'd rather stay home я пойду из вежливости, но предпочел бы остаться дома; he stayed there for an hour он пробыл там час.
+RETURN [rI’tWn] возвращать(ся) - please return these books by Saturday пожалуйста, верните эти книги не позже субботы; I was directed to wait until he returned мне велели ждать его возвращения. 
+WALK [wLk]WALKED 	ходить - I love [b]to walk</b> along the river every morning я люблю гулять по берегу реки по утрам; he was walking up and down the room он ходил взад и вперёд по комнате; she walked into the dining room она вошла в столовую; прогулка - let's take a walk to kill some time давайте погуляем, чтобы убить время.
+RUN [rAn]RAN [rxn]RUN [rAn] 	бежать - you'll have to run if you want to catch the train бегите, если хотите попасть на поезд; I was running quickly я бежал быстро; the child ran to its mother ребёнок побежал к матери; that engine hasn't run well from the first этот мотор с самого начала плохо работал; бег - let's make a run for it давайте побежим.
+JUMP [GAmp] JUMPED 	прыгать - see how high you can jump посмотрим, как высоко вы можете прыгнуть; I'm so happy my heart's jumping with joy у меня сердце так и прыгает от радости; the horse jumped over the fence лошадь перескочила через забор; прыжок - that was his first parachute jump это был его первый прыжок с парашютом.
+MOVE [mHv] MOVED 	двигать(ся) - I can't move я не могу двинуться; the train is already moving поезд уже двигается; I just moved into a new flat я только что переехал на новую квартиру; he [b]has moved</b> to London он переехал в Лондон; движение, ход - whose move is it now? чей теперь ход?
+TURN [tWn] TURNED поворачивать - walk three blocks and then turn right пройдите три квартала и потом поверните направо; it looks as if the wind [b]is turning[/b] ветер как будто начинает дуть в другом направлении;he just turned the corner он только что завернул за угол; the weather [b]has turned</b> погода изменилась; поворот - make a turn to the left at the next corner нa следующем углу поверните налево.
+RISE [raIz] ROSE [rouz] RISEN ['raIzqn] 	подниматься - I've disciplined myself [b]to rise</b> early я приучил себя рано вставать; the ground [b]rises[/b] a little behind the house за домом небольшой подъём. prices [b]are[/b] still [b]rising[/b] цены всё подымаются; he rose from his chair он поднялся со стула; the curtain[b]'s[/b] already risen занавес уже поднялся; восход, подъем - the house is on a little rise дом стоит на небольшом возвышении.
+FALL [fLl] FELL [fel] FALLEN [‘fLlqn] падать - hold him, or he'll fall поддержите его, а то он упадёт; the holiday falls on Monday this year в этом году праздник подает на понедбльник; the leaves are falling from the trees листья подают с деревьев; he cut his hand when he fell он порезал себе руку, когда упал; only a few drops of rain [b]have fallen</b> упало только несколько капель дождя; падение - she had a bad fall last winter and broke her leg прошлой зимой она неудачно упала и сломала ногу.
+SWIM [swIm] SWAM [swxm] SWUM [swAm] 	плыть, плавать - it is dangerous to swim here тут купаться опасно; this is an ideal place for swimming это идеальное место для плавания; he swam to the other side он поплыл на другую сторону; they've swum a long way они проплыли большое расстояние.
+FLY [flaI] FLEW [flH] FLOWN [floun] летать - did you ever fly? вы когда-нибудь летели? the plane is flying above clouds cамолёт летит над облаками; the pigeon flew in the window голубь влетел в окно; have you flown before? вы уже летали когдй-нибудь? муха - he brushed away the fly он отогнал муху;
+TRAVEL [trxvl]TRAVELED 	путешествовать; разъезжать - I lost all desire [b]to travel[/b] у меня совершенно пропала охота к путешествиям; do they travel much? они много путешбствуют? the old American lady was traveling with her friend пожилая американка путешествовала со своим другом; he traveled all over the country он путешествовал по всей стране; he has traveled all over the world он объехал весь свет.
+RIDE [raId]RODE [roud]RIDDEN [rIdn] 	ездить (верхом или на машине) - would you like to ride in my car? хотите поехать в моей машине? it happened that we were riding on the same train оказалось, что мы ехали в одном поезде; we rode in a beautiful car мы ехали в прекрасном автомобиле; he's ridden horses all his life он всю свою жизнь ездил верхом. поездка (верхом или на машине) - let's take a ride in his car давайте поедем покататься на его машине.
+DRIVE [draIv]DROVE [drouv]DRIVEN ['drIvqn] 	ехать (на машине) - If I drive, I can cover a lot of ground in one day если я сам за рулём, я за день покрываю большое расстояние; you[b]'re driving[/b] too fast вы едете слишком быстро; вести (машину) - I don't know how to drive a car я не умею править машиной; my friend drove me home in his new car мой приятель отвёз меня домой на своей новой машине; the car was driven by a woman машиной правила женщина.
+ROCK [rOk]ROCKED 	качаться - the boat began [b]to rock[/b] from side to side лодка начала раскачиваться из стороны в сторону: качать - she was finally able to rock the baby to sleep наконец-то ей удалось укачать ребёнка; she rocked the cradle она качала колыбель
+ROLL [roul]ROLLED 	катиться, поворачиваться - roll over on your back повернитесь на спину;катить, катать, скручивать - roll the barrel over here прикатите бочку сюда; he rolls his own cigarettes он сам скручивает себе папироски; she's laughing, but tears are rolling down her cheeks она смеется, а у самой слёзы текут; the ball rolled down the hill мяч покатился вниз по холму; the paper is rolled up бумага свёрнута в трубку; рулон, свиток, катушка - he used a whole roll of wallpaper он использовал целый рулон обоев.
+MEET [mJt]MET [met] 	встречать - did you meet anyone on the road? вы никого не встретили на дороге? who's meeting you at the station? кто вас встречает на вокзале? I met him by accident я его встретил случайно; have you ever met him before? вы с ним уже когда-нибудь встречались?
+FOLLOW ['fOlou] FOLLOWED 	следовать за - let's follow the crowd пойдём за толпой она идет следом за нами; I go with my husband, as the thread follows the needle я еду с мужем, как нитка за иголкой. they're following us они следуют за нами; the dog followed the hot scent собака шла по горячему следу. 
+LAY [leI]LAID [leId] 	класть - lay the book here положите книгу сюда; I lay hundred dollars to one that you succeed ставлю сто долларов против одного, что вам это удается; we're laying a new road here мы тут прокладываем новую дорогу; the hen laid an egg курица снесла яйцо; have you [b]laid</b> out the soup plates? а глубокие тарелки вы поставили?
+PUT [put]PUT [put]	класть, ставить, помещать - put it into a paper bag положите это в бумажный мешок; he never puts things in their place он никогда не кладет вещи на место; he's putting his affairs in order он приводит свой дела в порядок; the government put many millions into the building of this combine государство вложило десятки миллионов в постройку этого комбината; we have put the Christmas presents under the tree мы положили рождественские подарки под ёлку;
+SET [set]SET [set]	ставить, устанавливать - set the vase in the middle of the table поставьте вазу посредине стола; the sun sets at six o'clock tonight заход солнца сегодня в шесть часов; the sun is setting and it's getting cold солнце заходит, и становится холодно; he set the price at fifty dollars он назначил цену в пятьдесят долларов; my watch is set by London time у меня часы идут по ленинградскому времени; набор, комплект, сервиз (как что-то, что ставят) do you have a complete set of his works? есть у вас полное собрание его сочинений? устройство - my radio set needs fixing мой радиоприемник нужно чинить;
+GIVE [gIv]GAVE [geIv]GIVEN [‘gIvqn] 	давать - could you give me an example? вы можете мне дать примёр? today's paper gives further details of the accident сегодняшняя газета даёт дальнейшие подробности происшествия; we're giving a dinner for him мы даём обед в его честь; they gave me the wrong information они дали мне неправильные сведения; the figures are given in the table on page twenty цифры даны в таблице на двадцатой странице.
+TAKE [teIk]TOOK [tuk]TAKEN [teIkqn] 	брать - take anything you like берите все, что вам нравится; it takes him twenty minutes to walk home from the office ему от дома до работы десять минут ходьбы; sit still; I'm taking your picture не двигайтесь – снимаю! they took the child with them они взяли ребёнка с собой; have you taken your medicine this morning? вы сегодня утром приняли лекарство?
+COLLECT [kq’lekt]COLLECTED 	собирать - I collect stamps я собираю почтовые марки; the conductor has already collected the tickets проводник уже собрал билеты.
+CARRY ['kxrI]CARRIED 	нести, переносить, везти - the porter will carry your bags носильщик понесёт ваши чемоданы; the fireman carried her out of the house пожарный вынес её из дома.
+BRING [brIN]BROUGHT [brLt] 	приносить - bring another chair to the dining room принесите в столовую ещё один стул; the orchard brings us considerable profit фруктовый сад даёт нам порядочный доход; I brought my camera from America я привёз мой фотоаппарат из Америки; the laundress hasn't brought your wash yet ваше бельё ещё не пришло от прачки.
+REACH [rJC]REACHED 	достигать, дотягиваться - when do you expect to reach land? когда вы рассчитываете достигнуть берега? just before reaching the bridge you'll see a little white house нe доезжая до моста, вы увидите белый домик. we reached the open sea мы вышли в открытое море; he has reached the height of success он достиг вершины успеха.
+GET [get]GOT [gOt]GOTTEN [gOtn] 	приносить, приводить, привозить, получать, доставать - how did you manage [b]to get</b> these tickets? как вы ухитрились достать эти билеты? my brother got a job in one of the government bureaus мой брат получил работу в одном из государственных учреждений; I still haven't gotten formal notice of my assignment я ещё не получил официального сообщения о моём назначении.
+CATCH [kxC]CAUGHT [kLt] 	ловить - the police are trying to catch the criminal полиция старается поймать преступника; is there any chance of catching the train? есть ещё какая-нибудь возможность поспеть к поезду? he caught the ball он поймал мяч; we were caught in the rain мы попали под дождь.
+HOLD [hould]HELD [held] 	держать - will you hold my package a minute? подержите минутку мой пакет; зачем вы держите ребёнка на руках? why are you holding the child in your arms? she held the baby in her arms она держала ребёнка на руках; the board is held in place by a nut and bolt эта доска прикреплена гайкой и болтом.
+TIE [taI]TIED 	привязывать - tie а горе around the box перевяжите коробку верёвкой; he tied the horse to the tree он привязал лошадь к дереву; галстук - his tie doesn't match his suit его галстук не подходит к его костюму.
+HANG [hxN]HUNG [hAN]	вешать - hang the clothes on the line повесьте бельё на верёвку; вешать, висеть - that jacket hangs on you эта куртка на вас висит; your button is hanging by a thread у вас пуговица болтается (на ниточке); he hung the picture over the fireplace он повесил картину над камином
+PULL [pul]PULLED 	тащить, тянуть - let's pull the boat farther up on shore давайте втащим лодку подольше на берег; he pulled her towards him он потянул ее к себе.
+PUSH [puS]PUSHED 	толкать, нажимать - I was about to push the button when the door opened я собирался нажать кнопку звонка, когда дверь открылась; they pushed him forward его вытолкнули вперёд; they've pushed us to the wall они прижали нас к стене; the cork was pushed into the bottle пробку проткнули в бутылку.
+PRESS [pres]PRESSED 	нажимать - press the button and see what happens нажмите кнопку и посмотрите, что из этого выйдет; the crowd pressed against the gates толпа напирала на ворота.
+OPEN [oupn]OPENED 	открывать - please open the door for me пожалуйста, откройте мне дверь; he never even opened the book он эту книгу и не открывал; открытый - he stood at the open window он стоял у открытого окна.
+SHUT [SAt] SHUT 	закрывать - please shut the door пожалуйста, закройте дверь; they shut the dog in the house они заперли собаку в доме.
+COVER [kAvq]COVERED 	покрывать, закрывать - cover the pan with a lid накройте кастрюлю крышкой; we covered ten kilometers in half an hour мы покрыли расстояние в десять километров в полчаса; покров, чехол, крышка, одеяло, прикрытие - куда вы девали крышку от этой коробки? where did you put the cover of this box?
+CLOSE [klouz]CLOSED 	закрывать - close the door закройте дверь; he closed his speech with a toast to the master of the house он закончил свою речь тостом за хозяина дома; the gates are closed at six o'clock ворота закрывают в шесть часов.
+DROP [drOp]DROPPED 	ронять, падать - I let the cup drop я уронил чашку; he dropped the dish он уронил тарелку. капля - ten drops to be taken after meals.принимать по десять капель после еды.
+THROW [Trou] THREW [TrH]THROWN [Troun]  бросать, кидать.
+TOUCH [tAC]TOUCHED 	трогать - please don't touch those books пожалуйста, не трогайте этих книг; I felt that someone was touching my shoulder я почувствовал, что кто-то касается моего плеча; his head nearly touched the top of the door он чуть не задел головой притолоку; касание, прикосновение - I felt a gentle touch on my arm я почувствовал лёгкое прикосновение к моей руке.
+SHAKE [SeIk]SHOOK [Suk]SHAKEN [SeIkn] 	трясти - shake the bottle well before using перед употреблением взбалтывать; he finally shook off his depression он наконец стряхнул с себя уныние; I was deeply shaken я был потрясён до глубины души.
+BEAT [bJt]BEAT [bJt]BEATEN [bJtn] 	бить - please beat this carpet пожалуйста, выбейте этот ковёр; биться - my heart was beating rapidly у меня сильно билось сердце; we beat the rival team мы обыграли команду соперников; the hail has beaten down all the wheat in this field град побил всю пшеницу на поле; the enemy was beaten враг был побит.
+HIT [hIt]HIT [hIt] 	ударить - don't hit a man when he's down лежачего не бьют; he easily hits the center of the target at a hundred meters он легко попадает в центр мишени на расстоянии ста метров; why is he hitting the boy? за что он бьёт мальчишку? I hit him with a stick я ударил его палкой; you've hit it right это вы в точку попали; he was almost hit by a car this morning сегодня утром его чуть не сбила машина; удар - а direct hit прямое попадание.
+KNOCK [nOk]NOCKED 	стучать - shall I knock again? постучать ещё раз? he knocked at the door он постучал в дверь; стук - did you hear a knock? вы слышали стук?
+BREAK [breIk]BROKE [brouk]BROKEN [‘broukqn] 	ломать, разбивать, разрушать, нарушать - be careful not to break this glass! будьте осторожны, не разбейте стакан! the ice is breaking лёд уже пошёл; I just broke my nail я только что сломал ноготь; you've broken your promise вы нарушили своё обещание. разрыв, прорыв, пролом - a break in a pipe разрыв трубы;
+CUT [kAt]CUT 	резать - this knife doesn't cut этот нож не режет; I cut my chin while shaving я порезал себе подбородок при бритье.
+TEAR [tFq]TORE [tL]TORN [tLn] 	рвать - be careful not to tear your clothes on that nail осторожно, не разорвите платья об этот гвоздь; I tore my pants я разодрал себе штаны; I've torn the leg of my trousers я порвал себе штанину; прореха - do you think you can cover this tear with a patch? вы сможете положить заплатку на эту прореху?
+SHINE [SaIn]SHINED/SHONE 	светить, сиять - your boots shine like a mirror ваши ботинки блестят как зеркало; the sun isn't shining very hard today сегодня солнце не очень ярко светит; he shone in his class он блистал в своём классе; the sun shined like a great ball of fire; блеск, глянец - he gave his shoes a good shine он начистил ботинки до блеска;
+REFLECT [rI'flekt]REFLECTED 	отражать(ся) - don't you realize your behavior reflects on all of us? неужели вы не понимаете, что ваше поведение отражается на всех нас? What color reflects light the best? какой цвет лачше всего отражает лучи света? the trees are reflected in the pond деревья отражаются в пруду.
+BURN [bWn]BURNED 	гореть - the matches are damp and won't burn спички отсырели - не загораются; жечь, обжигать, сжигать - don't burn this paper нe сжигайте эти бумаги; my face is burning from the wind у меня всё лицо горит от ветра; he burned his bridges behind him он сжег мосты.
+BOIL [bOIl]BOILED 	кипеть - see that the milk doesn't boil over смотрите, чтобы молоко не убежало; кипятить - boil the milk, please вскипятите, пожалуйста, молоко; I boiled new potatoes for you я вам сварила молодую картошку
+GROW [grou]GREW[grou]GROWN [groun] 	расти- what kind of fruit grows here? какие сорта фруктов здесь растут? the number of members in our club is growing rapidly число членов нашего клуба быстро растет;; the little boy grew very fast мальчик рос очень быстро; your son sure has grown in a year! как ваш сын вырос за этот год!
+BECOME [bI'kAm]BECAME [bI'keIm]BECOME [bI'kAm] 	становиться; делаться - his goal was to become famous он поставил себе целью стать знаменитостью; the situation is becoming clear now дело начинает проясниться; he became an expert in that он стал в этом специалистом; his secret has become generally known его секрет стал всем известен.
+BE/AM/IS/ARE [bJ], [xm], [Iz], [R]WAS/WERE [wOz], [wW]BEEN [bJn] 	быть - above all, remember to be on time самое главное, не забудьте быть вовремя; I am an American citizen я американский гражданин; the book is on the table книга лежит на столе; you are under arrest вы арестованы; I was here two months ago я был здесь два месяца тому назад; we were at the Brown's yesterday мы вчера были у Браунов.
+SEAM [mJn]SEEMED [ment] 	казаться - hе seems cruel, but at bottom he is very kind он только кажется жестоким, а на самом деле, он очень добрый человек; his behavior seemed a little irregular to me его поведение показалось мне странным.
+MEAN [mJn]MEANT [ment] 	иметь в виду - what do you mean by that? что вы этим хотите сказать? she thought they meant her она это приняла на свой счёт; it wasn't meant for you нe относите этого на свой счёт.
+DIFFER ['dIfq]DIFFERED 	отличаться, различаться they differ in many respects они многим отличаются друг от друга; he differed from ordinary people он отличался от обычных людей.
+BEGIN [bI'gIn]BEGAN [bI'gxn] 	начинать(ся) - to begin with, we haven't enough money начать с того, что у нас денег недостаточно; the leaves are beginning to fall листья начинают подать; the crowd began to move off толпа начала расходиться.
+CONTINUE [kqn'tInH]
+CONTINUED 	продолжаться - the performance will continue after a ten-minute intermission после десятиминутного антракта спектакль будет продолжен; продолжать - very good! Continue in the same way очень хорошо! продолжайте в том же духе; they continued working after I left они продолжили работу после моего ухода.
+LAST[lRst, lxst] 	#длиться## - my association with this group didn't last long моя связь с этой группой продолжалась недолго.
+COST [kOst]COST [kOst] 	стоить - this costs more than I expected это стоит больше, чем я ожидал; It cost thirty dollars это стоило тридцать долларов; стоимость - what's the actual cost? какова действительная стоимость?
+WEIGH [weI]WEIGHED 	весить, взвешивать(ся) - he weighs a good one hundred and twenty kilos он весит по меньшей мере сто двадцать кило; please weigh this package for me пожалуйста, взвесьте мне этот пакет; she weighed the flour она взвесила муку.
+LIVE [lIv]LIVED 	жить - he lives five kilometers from the village он живёт в пяти километрах от деревни; we are living in the age of invention мы живем в эпоху технических открытий; he lived in France for a long time он долго жил во Франции; I've lived in the Far North for several years я несколько лет прбжил на крайнем севере.
+DIE [daI]DIED 	умирать - you only die once двум смертям не бывать, а одной не миновать; he was dying of thirst он умирал от жажды;he died not long before the war он умер незадолго до войны; Jack Smith has died at age 62 умер Джек Смит, ему было 62 года.
+SLEEP [slJp]SLEPT [slept] 	спать - I don't like to sleep on a hard bed я не люблю спать на жёсткой кровати; she's sleeping peacefully она мирно спит; he slept all morning он проспал всё утро; I haven't slept all night long я не спал всю ночь напролет; сон - he was tired and fell into a heavy sleep он устал и заснул тяжёлым сном;
+WAKE [weIk]WOKE [wouk]WOKEN 	просыпаться; будить - I woke up very early today я сегодня проснулся очень рано; please wake me at seven o'clock пожалуйста, разбудите меня в семь часов; this woke unpleasant memories это пробудило неприятные воспоминания.
+DRINK [drINk]DRANK [drxNk]DRUNK [drANk] 	пить - I drink plenty of milk я пью много молока; he's drinking one glass after another он пьет стакан за стаканом; we drank to Russian-American friendship мы выпили за российско-американскую дружбу; have the children drunk their milk yet? дети уже выпили своё молоко? напиток - I offered him a drink of vodka but he refused it я предложил ему водки, но он отказался.
+EAT [Jt]ATE[et, eIt]EATEN [Jtn] 	есть, кушать - I want something to eat я хотел бы чего-нибудь поесть; we eat in the kitchen мы едим в кухне; wait till I finish eating подождите, пока я поем; he ate ten apples он съел десять яблок; I haven't eaten for two days я уже два дня ничего не ел. 
+SEE [sJ]SAW [sL]SEEN [sJn] 	видеть - he can't see without his glasses он ничего не видит без очков; I saw him walking down the street я видел, как он шёл по улице; you've probably seen that already вы вероятно уже видели это.
+LOOK [luk]LOOKED 	смотреть - could I look at that book? можно мне посмотреть эту книгу? взгляд - take a good look посмотрите хорошенько; we looked at the picture a long time мы долго смотрели на эту картину; I've looked everywhere for that book, but can't find it я повсюду искал эту книгу, но не могу её найти.
+WATCH [wOC]WATCHED 	смотреть; наблюдать - watch my car for me, please пожалуйста, постерегите мою машину; we stood and watched the planes at the airport мы стояли и смотрели, как самолёты спускались на аэродром.
+OBSERVE [qb'zWv]OBSERVED 	наблюдать - we can observe better from above нам лучше будет наблюдать сверху.
+EXAMINE [ig'zxmIn]EXAMINED 	осматривать, изучать - we should examine the claims made on both sides мы должны рассмотреть требования, предъявленные обеими сторонами; I examined the whole problem closely я внимательно изучил всю эту проблему.
+HEAR [hIq]HEARD [hWd] 	слышать - didn't you hear the command? разве вы не слышали команды? I just heard the telephone ring я только что слышал телефонный звонок; I've never heard of him я никогда о нём не слышал.
+LISTEN [lIsn]LISTENED 	слушать - I like to listen to good music я люблю слышать хорошую музыку; they listened to the speaker with intense interest они слушали оратора с жадным интересом.
+FEEL [fJl]FELT [felt] 	чувствовать - I feel much better, thanks благодарю вас, я чувствую себя гораздо лучше; I am not feeling well я себя плохо чувствую; I felt tired last night я чувствовал себя усталым вчера вечером; I've never felt so hot мне ещё никогда не было так жарко.
+SMELL [smel]SMELLED 	чувствовать запах; пахнуть - do you smell smoke? вы чувствуете запах дыма? That perfume smells good эти духи хорошо пухнут; запах - what is that smell? что это за запах? Не smelled of vodka от него несло водкой.
+TASTE [teIst]TASTED 	пробовать - just taste this coffee вы только попробуйте этот кофе; this wine tastes bitter у этого вина какой-то горький вкус; I've never tasted such soup! я ещё никогда не ел такого супа! вкус - I've got a bad taste in my mouth у меня плохой вкус во рту.
+KNOW [nou]KNEW [njH]KNOWN [noun] 	знать - I don't know what language he speaks я не знаю, на каком языке он говорит; I knew it! Я так и знал! I feel as though I've known you for a long time у меня такое чувство будто я вас давно знаю.
+UNDERSTAND ["Andq'stxnd]UNDERSTOOD ["Andq'stHd] 	понимать - he isn't able to understand it он не может этого понять; I understood this somewhat differently я это понял несколько иначе.
+BELIEVE [bI'lJv]BELIEVIED 	верить - Do you believe what he says? вы верите тому, что он говорит? And you believed him? и вы ему поверили?
+THINK [TINk]THOUGHT [TLt] 	думать - I think I'm right я думаю, что я прав; he is less intelligent than I thought он не так умен, как я думал; мысль - someone else wouldn't even have thought of it иному и в голову бы это не пришло.
+REMEMBER [rI’membq] 	помнить - do you remember the first time I came here? вы помните, как я в первый раз пришёл сюда?
+FORGET [fq'get]FORGOT [fq'gOt]FORGOTTEN [fq’gOtn] 	забывать - don't forget your key нe забудьте ключ; we forgot to close the windows а мы забыли закрыть окна; I'm sorry, I've forgotten your name простите, я забыл вашу фамилию.
+COUNT [kaunt]COUNTED 	считать(ся) - count from one to a hundred считайте от одного до ста; every minute counts каждая минута дорога; you can count on him вы можете на него рассчитывать; the secretary counted the votes секретарь посчитал голоса. счёт (процесс пересчитывания); расчет by rough count the trip cost a thousand rubles поездка обошлось нам приблизительно в тысячу рублей;
+COMPUTE [kqm'pjHt]COMPUTED 	вычислять.
+LIKE [laIk]LIKED 	любить, нравиться - do you like boxing? вы любите бокс? I liked his speech very much мне его речь очень понравилась.
+LOVE [lAv]LOVED 	любить - I love to wear sport clothes я очень люблю носить вещи спортивного стиля; they loved each other madly они безумно любили друг друга; любовь - they fell in love with each other at first sight они влюбились друг в друга с первого взгляда.
+HATE [heIt]HATED 	ненавидеть - she hates him она его ненавидит;nthey hated one another они ненавидели друг друга.
+FEAR [fIq]FEARED 	бояться - you have nothing to fear вам ничего бояться; the doctor feared that the patient couldn't stand the operation доктор опасался, что больной не перенесёт операции; страх - he went to the station early for fear of missing the train он поехал на вокзал рано, потому что боялся опоздать на поезд.
+WANT [wOnt]WANTED 	хотеть - what do you want? что вы хотите?I wanted to tell you something я хотел вам кое-что сказать; he has always wanted to be an author он всегда хотел быть писателем.
+WISH [wIS]WISHED 	хотеть; желать - I wish you joy in your marriage желаю вам счастья в браке; inwardly I was wishing he'd go to hell в душе я его посылал к черту; we wished him luck in his new job мы пожелали ему удачи в его новой работе.
+CHOOSE [CHz]CHOSE [Couz]CHOSEN [’Couzqn] 	выбирать - let's choose a captain for our team. давайте выберем капитана для нашей команды; I chose a few books in the library я выбрал в библиотеке несколько книг; have you chosen a hotel for the night? вы уже выбрали себе гостиницу для ночлега?
+DECIDE [dI'saId]DECIDED 	решать - it's rather early to decide ещё, пожалуй, рано решать; he decided to do it at all costs он решил это сделать во что бы то ни стало; as far as I know, they haven't decided yet.
+EXPECT [Iks'pekt]EXPECTED 	ждать, ожидать, предполагать - do you expect an increase in salary? вы ожидаете повышения зарплаты? This costs more than I expected это стоит больше, чем я ожидал.
+WAIT [weIt]WAITED 	ждать - it was a bad idea to wait so long это была неудачная идея ждать так долго; I'm waiting for an answer я жду ответа;he waited until everyone had left the train он ждал, пока все вышли из поезда.
+WORRY ['wWrI]WORRIED 	беспокоить - don't worry нe беспокойтесь; it worried me to read that economy is getting worse я прочел, что экономическое положение ухудшается и это меня обеспокоило.
+UPSET ['wWrI]UPSET 	опрокидывать [Ap'set] - someone upset a pail of water here тут кто-то опрокинул ведро с водой. расстраивать - don't upset her нe расстраивайте её; I'm so upset today я сегодня так расстроен; расстройство ['Ap"set]
+DREAM [drJm]DREAMED 	мечтать; мечта - their new house is a dream их новый дом — настоящая мечта; видеть сны; сон - last night I dreamed that I was home мне вчера снилось, что я был дома;
+HOPE [houp]HOPED 	надеяться - I hope you can come я надеюсь, что вы сможете придти; they hoped their wishes would come true они надеялись, что их желания осуществятся; I had hoped that you wouldn't let this happen я надеялся, что вы до этого не допустите; надежда - don't lose hope не теряйте надежды. надеяться.
+INTEREST ['IntrIst]INTERESTED 	интересовать - does this interest you? это вас интересует? I am interested in child literature я интересуюсь детской литературой; интерес - interest in Russia is increasing in the United States интерес к России в Соединённых Штатах возрастает; проценты - how much interest does it pay? сколько это приносит процентов?
+ATTRACT [q'trxkt]ATTRACTED 	привлекать - this offer doesn't attract me at al это предложение меня ничуть не привлекает. 
+SPEAK [spJk]SPOKE [spouk]SPOKEN ['spoukqn] 	говорить - he speaks English with a Russian accent он говорит по-английски с русским акцентом who is speaking at the meeting tonight? кто сегодня вечером выступает на собрании? none of them spoke to me никто из них со мной не говорил; I haven't spoken Russian for years я уже много лет не говорил по-русски.
+SAY [seI]SAID [sed] 	говорить - the doctor says she is getting better доктор говорит, что она поправляется; what nonsense you're saying! что за чушь вы несете! he said he wanted to marry her он сказал, что хотел бы на ней жениться; I've said nothing of the sort я ничего подобного не говорил.
+TALK [tLk]TALKED 	говорить - he loves to talk about his travels in great detail он любит очень подробно рассказывать о своих путешествиях; they were talking about the war они говорили о войне; he talked to me for a solid hour он говорил со мной целый час; haven't you two talked yourselves out yet? вы всё ещё не наговорились! разговор - his talk was long and dull его речь была длинная и скучная.
+TELL [tel]TOLD [tould] 	говорить - listen, 1 have something to tell you послушайте, я хочу вам что-то сказать; I'm telling you the bare truth я говорю вам чистую правду; she told me how to do it она мне сказала, как это делать; don't repeat what I have told you нe говорите никому того, что я вам сказал.
+COMMAND [kq'mxnd]COMMANDED [tould] 	команловать - he commanded my regiment он командовал моим полком; we were commanded to take to the lifeboats нам было приказано сесть в спасительные лодки; команда - didn't you hear the command? разве вы не слышали команды?
+STATE [steIt] 	заявлять - state your business изложите ваше дело.
+EXPLAIN [Iks'pleIn]EXPLAINED 	объяснять - could you explain how this machine works? вы можете объяснить, как действует эта машина? yesterday he explained his plan to me он вчера изложил мне свой план; I've already explained it to him many times я уже объяснил ему это много раз.
+DECLARE [dI'klFq]DECLARED [tould] 	объявлять, заявлять - I have no articles of value to declare у меня нет никаких предметов, которые нужно декларировать на таможе; the court declared him innocent суд признал его невиновным.
+PROTESTPROTESTED 	протестовать [prq'test] - we protested to the chairman мы обратились с протестом к председателю; протест ['prou"test]- he brushed my protests aside он отмахнулся от моих протестов.
+CRY [kraI]CRIED 	плакать; плач – stop teasing her; can't you see she's going to cry? хватит дразнить её, разве вы не видите, что она вот-вот расплачется; he almost cried он чуть не плакал. кричать; крик - did you hear a cry? вы слышали крик?
+SHOUT [Saut]SHOUTED 	кричать - you don't have to shout; I can hear you вы можете не кричать, я вас слышу; he's shouting at us that we've taken the wrong road он кричит, что мы не по той дороге поехали; he shouted and heard the echo он крикнул и услышал эхо. крик - did you hear a shout from the lake just now? вы слышали, только что был крик на озере;
+SING [sIN] петь
+SANG [sxN]SUNG [sAN] 	петь - she sings beautifully она прекрасно поёт; who's singing the part of Onegin today? кто сегодня поёт Онегина? she sang in a soft voice она пела вполголоса; I've never sung this before я этого никогда раньше не пел.
+ASK [Rsk]ASKED 	спрашивать, просить - may I ask you a question? можно задать вам вопрос? I asked the clerk to show me the list of new prices я попросил продавца показать мне новый прейскурант; two or three other people have asked me that question ещё два или три человека задали мне этот же вопрос.
+CALL [kLl]CALLED 	звать - don't hesitate to call if you need me нe стесняйтесь обращаться ко мне, если я вам понадоблюсь; six men stepped forward when their names were called шесть человек выступили вперёд, когда их вызвали; звонить; звонок, вызов - were there any calls for me? меня кто-нибудь вызывал по телефону? называть - what do you call this in Russian? как это называется по-русски?
+SMILE [smaIl]SMILED 	улыбаться - he never smiles он никогда не улыбнется; she's always smiling; she smiled as she listened to me она слушала меня с улыбкой; улыбка - he has a very friendly smile у него очень приветливая улыбка.
+LAUGH [lRf]LAUGHED 	смеяться - don't laugh so loud нe смейтесь так громко; they were laughing at him; he laughed bitterly он горько усмехнулся; смех - we had a good laugh мы здорово посмеялись.
+THANK [TxNk]THANKED 	благодарить - I can't thank you enough я вам бесконечно благодарен; he thanked me он поблагодарил меня; спасибо (thanks) - I feel much better, thanks благодарю вас, я чувствую себя гораздо лучше.
+PROMISE ['prOmIs]PROMISED 	обещать - it's a very bad policy to promise more than you can do это плохая тактика обещать больше, чем вы можете сделать; he promised to send the check by mail он обещал прислать чек по почте; if I've already promised, then I'll do it уж если я обещал, то я это сделаю.обещание - he won't break his promise он не нарушит своего обещания;
+ADVISE [qd'vaIz]ADVISED 	советовать, рекомендовать - I don't advise you to go at night я вам не советую ехать ночью; he advised me to wait a while он мне посоветовал подождать немного.
+RECOMMEND ['prOmIs]RECOMMEND 	рекомендовать - can you recommend a good hotel? можете вы порекомендовать хорошую гостиницу?.
+HAVE [hxv]HAD [hxd] 	иметь - you have an advantage over him у вас есть перед ним преимущество; I had no choice in the matter в данном случае у меня не было выбора.
+BELONG [bI'lLN] BELONGED 	принадлежать - does this book belong to you? эта книга принадлежит вам? this old chair belongs in the kitchen этому старому стулу место в кухне; he belonged to a religious order он принадлежал к религиозному ордену.
+SEND [send] SENT [sent] 	посылать, отправлять - I want to send atelegram я хочу послать телеграмму; don't delay in sending the letter не задерживайте отправку писем;I sent him to warn you я послал его затем, чтобы предупредить вас; she has sent in an application for new books она послала заявку на новые книги.
+RECEIVE [rI’sJv]RECEIVED 	получать - you'll receive free medical care вы получите бесплатную медицинскую помощь; we received the order yesterday but haven't filled it yet мы получили заказ вчера, но ещё не выполнили его.
+BLOW [blou] BLEW [blH] BLOWN 	дуть - around here, a breeze blows from the mountains even on hot days тут даже в жаркие дни дает ветерок с гор; the wind blew hard all last night всю ночь дул сильный ветер.
+KISS [blou] KISSED 	целовать - I want to kiss you я хочу вас поцеловать; he kissed every one of us он нас всех поцеловал; поцелуй - how about a kiss? можно вас поцеловать?
+WORK [wWk]WORKED 	работать - I can't work in such an unpleasant atmosphere я не могу работать в такой неприятной атмосфере; he worked here for a short period он проработал здесь короткое время; работа - were you able to continue the work? вы были в состоянии продолжать работу?
+DO [dH] DID [dId] DONE [dAn] 	делать - what do you advise me to do? что вы мне советуете делать? he did that by himself он это сделал сам; I appreciate what you've done for me я вам очень благодарен за то, что вы для меня сделали.
+PRODUCE PRODUCED 	производить [prq’djHs] - what does this factory produce? что производит этот завод? производство [‘prOdjHs] - there is no market for our produceдля нашей продукции нет рынка.
+MAKE [meIk] MADE [meId] 	делать - please make ten copies of this report пожалуйста, приготовьте десять копий этого доклада; the frog made a big leap лягушка сделала большой прыжок.
+BUILD [bIld] BUILT [bIlt] 	строить - we're planning to build a new wing to the house мы собираемся пристроить к этому дому новый флигель; they built the bridge in three months они построили мост в три месяца
+IMPORT IMPORTED ввозить, импортировать [Im'pLt] - he wore imported shoes на нём были заграничные ботинки; импорт ['ImpLt] .
+EXPORT EXPORTED [Iks'pLt] - we export furs мы экспортируем мех; ['eks"pLt] экспорт - what are the chief exports of Russia? какой основной экспорт России?.
+DRESS [dres] DRESSED 	одевать(ся) - you dress your boy too warmly вы слишком тепло одеваете вашего мальчика; I'll file my nails while you're dressing я подпилю ногти, пока вы одеваетесь; she dressed herself quickly она быстро оделась; одежда, платье - she wore an orange dress на ней было платье оранжевого цвета.
+WEAR [wFq]WORE [wL]WORN[wLn]	носить - he wears a watch on a gold chain он носит часы на золотой цепочке; he was wearing a cap on his head на голове у него была шапка; she wore a dark brown dress нa ней было тёмно-коричневое платье.
+HURT [hWt] HURT [hWt] 	причинять боль, ушибать, вредить, обижать - my ear hurts у меня болит ухо; I hurt my finger я ушиб себе палец.
+KILL [kIl] KILLED 	убивать - he kills her at the end of the third act в конце третьего акта он её убивает; that heavy frost last night killed all the plants вчера ночью морозом побило все растения.
+FIGHT [faIt]FOUGHT [fLt] 	драться, сражаться - the boys started to fight мальчики начали драться; they fought till the last drop of blood они дрались до последней капли крови; драка, сражение, бой - let's not start a fight нe будем ссбриться.
+ATTACK [q’txk]ATTACKED 	нападать, атаковать - our troops attacked the enemy наши войска атаковали противника; the enemy's attack wasn't unexpected нападение противника не было неожиданным; нападение, атака - . we fought off the attack successfully мы успешно отбили атаку.
+MISS [mIs] MISSED 	пропускать - I don't want to miss the first act я не хочу пропустить первый акт; промахиваться - his shot missed the bird он выстрелил в птицу и промахнулся; скучать (буквально «искать, но не находить») – I’ll miss you я буду скучать по вам
+SHOOT [SHt]SHOT [SOt] 	стрелять - don't shoot! не стреляйте! who are they shooting at? в кого они стреляют? we shot a lot of ducks today мы сегодня набили массу уток; выстрел - the sound of the shot echoed through the hills звук выстрела эхом разнёсся по холмам.
+HUNT [hAnt] HUNTED 	охотиться - do you like to hunt? вы любите охотиться? we hunted for you everywhere мы везде тебя искали. охота - are you going on the hunt? вы едете на охоту?
+TRY [traI]TRIED 	пытаться - try to be on time постарайтесь быть во-время; I'm not trying to produce an effect я не пытаюсь произвести впечатление; he tried to interest me in tennis он пытался заинтересовать меня теннисом.
+USE [jHz] USED 	употреблять, использовать - here's a vase you can use for the flowers вы можете взять для цветов эту вазу; he used his high position as a cover for his crimes он использовал свое высокое положение в качестве прикрытия для своих преступлений; употребление, испольование - were you taught the proper use of this machine? вас научили, как обращаться с этой машиной?
+APPLY [q'plaI]APPLIED 	прикладывать, употреблять, использовать - apply a hot compress every two hours прикладывайте горячий компресс каждые два часа.
+COOK [kuk]COOKED 	готовить, стряпать - this needs to cook longer это должно вариться дольше; she cooked a wonderful dinner она приготовила великолепный обед; повар, кухарка - they are advertising for a cook они дали объявление, что ищут кухарку;
+PAINT [peInt]PAINTED 	красить - the painters came to paint the apartment маляры пришли красить квартиру; You're painting the situation too dark вы рисуете это в слишком мрачных красках; he painted а good portrait of his mother он написал отличный портрет своей матери; краска - the paint dried in five hours краска высохла за пять часов.
+SHAVE [SeIv]SHAVED 	брить - I have to shave мне надо побриться;he shaved my neck for me он мне побрил шею.
+WASH [wOS]WASHED 	мыть, умывать - my job is to wash the dishes моя обязанность мыть посуду;I washed the floors clean я чисто вымыла полы.
+FILL [fIl]FILLED 	наполнять, заполнять - wait a minute while I fill my pipe погодите, пока я набью трубку; students filled the whole yard студенты заполнили весь двор.
+CONNECT [kq'nekt] CONNECTED 	соединять, связывать - please connect these wires to the battery пожалуйста, соедините эти провода с батареей; he connected these two ideas он соединил эти две идеи.
+DANCE [dRns]DANCED 	танцевать - do you know how to dance the rhumba? вы умеете танцовать румбу? the little girl was dancing with joy девочка плясала от радости; we danced till morning at their wedding на их свадьбе мы танцевали до утра; танец - may I have the next dance? позвольте пригласить вас на следующий танец.
+PLAY [pleI]PLAYED 	играть - do you play any musical instrument? вы играете на каком-нибудь музыкальном инструменте? The child was playing with wooden blocks. ребёнок играл деревянными кубиками; the band played a march оркестр играл марш; игра, пьеса - the play is three hours long пьеса продолжается три часа.
+TIRE ['taIq]TIRED 	уставать - I tire very easily in this hot weather я бчень быстро устаю в эту жару;утомлять - travelling tires me путешествия утомляют меня; I am tired я устал.
+READ [rJd]READ [red] 	читать - he can't read or write он не умеет ни читать, ни писать; I only wear glasses for reading я ношу очки только при чтении; he read the letter again and again он читал письмо опять и опять.
+WRITE [raIt]WROTE [rout]WRITTEN [rItn] 	писать - write your name on this piece of paper напишите своё имя на этом листке бумаги; he is writing a history of aviation он пишет книгу по истории авиации; she wrote a story for the school magazine она написала рассказ для школьного журнала.
+RECORD RECORDED 	записывать [rI'kLd] - what company records your songs? на какой фирме вы записываете ваши песни? запись ['rekqd] - have you a record of her absences? у вас записано, сколько раз она осутствовала? рекорд - he matched the speed record он достиг рекордной скорости.
+ADD [xd] ADDED 	прибавлять, добавлять - add it to my bill прибавьте это к моему счету;I added these figures wrong я ошибся, складывая эти цифры к этому нечего больше добавить; the flower added color to the room цветы оживляли комнату;there is nothing to be added to this к этому нечего добавить.
+REMOVE [rI’mHv]REMOVED 	убирать - please remove this bank of sand пожалуйста, уберите эту кучу песка; it's about time the manager was removed этого заведующего давно уж пора убрать.
+CHANGE [CeInG]CHANGED 	менять, сменять - we may have to change our plans возможно, что нам придется изменить наши планы; he changed everything from A to Z in our office он изменил все у нас на работе; изменение, перемена - they're waiting for a change in the weather они ждут перемены погоды;
+IMPROVE [Im’prHv] IMPROVED 	улучшать - I'd like to improve my English pronunciation я хотел бы исправить своё английское произношение; he improved his knowledge of Russian он сделал успехи в русском языке.
+HIDE [haId]HID [hId]HIDDEN [hIdn] 	прятать, скрывать - I couldn't hide my disgust я не мог скрыть своего отвращения; I hid it somewhere я это куда-то спрятал; have you hidden anything? Вы ничего не скрываете? the moon is hidden by the clouds скрылась за облаками.
+SEARCH [sWC]SEARCHED 	искать - we will have to search you мы должны будем вас обыскать; they searched the house, but found no clues они обыскали весь дом, но не нашли никаких улик; I've searched everywhere for a small apartment я искал маленькую квартиру по всему городу; поиски - after a long search we found a satisfactory room после долгих поисков мы, наконец, нашли подходящую комнату.
+FIND [faInd]FOUND [found] 	находить - the house is difficult to find in the dark этот дом в темноте трудно найти; here are the directions for finding my house вот указания, как найти мой дом; I found what I was looking for я нашёл то, что искал; have you found a room yet? вы уже нашли комнату? 
+ACT [xkt] ACTED 	действовать, поступать - now is the time to act теперь время действовать; he gave us instructions and we acted accordingly он дал нам указания и мы поступили соответственно; поступок - that was a very kind act это был очень хороший поступок.
+BEHAVE [bI'heIv] BEHAVED 	вести себя - that's not the way to behave in public нельзя так вести себя на людях;he behaved so awfully that I was ashamed он так ужасно себя вел, что мне было стыдно.
+CONNECT [kq'nekt] CONNECTED 	соединять - please connect these wires to the battery пожалуйста, соедините эти провода с батареей; I always connect war with Napoleon война у меня всегда ассоциируется с Наполеоном; the parts are connected by an iron rod эти части соединены железным стержнем.
+PRETEND [prI'tend] PRETENDED 	притворяться - I don't pretend to be a writer я не претендую быть писателем; I pretended to be asleep я притворился спящим.
+MARRY ['mxrI]MARRIED 	жениться, выходить замуж - he's too young to marry ему ещё рано жениться;she married a sailor она вышла замуж за моряка; my sister is married to an American моя сестра замужем за американцем
+ARREST [q'rest]ARREST 	арестовывать - why have you been arrested? за что вас арестовали? арест - the police made two arrests полиция произвела два ареста.
+LET [let]LET [let] 	разрешать, позволять - let me help you wash the dishes давайте я помогу вам вымыть поезду; who let the cat out into the street? кто это выпустил кошку на улицу?
+ALLOW [q'lau]ALLOWED 	разрешать - I won't allow it under any circumstance! я этого не допущу ни под каким видом; are children allowed in here? детям вход разрешается?
+CARE [kFq]CARED 	заботиться; интересоваться - I don't care what he thinks мне безразлично, что он думает; he never really cared about his health он никогда не думал о своем здоровье. забота - he can't take care of himself он не умеет заботиться о себе;
+SAVE[seIv]SAVED 	спасать, хранить, беречь - save dinner for me оставьте мне обед;he saved her life он спас ей жизнь.
+HELP [help] HELPED 	помогать - could I help you do the dishes? помочь вам вымыть посуду? no one helped him никто ему не помог; помощь - dо you need any help? помочь вам?
+ASSIST [q’sIst] ASSISTED 	помогать - I'm assisting the professor in his experiments я помогаю профессору в его опытах; who assisted you? кто вам помогал?
+SUPPORT [sq'pLt] SUPPORTED 	поддерживать - that supports my argument это подкрепляет мои доводы; he's supporting his family он содержит свою семью; hе supported my proposal он поддержал моё предложение.
+PROTECT [prq'tekt] PROTECTED 	защищать - I wear these glasses to protect my eyes from the dust я ношу эти очки, чтобы защищать глаза от пыли; the roots have to be protected нужно оберегать корни растений.
+SUPPORT [sq'pLt] SUPPORTED 	поддерживать - that supports my argument это подкрепляет мои доводы. /td>
+EXCUSE [Iks'kjHz] EXCUSED извинять, прощать - excuse me! Извините! they excused her они ее простили; извинение, оправдание, отговорка [Iks'kjHs]- you'd better think up a good excuse for being late вы бы лучше придумали какбе-нибудь хорошее оправдание для своего опоздания.
+FORGIVE [tJC] FORGAVE [tLt] FORGIVEN [tLt]	прощать.
+TEACH [tJC] TAUGHT [tLt]	учить - the British soldiers tried to teach them to play cricket английские солдаты старались научить их играть в крикет; he's teaching Russian history он преподаёт русскую историю;who taught you how to drive a car? кто вас учил править машиной?
+LEARN [lWn]LEARNED 	учиться - you must learn to control your temper вы должны научиться владеть собой; the baby is just learning to crawl ребёнок только начинает ползать; he learned the poem by heart он выучил эти стихи наизусть; I've learned by experience that this is the best way я энаю по опыту, что это лучший способ.
+STUDY [lWn]STUDIED 	изучать - he came here to study the history of art он приехал сюда изучать историю искусства; he is studying law now он изучает право; we studied the map before we started прежде чем пуститься в дорогу, мы изучили карту; изучение- this book requires careful study эта книга требует основательного изучения.
+WIN [wIn]WON [won]	выигрывать, побеждать - who will win the tennis title this year? кто будет чемпионом тенниса в этом году? the visiting chess player keeps winning one game after another приезжий шахматист выигрывает у нас одну партию за другой; which party won the last election? какая партия победила на прошлых выборах? he has won great honor он добился больших почестей.
+LOSE [lHz]LOST [lOst]	терять, проигрывать - don't lose hope не теряйте надежды; I'm losing one game after another today я сегодня проигрываю одну игру за другой; we lost the game because of our weak defense мы проиграли из-за слабой защиты; she has lost a bunch of keys она потеряла связку ключей.
+PAY [peI]PAID [peId] 	платить - may I pay you tomorrow? можно заплатить вам завтра?he paid the bill он заплатил по счёту; I have always paid less for such things я обычно платил за это меньше.
+SPEND [spend] SPENT [spent] 	тратить - who authorized you to spend that money? кто вам дал право тратить эти деньги? I spent my last dollar for lunch я истратил последний доллар на завтрак.
+BUY [baI] BOUGHT [bLt]	покупать - I'll buy the tickets tomorrow я куплю билеты завтра; I bought these eggs at the market this morning я купил эти яйца на базаре сегодня утром; all this was bought with my hard-earned money это всё куплено на мой трудовые сбережения; покупка - a good buy удачная покупка.
+SELL [sel] SOLD [sould]	продавать(ся) - do you sell alarm clocks? вы продаете будильники? do you sell on credit? вы продаёте в кредит? he sold his house он продал свой дом; this drug is sold only on a doctor's prescription это лекарство продаётся только по рецепту врача.
+INVITE [In'vaIt] INVITED	приглашать - who did you invite to the party tonight? кого вы позвали на сегодняшнюю вечеринку? they invited us to spend the weekend with them они пригласили нас к себе на субботу и воскресенье; мy friend has invited both of us to the concert tonight мой приятель пригласил нас обоих сегодня вечером на концерт.
+VISIT [lWn] VISITED 	навещать, посещать - we visit her often to cheer her мы чисто её навещаем, чтобы развлечь; have you ever visited the capital? вы когда-нибудь были в столице? визит we ought to pay him a visit before he leaves нам бы следовало навестить его до его отъезда.
+GREET [grJt]GREETED 	приветствовать - the whole house turned out to greet him весь дом вышел его приветствовать; the audience greeted the musician with applause публика встретила музыканта овацией; our steamer was greeted with a salute наш пароход был встречен салютом.
+PLEASE [grJt]PLEASED 	угождать - it's impossible to please him ему никак не угодишь! are you pleased with the view from your windows? вам нравится вид из ваших окон? пожалуйста - please give me another cup of coffee пожалуйста, дайте мне еще одну чашку кофе. 
+ACROSS [q'krLs] 	пересекать (наречная частица) the tide in the river was so strong that we couldn't swim across течение было такое сильное, что мы не могли переплыть реку.
+AGO [q'gou] 	тому назад - I was here two months ago я был здесь два месяца тому назад.
+AGROUND [q'graund] 	на мели - our ship ran aground наш пароход сел на мель.
+AHEAD [q'hed] 	впереди - the main work still lies ahead главная работа ещё впереди.
+ALIKE [q'laIk] 	одинаково - my brother and I look alike мы с братом похожи.
+ALONE [q'loun] 	одиноко, в одиночестве - do you live alone? вы живете один?
+ALONG [q'lLN]	(наречная частица) get along, now расходитесь!
+ALOUD [q'laud] 	вслух, громко - read this letter aloud прочтите это письмо вслух.
+APART [q'pRrt] 	в стороне - take it apart if necessary если нужно, разберите это на части.
+APIECE [q'pJs] 	за штуку - these apples are five cents apiece эти яблоки по пяти копеек штука.
+AROUND [q'raund] 	кругом - I'll have to look around for it мне придется это поискать.
+ASIDE [q'saId] 	в стороне - he laid aside a good sum of money он отложил порядочную саму
+AWAY [q'weI] 	(наречная частица) go away! Уходите!
+AWHILE [q'waIl] 	на некоторое время, ненадолго - we'll have to wait here awhile нам придется подождать некоторое время. 
+CERTAINLY 	конечно. безусловно - I'll certainly come я наверняка приду
+BITTERLY 	горько; сильно - I was bitterly disappointed я был горько разочарован
+BADLY 	плохо - my dress fits badly мое платье плохо сидит;очень, крайне - I need money badly мне деньги крайне необходимы;
+WRONGLY 	неправильно - he translated it wrongly он неправильно это перевёл;
+MADLY 	безумно, очень - he's madly jealous он безумно ревнив.
+NICELY 	хорошо - how nicely you have everything arranged here! как вы тут уютно устроились!
+DEARLY 	сильно, горячо - she loves him dearly она его горячо любит.
+DEEPLY	глубоко - you hurt him deeply вы его глубоко обидели.
+CHEAPLY 	дешево - you bought this coat cheaply вы это пальто дёшево купили.
+CLOSELY	внимательно - I examined the whole problem closely я внимательно изучил всю эту проблему.
+ABSOLUTELY 	абсолютно, совершенно - I'm absolutely certain of my facts я совершенно уверен в достоверности приводимых мной фактов.
+STRONGLY 	сильно, крепко, прочно - he is strongly against her coming он решительно настроен против ее приезда.
+SOFTLY 	тихо, мягко, легко - she spoke softly but decisively она говорила мягко, но решительно.
+THICKLY 	густо - this is a very thickly populated section этот район очень густо населён.
+SPECIALLY 	особенно, специально - I'm specially glad to see you я особенно рад видеть тебя.
+TRULY правда.
+NEWLY 	недавно - an apartment was reserved for us in a newly built house за нами закрепили квартиру в новом доме.
+PARTLY 	частично, частью; отчасти - what he says is only partly right тo что он говорит, верно только отчасти.
+QUIETLY 	тихо, спокойно, смирно- they quietly slipped out of the room они потихоньку улизнули из комнаты.
+READILY 	охотно - he readily accepted this offer он охотно принял это предложение.
+GLADLY 	радостно, с радостью; охотно, с удовольствием - I'll gladly do what you ask я с радостью исполню вашу просьбу.
+QUICKLY 	быстро, скоро - the evening passed quickly вечер прошёл быстро.
+REALLY 	правда, действительно - I really can't afford to buy this dress это платье мне точно не по средствам.
+GREATLY 	очень - he was greatly insulted by what you said он был глубоко оскорблен тем, что вы сказки.
+HARDLY 	едва ли, вряд ли - I can hardly believe it я с трудом могу поверить этому.
+LATELY 	в последнее время, недавно - I haven't been following the news lately я нс следил за новостями в последнее время.
+HIGHLY 	высоко, очень, весьма - that's highly important это крайне важно.
+FAIRLY 	честно, справедливо - he dealt fairly with me он поступил со мной честно; довольно - the work here is fairly simple работа тут довольно простая.
+FLATLY 	категорически - she declared flatly that she doesn't want to talk to me any more она заявила, что не желает со мной разговаривать.
+HEAVILY 	значительно, интенсивно - the rain is falling heavily идет сильный дождь.
+LARGELY 	в значительной мере, в основном, главным образом - it's largely a question of concentration это в основном зависит от вашей сосредоточенности.
+LASTLY 	наконец - lastly let me remind you... наконец позвольте вам напомнить...; 
+LIKELY 	вероятный - there are several likely candidates есть несколько вероятных кандидатоввероятно - most likely he's lost it вероятнее всего, (что) он это потерял.
+FRIENDLY 	дружелюбный, приветливый - people here are very friendly здесь очень приветливые люди.
+LIVELY	оживленный - our discussion was very lively наша беседа прошла очень оживлённо.
+LONELY 	одинокий - I've been very lonely ever since she left с тех пор как она уехала, я очень одинок.
+HOMELY 	уютный - homely room уютная комната; простой (о внешности) - she's а homely girl она такая простая девушка
+HOURLY 	ежечасный - there's an hourly bus авто¬бус отправляется каждый час. ежечасно - 2 tablets to be taken hourly принимать каждый час по две таблетки;
+KINDLY 	добрый - her grandmother is a kindly old lady. Её бабушка — милая старушка.любезно - Would you kindly open the door?Будьте добры, откройте дверь.
+MONTHLY 	месячный, ежемесячный - I have to make three monthly payments of ten dollars each я должен сделать три месячных взноса, по десяти долларов каждый.
+MOTHERLY 	материнский - she's the motherly type она настоящая мать.
+WEEKLY 	еженедельный - he weekly report comes out every Wednesday еженедельный отчёт выходит по средам.еженедельно - the programs at this theater change weekly в этом театре программа меняется каждую неделю.
+SHAPELY 	стройный, хорошо сложенный - she has a shapely figure у неё стройная фигура.
+SICKLY 	болезненный, хилый - he always was sickly as a child он всегда был хилым ребёнком.
+TIMELY 	своевременный - the timely arrival of the tanks determined the course of the battle вовремя пришедшие танки решили исход боя.
+WEAKLY 	хилый, болезненный a weakly person слабый человек.слабо, плохо - he spoke weakly and without persuasion он говорил слабо и неубедительно.
+DAILY 	ежедневный - I'd like to subscribe to a daily newspaper я хотел бы подписаться на ежедневную газету. ежедневно - an inspection of passports is made daily проверка паспортов производится ежедневно.
+COSTLY 	дорогой - а costly apartment дорогая квартира.
+DEADLY 	смертельный - they're deadly enemies они враги не на жизнь, а на смерть. 
+PLANT[plRnt] 	1 растение - we'll have to dig up this plant and put it over there нам будет выкопать это растение и пересадить его туда; 2 завод, фабрика - he has a job in a defense plant он работает на военном заводе.
+FIELD [fJld] 	поле - we saw a large field мы увидели широкое поле; область - he is an authority in that field он авторитет в этой области; полевой - a field gun полевое орудие,
+GRASS [grRs, grxs] 	трава - keep off the grass по траве ходить воспрещается.
+FOREST ['fOrIst] 	лес - a thick forest густой лес; лесной - a forest fire лесной пожар;
+GARDEN [gRdn] 	сад - he built a high wall around his garden он огородил свой сад высокой стеной; садовый - garden plants садовые растения.
+PARK [pRk] 	парк - we sat down on a bench in the park мы сели в парке на скамейку.
+TREE [trJ] 	дерево - tall trees grow near the river у реки растут высокие деревья.
+LEAF [lJf] LEAVES [lJvz]) 	лист (дерева) - why are you shaking like a leaf? ну что ты дрожишь, как осиновый лист? the leaves have already begun to fall листья уже начали опадать
+FLOWER ['flauq] 	цветок - these flowers are from our own garden эти цветы из нашего сада; цветочный - a flower bed цветочная грядка.
+ROSE [rouz] 	роза - they presented the singer with a bouquet of roses певице преподнесли букет роз.
+ANIMAL ['xnImql] 	животное - it's a book on animals это книга о животных.
+BIRD [bWd] 	птица - the birds are flying south птицы летят на юг.
+FISH [fIS] FISH 	рыба - do you like fish? вы любите рыбу? рыбный - a fish pond пруд для разведения рыбы
+CAT [kxt] 	кошка - who let the cat out into the street? кто выпустил кошку на улицу?
+DOG [dOg] 	собака - lock the dog in the kitchen заприте собаку на кухне;
+HEN [hen] 	курица - we bought two hens мы купили двух кур.
+EGG [eg] 	яйцо - I want a couple of eggs дайте мне два яйца; яичный
+CHICKEN ['CIkIn] 	цыпленок, курица - have you seen our chickens? вы уже видели наших цыплят? куриный; chicken soup куриный суп;
+DUCK [dAk] 	утка - he was trying to shoot ducks он пробовал стрелять уток.
+COW [kau] 	корова - when do you milk the cows? когда вы доите коров?
+BULL [bul] 	бык - we didn't cross the field for fear of the bull мы не пошли полем – испугались быка; bullfight бой быков.
+HORSE [hLs] 	лошадь, конь - where can I get a horse? где тут можно достать лошадь? a horse show выставка лошадей
+SHEEP [SJp] SHEEP 	овца - the wolves have killed three of our sheep у нас трёх овец волки загрызли; овечий - a sheep farm овцеферма.
+PIG [pIg] 	свинья - they bought several pigs они купили нескольких свиней; pig farming разведение свиней
+RABBIT ['rxbIt] 	кролик - I have two rabbits у меня два кролика; кроличий - a rabbit hole кроличья нора.
+LION ['laIqn] 	лев - we have many lions in our zoo у нас в зоопарке много львов.
+TIGER ['taIgq] 	тигр - the boy is pretending to be a tiger мальчик изображает тигра.
+MONKEY ['mANkI] 	обезьяна - there are twelve monkeys in our zoo в нашем зоопарке двенадцать обезьян.
+SQUIRREL['skwIrql, 'skwWrql] 	белка - you can hunt squirrels here тут можно охотиться на белок.
+BEAR [bFq] 	медведь - there are bears in these woods в этих лесах водятся медведи.
+WOLF [wulf]WOLVES [wulvz] 	волк - I'm hungry as a wolf я голоден, как волк; there are wolves in these woods в этих лесах водятся волки; his coat was lined with wolf fur у него шуба на волчьем меху.
+FOX [fOks] 	лиса, лисица - I saw a fox in the field я видел лису в поле; лисий - look at the fox collar I bought my wife посмотрите, вот купил жене лису на воротник.
+RAT [rxt] 	крыса - how can we get rid of the rats? как нам вывести крыс? крысиный - rat poison крысиный яд.
+MOUSE [maus]MICE [maIs] 	мышь - the mouse ran into its hole мышь юркнула в свою норку; our kitten doesn't catch mice наш котёнок не ловит мышей.
+SNAKE [sneIk] 	змея - he froze with fear when he saw the snake он оцепенел от страха, увидев змею.
+CROCODILE ['krOkq"daIl] 	крокодил - you can hunt crocodiles here тут можно охотиться на крокодилов.
+FROG [frOg] 	лягушка - the frog made a big leap лягушка сделала большой прыжок
+WING [wIN] 	крыло - do you want the wing or the leg? что вы хотите — крылышко или ножку?
+TAIL [teIl] 	хвост - look what a funny little tail this dog has смотрите, какой смешной хвостик у этой собаки; хвостовой - a tail section хвостовая секция.
+HORN [hLn] 	рог - the bull has sharp horns у этого быка острые рога; рожок, труба, гудок - where are the horns placed in the orchestra? где в оркестре расположены трубы?
+MEAL [mJl] 	еда - come in and eat or your meal will get cold идите к столу, а то еда остынет.
+FOOD [fHd] 	пища - is the food good there? еда там хорошая? пищевой - food allergy пищевая аллергия
+BREAKFAST 	завтрак - is it your custom to eat breakfast early? Вы привыкли завтракать рано?
+SUPPER ['sApq] 	ужин - supper is ready ужин готов.
+DINNER ['dInq] 	обед - dinner is about ready обед почти готов; обеденный - a dinner table обеденный стол
+APPLE [xpl] 	яблоко - don't eat green apples не ешьте незрелых яблок; яблочный - an apple pie яблочный пирог.
+LEMON ['lemqn] 	лимон - do you take lemon or cream in your tea? вам чаю с лимоном или со сливками? лимонный - mix two parts of rum with one part of lemon juice смешайте две доли рому с одной долей лимонного сока.
+ORANGE['LrInG, OrInG] 	апельсин - how much are oranges? почем апельсины? апельсиновый - I want some orange juice я хочу апельсинового соку; оранжевый; she wore an orange dress на ней было платье оранжевого цвета.
+SOUP [sHp] 	суп - cook the soup on a slow fire варите суп на медленном огне; a soup plate глубокая тарелка;
+TEA [tJ] 	чай - may I have tea instead of coffee? можно мне взять чаю вместо кофе? чайный - a tea bag чайный пакетик
+COFFEE ['kLfJ] 	кофе - black coffee черный кофе; кофейный – a coffee pot кофейник.
+JUICE [GHs] 	сок - I want some orange juice я хочу апельсинового соку.
+BEER [bIq] 	пиво - I went out for a glass of beer я вышел выпить стакан пива.
+WINE [waIn] 	вино - do you like French wine? вы любите французское вино?
+BREAD [bred] 	хлеб - the bread was dry хлеб был чёрствый хлебный - a bread knife хлебный нож.
+SANDWICH['sxndwIG, 'sxndwIC] 	бутерброд - I want two sandwiches дайте мне два бутерброда.
+PIE [paI] 	пирог - cut the pie into eight pieces разрежьте пирог на восемь частей.
+CAKE [keIk] 	торт, кекс - give me a little piece of cake дайте мне маленький кусочек пирога.
+CHOCOLATE [COklIt] 	шоколад - is this chocolate sweet or bitter? Этот шоколйд сладкий или гбрький?
+MEAT [mJt] 	мясо - I want some salt for my meat дайте мне соли к мясу; мясной - meat foods мясные продукты
+MILK [mIlk] 	молоко - I want two liters of milk дайте мне два литра молока; молочный - a milk diet молочная диета; доить - the cows are milked at six коров доят в шесть часов.
+BUTTER ['bAtq] 	масло - I want bread and butter with the tea я хочу к чаю хлеба с малом; масляный - a butterfly бабочка.
+CHEESE [CJz] 	сыр - put some cheese on my bread положите мне кусочек сыра на хлеб; сырный - a cheese pie сырный пирог.
+CREAM [krJm] 	крем, сливки - do you take cream with your coffee? вы пьёте кофе со сливками?
+SALT [sLlt] 	соль - put a little more salt in the soup добавьте в суп немного соли; соляной - a salt bath солевая ванна; солить - did you salt this? вы это посолили?
+SUGAR ['Sugq] 	сахар - give me some sugar also дайте мне также и сахару; сахарный - sugar industry сахарная промышленность.
+CIGAR [sI’gR] 	сигара - I limit myself to 10 cigars a month я ограничиваю себя десятью сигарами в месяц.
+CIGARETTE["sIgq'ret, 'sIgq"ret] 	сигарета - do you have a cigarette? Нет ли у вас сигареты?
+RESTAURANT ['restq"rRnt] 	ресторан - the restaurant is across the street from the hotel этот ресторан напротив гостиницы.
+CAFÉ [kq'feI] 	кафе - the cafe is just around the corner кафе тут за углом.

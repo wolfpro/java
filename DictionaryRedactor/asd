@@ -1,0 +1,811 @@
+WORLD [wWld] мир свет
+STAR [stR] звезда
+SUN [sAn] солнце
+EARTH [WT] земля
+MOON [mHn] луна
+AIR [Fq] воздух
+WIND [wInd] ветер
+WATER [wLtq] вода
+ICE [aIs] лед
+STEAM [stJm] пар
+SKY [skaI] небо
+CLOUD [klaud] облако туча
+RAIN [reIn] дождь
+SNOW [snou] снег
+GROUND [graund] земля почва
+SAND [sxnd] песок
+DIRT [dWt] грязь
+MOUNTAIN ['mauntIn] гора
+HILL [hIl] холм
+HOLE [houl] дыра дырка яма
+ROCK[rOk] камень скала
+STONE [stoun] камень
+OCEAN ['ouSqn] океан
+SEA [sJ] море
+LAKE [leIk] озеро
+RIVER ['rIvq] река
+WAVE [weIv] волна
+LAND [lxnd] земля суша
+ISLAND [aI'lqnd] остров
+FIRE [faIq] огонь
+SMOKE [smouk] дым
+OIL [OIl] масло
+SOAP [soup] мыло
+GLASS [glRs] стекло
+CLOTH [klOT] ткань материя
+WOOD [wud] дерево
+METAL ['metl] металл
+STEEL [stJl] сталь
+IRON ['aIqn] железо
+SILVER ['sIlvq] серебро
+GOLD [gould] золото
+BODY ['bOdI] тело
+BACK [bxk] спина
+NECK [nek] шея
+HEAD [hed] голова
+HAIR [hFq] волос волосы
+FACE [feIs] лицо
+NOSE [nouz] нос
+EAR [Iq] ухо
+EYE [aI] глаз
+TEAR [tIq] слеза
+MOUTH [mauT] рот
+LIP [lIp] губа
+TOOTH [tHT] зуб
+ARM [Rm] рука
+HAND [hxnd] рука
+FINGER ['fINgq] палец
+LEG [leg] нога
+FOOT [fut]
+FEET [fJt] нога (ниже колена)
+KNEE [nJ] колено
+SKIN [skIn] кожа
+BRAIN [breIn] мозг мозги
+HEART [hRt] сердце
+BLOOD [blAd] кровь
+JOY [GOI] радость
+SHAME [SeIm] стыд позор
+PAIN [peIn] боль
+ANGER ['xNgq] гнев
+PERSON ['pWrsqn] человек лицо персона особа
+CHARACTER ['kxrqktqr] характер
+BABY ['beIbI] ребенок
+GUY [gaI] парень
+BOY [bOI] мальчик
+MAN [mxn]
+MEN [men] человек мужчина
+GIRL [gWl] девочка
+WOMAN ['wumqn]
+WOMEN ['wImen] женщина
+FAMILY ['fxmqlI] семья
+HUSBAND ['hAzbqnd] муж
+WIFE [waIf]
+WIVES [waIvz] жена
+PARENTS ['pFqrqnt] родители
+CHILD [CaIld]
+CHILDREN [CIldrqn] ребенок
+FATHER [fRDq] отец
+DAD [dxd] папа
+MOTHER ['mADq] мать
+MOM [mOm] мама
+AUNT [Rnt] тетя
+UNCLE ['ANkl] дядя
+SON [sAn] сын
+DAUGHTER ['dLtq] дочь
+BROTHER [brADq] брат
+SISTER ['sIstq] сестра
+PEOPLE [pJpl] люди народ
+CROWD [kraud] толпа
+COMPANY ['kOmpqnJ] компания общество
+FRIEND [frend] друг
+ENEMY ['enImI] враг
+HAT [hxt] шляпа
+UMBRELLA [Am'brelq] зонт зонтик чей это зонтик
+SHIRT [SWt] рубашка
+POCKET ['pOkIt] карман
+SKIRT [skWt] юбка
+BOOT [bHt] ботинок сапог
+SHOE [SH] туфля ботинок
+HOME [houm] дом
+HOUSE [haus] дом (как строение)
+YARD [jRd] двор
+TOWER [‘tauq] башня
+WELL [wel] колодец
+BELL [bel] колокол колокольчик
+LOCK [lOk] замок
+KEY [kJ] ключ
+KITCHEN [kICIn] кухня
+ROOM [rHm] комната
+STAIR [stFq] ступенька лестница
+RAIL [reIl] перила поручни рельс
+WINDOW ['wIndou] окно
+DOOR [dL] дверь
+FLOOR [flL] пол
+WALL [wLl] стена
+CEILING ['sJlIN] потолок
+ROOF [rHf] крыша
+CORNER [kLnq] угол
+BED [bed] кровать постель
+TABLE [teIbl] стол
+DESK [desk] письменный стол
+CHAIR [CFq] стул
+SEAT [sJt] место сиденье
+SHELF [Self] полка
+BATH [bRT] ванна
+TOWEL ['tauql] полотенце
+KETTLE [ketl] чайник котелок
+CUP [kAp] чашка кубок
+DISH [dIS] тарелка
+PLATE [dIS] тарелка
+CLOCK [klOk] часы
+WATCH [wOC] часы
+LAMP [lxmp] лампа фонарь светильник
+TELEPHONE ['telq"foun] телефон
+PHONE [foun] телефон
+RADIO ['reIdJou] радио
+TELEVISION ['telqvI"Zqn] телевидение телевизор
+STATE [steIt] государство штат
+COUNTRY ['kAntrI] страна
+CAPITAL ['kxpItl столица
+TOWN [taun] город
+CITY ['sItI] город
+VILLAGE ['vIlIG] деревня село
+ROAD [roud] дорога
+WAY [weI] путь дорога
+STREET [strJt] улица
+BRIDGE [brIdG] мост
+CAR [kR] машина автомобиль
+TAXI ['txksJ] такси
+BUS [bAs] автобус
+BOAT [bout] лодка корабль пароход
+TRAIN [treIn] поезд
+SHIP [SIp] корабль судно
+TICKET ['tIkIt] билет
+MAP [mxp] карта (географическая)
+STEP [mxp] шаг
+MACHINE [mq'SJn] машина станок не используется в значении автомашина
+JOB [GOb] работа
+FUN [fAn] забава потеха
+BOTTLE [bOtl] бутылка
+BOX [bOks] коробка ящик
+CAN [kxn] банка жестянка
+BAG [bxg] сумка пакет
+BASKET [‘bRskIt] корзина
+CHAIN [CeIn] цепь цепочка
+STRING [strIN] верёвка
+SHOP [SOp] магазин лавка
+MONEY ['mAnI] деньги
+PRICE [praIs] цена
+BANK [bxNk] банк
+OFFICE ['LfIs кабинет контора офис
+DOLLAR ['dOlar] доллар
+CENT [sent] цент
+LAW [lL] закон
+RULE [rHl] правило
+POLICE [pq'lJs] полиция
+KING [kIN] король
+QUEEN [kwJn] королева
+JAIL [GeIl] тюрьма
+PRISON [prIzn] тюрьма
+PEACE [pJs] мир
+WAR [wL] война
+CONFLICT конфликт ['kOn"flIkt]
+KNIFE [naIf] нож
+GUN [gAn] пистолет ружье пушка
+SOLDIER ['soulGq] солдат
+MARCH [mRrC] марш
+VOICE [vOIs] голос
+SPEECH [spJC] речь
+ACCENT ['xk"sent] акцент
+LANGUAGE ['lxNgIG] язык
+QUESTION [kwesCn] вопрос
+ANSWER ['Rnsq] ответ
+PAPER ['peIpq] бумага
+CARD [kRd] карта карточка
+PEN [pen] ручка
+PENCIL [pensl] карандаш
+ALPHABET
+['xlfq"bet алфавит
+LETTER [letq] буква
+WORD [wWd] слово
+TEXT [tekst] текст
+PAGE [peIG] страница
+BOOK [buk] книга
+MAGAZINE ['mxgq"zJn] журнал
+AUTHOR ['LTqr] автор
+STORY ['stLrI] история
+JOKE [Gouk] шутка
+HUMOUR ['hjHmqr] юмор
+MAIL [meIl] почта
+ADDRESS
+[q'dres адрес
+ENVELOPE ['envq"loup] конверт
+STAMP [stxmp] марка
+NAME [neIm] имя
+SIGN [saIn] знак
+CLASS [klRs класс
+SCHOOL [skHl] школа
+LESSON [lesn] урок
+ART [Rrt] искусство
+CULTURE ['kAlCqr] культура
+CINEMA ['sInqmq] кино кинотеатр
+THEATER ['TJqtqr] театр
+BALL [bLl] бал
+CAMERA ['kxmqrq фотоаппарат киноаппарат
+PHOTOGRAPH ['foutq"grxf] фотография фото снимок
+PICTURE ['pIkCq] картина картинка
+DRUM [drAm] барабан
+GUITAR [bLl] гитара
+GOD [gOd] бог
+ANGEL [spLrt] ангел
+CHURCH [CWC] церковь
+PARADISE ['pxrq"daIs] рай
+HELL [hel] ад
+TOY [tOI] игрушка
+DOLL [dOl] кукла
+BALL [bLl] мяч шар
+GAME [geIm] игра
+SPORT [spLt] спорт
+CHAMPION ['CxmpJqn] чемпион
+TENNIS ['tenIs] теннис
+HOCKEY ['hOkI] хоккей хоккейный
+TIME [taIm] время
+AGE [eIG] возраст
+SPRING [sprIN] весна
+SUMMER ['sAmq] лето
+AUTUMN ['Ltqm] осень
+WINTER ['wIntq] зима зима
+PAST [pRst] прошлое
+PRESENT настоящее
+FUTURE ['fjH
+MOMENT ['moumqnt] момент миг минута
+DATE [deIt] дата число
+SECOND ['sekqnd] секунда
+MINUTE ['mInIt] минута
+HOUR [auq] час
+DAY [deI] день
+WEEK [wJk] неделя
+MONTH [mAnT] месяц
+YEAR [jIq] год
+CENTURY ['senCqrJ] век столетие
+MORNING ['mLnIN] утро
+NOON [nHn] полдень
+EVENING ['IvnIN] вечер
+NIGHT [naIt] ночь
+YESTERDAY ['jestq"deI вчера
+TODAY [tq'deI] сегодня
+TOMORROW [tq’mOrou] завтра
+TONIGHT [tq'naIt] вечер этого дня
+SUNDAY ['sAndI] воскресенье
+MONDAY ['mAndI] понедельник
+TUESDAY ['tjHzdI] вторник
+WEDNESDAY ['wenzdI] среда
+THURSDAY ['TWzdI] четверг
+FRIDAY ['fraIdI] пятница
+SATURDAY ['sxtqdI] суббота
+DECEMBER [dI'sembqr] декабрь декабрьский
+JANUARY ['GxnjHerJ] январь янаварский
+FEBRUARY ['febrHerJ] февраль. февральский
+MARCH [mRrC] март мартовский
+APRIL ['eIprql] апрель апрельский
+MAY [meI] май майский
+JUNE [GHn] июнь июньский
+JULY [Gu'laI] июль июльский
+AUGUST ['Lgqst] август августовский
+SEPTEMBER [sep'tembqr] сентябрь сентябрьский
+OCTOBER [Ok'tou
+NOVEMBER [nou'vembqr] ноябрь ноябрьский
+NORTH [nLT] север
+SOUTH [sauT] юг
+WEST [west] запад
+EAST [Jst] восток
+METER /METRE ['mJtqr] метр
+CENTIMETER ['sentq"mJtqr] сантиметр
+MILE [maIl] миля
+PART [pRt] часть
+PIECE [pJs] кусок кусочек
+FRONT [frAnt] сад передняя часть
+CENTER ['sentqr] центр середина
+SIDE [saId] сторона
+END [end] конец
+SPACE [speIs] пространство место
+PLACE [pleIs] место
+SOUND [sound] звук
+NOISE [nOIz] шум
+LIGHT [laIt] свет
+SHADOW ['Sxdou] тень
+MIGHT [maIt] мощь сила
+POWER [‘pauq] мощь сила
+FORCE [fLs] сила
+SPEED [spJd] скорость
+TEMPERATURE ['tempqrqCqr] температура
+POINT [pOInt] точка
+LINE [laIn] линия черта
+SQUARE квадрат
+CIRCLE [sWkl] круг
+CROSS [krOs] крест
+PLAN [plxn] план проект
+PROGRAM
+['prou"grxm программа передача
+IDEA [aI'dJq] идея мысль
+CHANCE [Cxns] случай возможность
+LUCK [lAk] счастье удача
+DANGER ['deInGq] опасность
+TROUBLE [trAbl] беда неприятность
+MISTAKE [mIs'teIk] ошибка
+HARM [hRm] вред
+SECRET ['sJkrIt] секрет тайна
+SURPRISE [sqr'praIz] удивление сюрприз
+KIND [kaInd] тип вид
+FACT [fxkt] факт
+EXAMPLE [Ig'zRmpl] пример
+SORT [sLrt] сорт род вид порода тип
+PROCESS ['prO"ses] процесс
+PROGRESS [sLrt] прогресс успехи
+THING [TIN] вещь
+PRESENT подарок [‘preznt] подарок
+GIFT [gIft] подарок
+START [stRt] начало
+STOP [stOp] остановка
+FINISH [‘fInIS] финиш завершение
+LOT [lOt] большое количество (чего
+BIT [bIt] кусочек
+MIND [maInd] ум
+SOUL [maInd] душа
+SHAPE [SeIp] форма
+SIZE [saIz] размер
+COLOR [‘kAlq] цвет
+NUMBER ['nAmbq] число номер
+VIEW [vjH] вид
+BEAUTY ['bjHtI] красота
+WHITE [waIt] белый
+YELLOW ['jelou] желтый
+RED [red] красный
+BROWN [braun] коричневый
+GREEN [grJn] зеленый
+BLUE [blH] синий голубой
+GREY [greI] серый
+BLACK [blxk] черный
+BRIGHT [braIt] яркий светлый
+FAIR [fFq] светлый ясный
+DARK [dRk] темный
+LITTLE [lItl] маленький
+SMALL [smLl] маленький
+BIG [bIg] большой
+LARGE [lRG] большой
+GREAT [greIt] огромный великолепный
+GRAND [grxnd] великий великолепный
+SHORT [SLt] короткий
+TALL [tLl] высокий
+LONG [lON] длинный
+THIN [TIn] тонкий
+THICK [TIk] толстый
+FAT [fxt] толстый жирный
+LOW [lou] низкий
+HIGH [haI] высокий
+DEEP [dJp] глубокий
+SHALLOW ['Sxlou] мелкий неглубокий поверхностный
+DIRECT ['nLmql] прямой
+RIGHT [raIt] правый
+LEFT [left] левый
+CLOSE [klous] близкий
+FAR [fR] далекий
+DISTANT ['nLmql] отдаленный
+BAD [bxd]WORSE плохой дурной
+GOOD [gud]BETTER хороший
+FINE [faIn] хороший прекрасный
+PERFECT [‘pWfIkt] совершенный
+ABSOLUTE ['nLmql] полный совершенный абсолютный
+SOFT [sOft] мягкий
+HARD [hRd] твердый
+FIRM [fWm] твердый
+LIGHT [laIt] легкий
+HEAVY [hevI] тяжелый
+EMPTY ['emptI] пустой
+FULL [ful] полный
+FLAT [flxt] плоский ровный
+EVEN [‘Jvqn] ровный
+ROUGH ['rAf] неровный грубый
+BITTER ['bItq] горький
+SWEET [swJt] сладкий
+COLD [kould] холодный
+HOT [hOt] жаркий
+COOL [kHl] прохладный
+WARM [wLm] тёплый
+DRY [draI] сухой
+WET [wet] мокрый
+SIMPLE [sImpl] простой
+DIFFICULT ['dIfIkqlt] сложный трудный
+SLOW [slou] медленный
+FAST [fRst] быстрый
+QUICK [kwIk] быстрый скорый
+EARLY [WlI] ранний
+LATE [leIt] поздний
+first [fWst] первый
+second ['sekqnd] второй
+third [TWd] третий
+LAST [lRst] последний
+CHEAP [CJp] дешевый
+DEAR [dIq] дорогой
+REAL [rIql] настоящий
+CORRECT ['nLmql] правильный
+TRUE [trH] правдивый соответствующий истине
+WRONG [rON] неправильный
+ABSURD ['nLmql] нелепый абсурдный
+STRANGE [streInG] странный
+NORMAL ['nLmql] нормальный обыкновенный обычный
+AUDIO ['nLmql] звуковой аудио
+VIDEO ['nLmql] телевизионный видео
+SILLY ['sIlI] глупый
+CLEVER ['klevq] умный смышленый
+ACCURATE ['nLmql] аккуратный
+KIND [kaInd] добрый любезный сердечный
+MEAN [mJn] злой подлый
+SAD [sxd] печальный грустный
+GAY ['hxpI] веселый
+ILL [Il] больной
+SICK [sIk] больной
+MAD [mxd] сумасшедший
+POOR [puq] бедный
+RICH [rIC] богатый
+RUDE [rHd] грубый
+NICE [naIs] милый приятный
+YOUNG [jAN] молодой
+NEW [njH] новый
+OLD [ould] старый
+WEAK [wJk] слабый
+STRONG [strON] сильный
+QUIET ['kwaIqt] тихий спокойный
+LOUD [laud] громкий
+FREE [frJ] свободный
+BUSY ['bIzI] занятый
+SORRY ['sOrI] be sorry жалеть сожалеть
+GLAD [glxd] be glad рад
+AFRAID [q'freId] be afraid бояться
+ABLE [eIbl] be able мочь быть способным что
+READY['redI] be ready быть готовым
+SURE [Suq] be sure быть уверенным
+LIE [laI]LAY [leI]LAIN [leIn] лежать
+SIT [sIt]SAT [sxt] садиться сидеть
+STAND [stxnd]STOOD [stud] стоять
+COME [kAm]CAME [keIm]COME [kAm] приходить приезжать
+APPEAR [q'pIq]APPEARED появляться
+ARRIVE [q'raIv]ARRIVED прибывать
+GET [get]GOT [got]GOTTEN [gOtn] попадать добираться куда
+PASS [pRs проходить
+GO [gou]WENT [went] GONE [gOn идти уходить
+LEAVE [lJv] покидать.
+LEFT[left] покидать уезжать
+STAY [steI] оставаться
+RETURN [rI’tWn] возвращать(ся)
+WALK [wLk]WALKED ходить
+RUN [rAn]RAN [rxn]RUN [rAn] бежать
+JUMP [GAmp] JUMPED прыгать
+MOVE [mHv] MOVED двигать(ся)
+TURN [tWn] TURNED поворачивать
+RISE [raIz] ROSE [rouz] RISEN ['raIzqn] подниматься
+FALL [fLl] FELL [fel] FALLEN [‘fLlqn] падать
+SWIM [swIm] SWAM [swxm] SWUM [swAm] плыть плавать
+FLY [flaI] FLEW [flH] FLOWN [floun] летать
+TRAVEL [trxvl]TRAVELED путешествовать
+RIDE [raId]RODE [roud]RIDDEN [rIdn] ездить (верхом или на машине)
+DRIVE [draIv]DROVE [drouv]DRIVEN ['drIvqn] ехать (на машине)
+ROCK [rOk]ROCKED качаться
+ROLL [roul]ROLLED катиться поворачиваться
+MEET [mJt]MET [met] встречать
+FOLLOW ['fOlou] FOLLOWED следовать за
+LAY [leI]LAID [leId] класть
+PUT [put]PUT [put] класть ставить помещать
+SET [set]SET [set] ставить устанавливать
+GIVE [gIv]GAVE [geIv]GIVEN [‘gIvqn] давать
+TAKE [teIk]TOOK [tuk]TAKEN [teIkqn] брать
+COLLECT [kq’lekt]COLLECTED собирать
+CARRY ['kxrI]CARRIED нести переносить везти
+BRING [brIN]BROUGHT [brLt] приносить
+REACH [rJC]REACHED достигать дотягиваться
+GET [get]GOT [gOt]GOTTEN [gOtn] приносить приводить привозить получать доставать
+CATCH [kxC]CAUGHT [kLt] ловить
+HOLD [hould]HELD [held] держать
+TIE [taI]TIED привязывать
+HANG [hxN]HUNG [hAN] вешать
+PULL [pul]PULLED тащить тянуть
+PUSH [puS]PUSHED толкать нажимать
+PRESS [pres]PRESSED нажимать
+OPEN [oupn]OPENED открывать
+SHUT [SAt] SHUT закрывать
+COVER [kAvq]COVERED покрывать закрывать
+CLOSE [klouz]CLOSED закрывать
+DROP [drOp]DROPPED ронять падать
+THROW [Trou] THREW [TrH]THROWN [Troun] бросать кидать
+TOUCH [tAC]TOUCHED трогать
+SHAKE [SeIk]SHOOK [Suk]SHAKEN [SeIkn] трясти
+BEAT [bJt]BEAT [bJt]BEATEN [bJtn] бить
+HIT [hIt]HIT [hIt] ударить
+KNOCK [nOk]NOCKED стучать
+BREAK [breIk]BROKE [brouk]BROKEN [‘broukqn] ломать разбивать разрушать нарушать
+CUT [kAt]CUT резать
+TEAR [tFq]TORE [tL]TORN [tLn] рвать
+SHINE [SaIn]SHINED/SHONE светить сиять
+REFLECT [rI'flekt]REFLECTED отражать(ся)
+BURN [bWn]BURNED гореть
+BOIL [bOIl]BOILED кипеть
+GROW [grou]GREW[grou]GROWN [groun] расти
+BECOME [bI'kAm]BECAME [bI'keIm]BECOME [bI'kAm] становиться
+BE/AM/IS/ARE [bJ] быть
+SEAM [mJn]SEEMED [ment] казаться
+MEAN [mJn]MEANT [ment] иметь в виду
+DIFFER ['dIfq]DIFFERED отличаться различаться они многим отличаются друг от друга
+BEGIN [bI'gIn]BEGAN [bI'gxn] начинать(ся)
+CONTINUE [kqn'tInH]
+CONTINUED продолжаться
+LAST[lRst длиться
+COST [kOst]COST [kOst] стоить
+WEIGH [weI]WEIGHED весить взвешиваться
+LIVE [lIv]LIVED жить
+DIE [daI]DIED умирать
+SLEEP [slJp]SLEPT [slept] спать
+WAKE [weIk]WOKE [wouk]WOKEN просыпаться
+DRINK [drINk]DRANK [drxNk]DRUNK [drANk] пить
+EAT [Jt]ATE[et есть кушать
+SEE [sJ]SAW [sL]SEEN [sJn] видеть
+LOOK [luk]LOOKED смотреть
+WATCH [wOC]WATCHED смотреть
+OBSERVE [qb'zWv]OBSERVED наблюдать
+EXAMINE [ig'zxmIn]EXAMINED осматривать изучать
+HEAR [hIq]HEARD [hWd] слышать
+LISTEN [lIsn]LISTENED слушать
+FEEL [fJl]FELT [felt] чувствовать
+SMELL [smel]SMELLED чувствовать запах
+TASTE [teIst]TASTED пробовать
+KNOW [nou]KNEW [njH]KNOWN [noun] знать
+UNDERSTAND ["Andq'stxnd]UNDERSTOOD ["Andq'stHd] понимать
+BELIEVE [bI'lJv]BELIEVIED верить
+THINK [TINk]THOUGHT [TLt] думать
+REMEMBER [rI’membq] помнить
+FORGET [fq'get]FORGOT [fq'gOt]FORGOTTEN [fq’gOtn] забывать
+COUNT [kaunt]COUNTED считать(ся)
+COMPUTE [kqm'pjHt]COMPUTED вычислять.
+LIKE [laIk]LIKED любить нравиться
+LOVE [lAv]LOVED любить
+HATE [heIt]HATED ненавидеть
+FEAR [fIq]FEARED бояться
+WANT [wOnt]WANTED хотеть
+WISH [wIS]WISHED хотеть
+CHOOSE [CHz]CHOSE [Couz]CHOSEN [’Couzqn] выбирать
+DECIDE [dI'saId]DECIDED решать
+EXPECT [Iks'pekt]EXPECTED ждать ожидать предполагать
+WAIT [weIt]WAITED ждать
+WORRY ['wWrI]WORRIED беспокоить
+UPSET ['wWrI]UPSET опрокидывать [Ap'set]
+DREAM [drJm]DREAMED мечтать
+HOPE [houp]HOPED надеяться
+INTEREST ['IntrIst]INTERESTED интересовать
+ATTRACT [q'trxkt]ATTRACTED привлекать
+SPEAK [spJk]SPOKE [spouk]SPOKEN ['spoukqn] говорить
+SAY [seI]SAID [sed] говорить
+TALK [tLk]TALKED говорить
+TELL [tel]TOLD [tould] говорить
+COMMAND [kq'mxnd]COMMANDED [tould] команловать
+STATE [steIt] заявлять
+EXPLAIN [Iks'pleIn]EXPLAINED объяснять
+DECLARE [dI'klFq]DECLARED [tould] объявлять заявлять
+PROTESTPROTESTED протестовать [prq'test]
+CRY [kraI]CRIED плакать
+SHOUT [Saut]SHOUTED кричать
+SING [sIN] петь
+SANG [sxN]SUNG [sAN] петь
+ASK [Rsk]ASKED спрашивать просить
+CALL [kLl]CALLED звать
+SMILE [smaIl]SMILED улыбаться
+LAUGH [lRf]LAUGHED смеяться
+THANK [TxNk]THANKED благодарить
+PROMISE ['prOmIs]PROMISED обещать
+ADVISE [qd'vaIz]ADVISED советовать рекомендовать
+RECOMMEND ['prOmIs]RECOMMEND рекомендовать
+HAVE [hxv]HAD [hxd] иметь
+BELONG [bI'lLN] BELONGED принадлежать
+SEND [send] SENT [sent] посылать отправлять
+RECEIVE [rI’sJv]RECEIVED получать
+BLOW [blou] BLEW [blH] BLOWN дуть
+KISS [blou] KISSED целовать
+WORK [wWk]WORKED работать
+DO [dH] DID [dId] DONE [dAn] делать
+PRODUCE PRODUCED производить [prq’djHs]
+MAKE [meIk] MADE [meId] делать
+BUILD [bIld] BUILT [bIlt] строить
+IMPORT IMPORTED ввозить импортировать
+EXPORT EXPORTED [Iks'pLt]
+DRESS [dres] DRESSED одевать(ся)
+WEAR [wFq]WORE [wL]WORN[wLn] носить
+HURT [hWt] HURT [hWt] причинять боль ушибать вредить обижать
+KILL [kIl] KILLED убивать
+FIGHT [faIt]FOUGHT [fLt] драться сражаться
+ATTACK [q’txk]ATTACKED нападать атаковать
+MISS [mIs] MISSED пропускать
+SHOOT [SHt]SHOT [SOt] стрелять
+HUNT [hAnt] HUNTED охотиться
+TRY [traI]TRIED пытаться
+USE [jHz] USED употреблять использовать
+APPLY [q'plaI]APPLIED прикладывать употреблять использовать
+COOK [kuk]COOKED готовить стряпать
+PAINT [peInt]PAINTED красить
+SHAVE [SeIv]SHAVED брить
+WASH [wOS]WASHED мыть умывать
+FILL [fIl]FILLED наполнять заполнять
+CONNECT [kq'nekt] CONNECTED соединять связывать
+DANCE [dRns]DANCED танцевать
+PLAY [pleI]PLAYED играть
+TIRE ['taIq]TIRED уставать
+READ [rJd]READ [red] читать
+WRITE [raIt]WROTE [rout]WRITTEN [rItn] писать
+RECORD RECORDED записывать [rI'kLd]
+ADD [xd] ADDED прибавлять добавлять
+REMOVE [rI’mHv]REMOVED убирать
+CHANGE [CeInG]CHANGED менять сменять
+IMPROVE [Im’prHv] IMPROVED улучшать
+HIDE [haId]HID [hId]HIDDEN [hIdn] прятать скрывать
+SEARCH [sWC]SEARCHED искать
+FIND [faInd]FOUND [found] находить
+ACT [xkt] ACTED действовать поступать
+BEHAVE [bI'heIv] BEHAVED вести себя
+CONNECT [kq'nekt] CONNECTED соединять
+PRETEND [prI'tend] PRETENDED притворяться
+MARRY ['mxrI]MARRIED жениться выходить замуж
+ARREST [q'rest]ARREST арестовывать
+LET [let]LET [let] разрешать позволять
+ALLOW [q'lau]ALLOWED разрешать
+CARE [kFq]CARED заботиться
+SAVE[seIv]SAVED спасать хранить беречь
+HELP [help] HELPED помогать
+ASSIST [q’sIst] ASSISTED помогать
+SUPPORT [sq'pLt] SUPPORTED поддерживать
+PROTECT [prq'tekt] PROTECTED защищать
+SUPPORT [sq'pLt] SUPPORTED поддерживать
+EXCUSE [Iks'kjHz] EXCUSED извинять прощать
+FORGIVE [tJC] FORGAVE [tLt] FORGIVEN [tLt] прощать.
+TEACH [tJC] TAUGHT [tLt] учить
+LEARN [lWn]LEARNED учиться
+STUDY [lWn]STUDIED изучать
+WIN [wIn]WON [won] выигрывать побеждать
+LOSE [lHz]LOST [lOst] терять проигрывать
+PAY [peI]PAID [peId] платить
+SPEND [spend] SPENT [spent] тратить
+BUY [baI] BOUGHT [bLt] покупать
+SELL [sel] SOLD [sould] продавать(ся)
+INVITE [In'vaIt] INVITED приглашать
+VISIT [lWn] VISITED навещать посещать
+GREET [grJt]GREETED приветствовать
+PLEASE [grJt]PLEASED угождать
+ACROSS [q'krLs] пересекать (наречная частица) the tide in the river was so strong that we couldn't swim across течение было такое сильное что мы не могли переплыть реку
+AGO [q'gou] тому назад
+AGROUND [q'graund] на мели
+AHEAD [q'hed] впереди
+ALIKE [q'laIk] одинаково
+ALONE [q'loun] одиноко в одиночестве
+ALONG [q'lLN] (наречная частица) get along расходитесь
+ALOUD [q'laud] вслух громко
+APART [q'pRrt] в стороне
+APIECE [q'pJs] за штуку
+AROUND [q'raund] кругом
+ASIDE [q'saId] в стороне
+AWAY [q'weI] (наречная частица) go away! Уходите!
+AWHILE [q'waIl] на некоторое время ненадолго
+CERTAINLY конечно. безусловно
+BITTERLY горько
+BADLY плохо
+WRONGLY неправильно
+MADLY безумно очень
+NICELY хорошо
+DEARLY сильно горячо
+DEEPLY глубоко
+CHEAPLY дешево
+CLOSELY внимательно
+ABSOLUTELY абсолютно совершенно
+STRONGLY сильно крепко прочно
+SOFTLY тихо мягко легко
+THICKLY густо
+SPECIALLY особенно специально
+TRULY правда.
+NEWLY недавно
+PARTLY частично частью
+QUIETLY тихо спокойно смирно
+READILY охотно
+GLADLY радостно с радостью
+QUICKLY быстро скоро
+REALLY правда действительно
+GREATLY очень
+HARDLY едва ли вряд ли
+LATELY в последнее время недавно
+HIGHLY высоко очень весьма
+FAIRLY честно справедливо
+FLATLY категорически
+HEAVILY значительно интенсивно
+LARGELY в значительной мере в основном главным образом
+LASTLY наконец
+LIKELY вероятный
+FRIENDLY дружелюбный приветливый
+LIVELY оживленный
+LONELY одинокий
+HOMELY уютный
+HOURLY ежечасный
+KINDLY добрый
+MONTHLY месячный ежемесячный
+MOTHERLY материнский
+WEEKLY еженедельный
+SHAPELY стройный хорошо сложенный
+SICKLY болезненный хилый
+TIMELY своевременный
+WEAKLY хилый болезненный слабый человекслабо плохо
+DAILY ежедневный
+COSTLY дорогой
+DEADLY смертельный
+PLANT[plRnt] 1 растение
+FIELD [fJld] поле
+GRASS [grRs трава
+FOREST ['fOrIst] лес
+GARDEN [gRdn] сад
+PARK [pRk] парк
+TREE [trJ] дерево
+LEAF [lJf] LEAVES [lJvz]) лист (дерева)
+FLOWER ['flauq] цветок
+ROSE [rouz] роза
+ANIMAL ['xnImql] животное
+BIRD [bWd] птица
+FISH [fIS] FISH рыба
+CAT [kxt] кошка
+DOG [dOg] собака
+HEN [hen] курица
+EGG [eg] яйцо
+CHICKEN ['CIkIn] цыпленок курица
+DUCK [dAk] утка
+COW [kau] корова
+BULL [bul] бык
+HORSE [hLs] лошадь конь
+SHEEP [SJp] SHEEP овца
+PIG [pIg] свинья
+RABBIT ['rxbIt] кролик
+LION ['laIqn] лев
+TIGER ['taIgq] тигр
+MONKEY ['mANkI] обезьяна
+SQUIRREL['skwIrql белка
+BEAR [bFq] медведь
+WOLF [wulf]WOLVES [wulvz] волк
+FOX [fOks] лиса лисица
+RAT [rxt] крыса
+MOUSE [maus]MICE [maIs] мышь
+SNAKE [sneIk] змея
+CROCODILE ['krOkq"daIl] крокодил
+FROG [frOg] лягушка
+WING [wIN] крыло
+TAIL [teIl] хвост
+HORN [hLn] рог
+MEAL [mJl] еда
+FOOD [fHd] пища
+BREAKFAST завтрак
+SUPPER ['sApq] ужин
+DINNER ['dInq] обед
+APPLE [xpl] яблоко
+LEMON ['lemqn] лимон
+ORANGE['LrInG апельсин
+SOUP [sHp] суп
+TEA [tJ] чай
+COFFEE ['kLfJ] кофе
+JUICE [GHs] сок
+BEER [bIq] пиво
+WINE [waIn] вино
+BREAD [bred] хлеб
+SANDWICH['sxndwIG бутерброд
+PIE [paI] пирог
+CAKE [keIk] торт кекс
+CHOCOLATE [COklIt] шоколад
+MEAT [mJt] мясо
+MILK [mIlk] молоко
+BUTTER ['bAtq] масло
+CHEESE [CJz] сыр
+CREAM [krJm] крем сливки
+SALT [sLlt] соль
+SUGAR ['Sugq] сахар
+CIGAR [sI’gR] сигара
+CIGARETTE["sIgq'ret сигарета
+RESTAURANT ['restq"rRnt] ресторан
+CAFÉ [kq'feI] кафе
